@@ -60,7 +60,7 @@ No dejar que la IA decida la estructura. Los campos fijos garantizan coherencia 
 
 | Campo | Tipo | Ejemplo |
 |---|---|---|
-| Firma de marca | FIJO | *"Con cariño, el equipo YayaFit"* |
+| Firma de marca | FIJO | *"Con cariño, el equipo YayaFit,para nuestras YayaFitters"* |
 | Enlace de baja / RGPD | FIJO | `[Darse de baja]` |
 | Nombre de usuaria | VARIABLE | `{{nombre}}` |
 | Logro o hito de la usuaria | VARIABLE | `{{logro}}` |
