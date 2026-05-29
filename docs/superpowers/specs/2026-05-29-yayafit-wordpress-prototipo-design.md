@@ -7,6 +7,25 @@
 
 ---
 
+## Estructura de carpetas del repo
+
+Todo el trabajo del prototipo se organiza bajo:
+
+```
+05-YAYA-FIT/
+├── APP YAYAFIT (PROYECTO)/   ← toda la app vive aquí
+│   ├── configuracion/        → capturas, exports de ajustes WordPress
+│   ├── contenido/            → textos de rutinas, artículos, páginas
+│   ├── diseno/               → imágenes, paleta, referencias visuales
+│   └── documentacion/        → guías de instalación, notas de progreso
+├── DISEÑO YAYAFIT/           → mockups y brand (negocio)
+└── DOCUMENTACION/            → plan de negocio (negocio)
+```
+
+El objetivo es mantener el prototipo técnico separado de la documentación de negocio existente.
+
+---
+
 ## Contexto
 
 YayaFit es una app de fitness y bienestar para mujeres 60-75 años. Este documento describe el diseño del **prototipo funcional de clase** — no el MVP de producción del plan de negocio. El objetivo es tener algo funcional que todos los compañeros de clase puedan usar: registrarse, ver contenido y participar en la comunidad.
