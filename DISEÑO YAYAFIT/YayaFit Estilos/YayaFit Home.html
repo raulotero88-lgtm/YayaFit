@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>YayaFit — Home</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&display=swap" rel="stylesheet"/>
+<style>
+  html, body { margin: 0; padding: 0; background: #1b1c1f; font-family: 'Nunito', system-ui, sans-serif; min-height: 100vh; }
+  #stage {
+    min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    padding: 40px 16px;
+    background:
+      radial-gradient(120% 80% at 50% 0%, #2a2c30 0%, #1b1c1f 60%);
+  }
+  /* Hide scrollbars inside the device viewport */
+  .device-scroll::-webkit-scrollbar { display: none; }
+</style>
+</head>
+<body>
+<div id="stage"></div>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<script src="image-slot.js"></script>
+<script type="text/babel" src="ios-frame.jsx"></script>
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="home.jsx"></script>
+
+<script type="text/babel">
+  const { useEffect } = React;
+
+  const DEFAULTS = /*EDITMODE-BEGIN*/{
+    "palette": "amanecer",
+    "fontStyle": "serif",
+    "textSize": 2,
+    "lang": "es"
+  }/*EDITMODE-END*/;
+
+  function App() {
+    const [t, setTweak] = useTweaks(DEFAULTS);
+    const P = PALETTES[t.palette] || PALETTES.serenity;
+
+    return (
+      <>
+        <IOSDevice width={402} height={874}>
+          <div className="device-scroll" style={{
+            width: '100%', height: '100%', overflowY: 'auto', overflowX: 'hidden',
+            background: P.bg, position: 'relative',
+          }}>
+            <YayaFitHome tweaks={t}/>
+          </div>
+        </IOSDevice>
+
+        <TweaksPanel title="Tweaks">
+          <TweakSection label="Idioma"/>
+          <TweakRadio label="" value={t.lang} onChange={(v)=>setTweak('lang', v)}
+            options={[
+              { value: 'es', label: 'ES' },
+              { value: 'ca', label: 'CA' },
+              { value: 'en', label: 'EN' },
+            ]}/>
+
+          <TweakSection label="Paleta"/>
+          <TweakSelect label="" value={t.palette} onChange={(v)=>setTweak('palette', v)}
+            options={Object.entries(PALETTES).map(([k, p]) => ({ value: k, label: p.label }))}/>
+          <div style={{ display: 'flex', gap: 8, marginTop: 8 }}>
+            {Object.entries(PALETTES).map(([k, p]) => (
+              <button key={k} type="button"
+                onClick={() => setTweak('palette', k)}
+                aria-label={p.label} title={p.label}
+                style={{
+                  flex: 1, height: 44, borderRadius: 12, cursor: 'pointer',
+                  border: t.palette === k ? '2px solid #111' : '1px solid rgba(0,0,0,0.1)',
+                  padding: 0, overflow: 'hidden', display: 'flex',
+                }}>
+                <span style={{ flex: 2, background: p.primary }}/>
+                <span style={{ flex: 1, background: p.secondary }}/>
+                <span style={{ flex: 1, background: p.accent }}/>
+              </button>
+            ))}
+          </div>
+
+          <TweakSection label="Tipografía"/>
+          <TweakRadio label="Display" value={t.fontStyle} onChange={(v)=>setTweak('fontStyle', v)}
+            options={[
+              { value: 'sans', label: 'Nunito' },
+              { value: 'serif', label: 'Fraunces' },
+            ]}/>
+
+          <TweakSection label="Accesibilidad"/>
+          <TweakRadio label="Texto" value={String(t.textSize)} onChange={(v)=>setTweak('textSize', Number(v))}
+            options={[
+              { value: '0', label: 'Estándar' },
+              { value: '1', label: 'Grande' },
+              { value: '2', label: 'Máximo' },
+            ]}/>
+        </TweaksPanel>
+      </>
+    );
+  }
+
+  ReactDOM.createRoot(document.getElementById('stage')).render(<App/>);
+</script>
+</body>
+</html>
