@@ -52,15 +52,57 @@ Eh, buenas, se me han ocurrido un par de ideas de negocio para Yaya y la primera
 
 ### Instrucción enviada al modelo
 
-> [SE AÑADE EN TASK 3]
+```text
+Recibirás un texto con ideas de negocio. Clasifica cada idea usando este formato exacto:
+
+CATEGORÍA: [Marca / Producto / Métricas comerciales / Operaciones]
+IMPORTANCIA: [Alta / Media / Baja]
+IDEA: [descripción literal de la idea, sin parafrasear]
+
+Reglas:
+- Un bloque por idea principal. Si una idea menciona variantes de un mismo producto (por ejemplo, plan estándar y plan premium), agrúpalas en UN SOLO bloque de producto.
+- NO uses prosa ni introducciones. Responde únicamente con bloques CATEGORÍA / IMPORTANCIA / IDEA.
+- Si el texto contiene referencias temporales relativas como "este año", "próximo trimestre" o "en breve", NO las conviertas en fechas concretas. Mantenlas como están o márcalas como [PENDIENTE — confirmar fecha].
+- Fecha actual para referencia: 2026-05-29
+
+El texto contiene exactamente 3 ideas principales:
+1. Trato cercano con Yaya Fitter (idea de marca/documentación)
+2. Clases en diferido con límite para plan estándar y sin límite para premium (una sola idea de producto)
+3. Objetivo de ventas para este año
+
+Texto a clasificar:
+Buenas. Se me han ocurrido un par de ideas de negocio para Yaya.
+
+La primera es que debemos tener un trato muy cercano con todas las Yaya Fitter. Esto es algo que hay que incluir en toda nuestra documentación.
+
+Había pensado en implementar un par de cosillas. Por ejemplo, que las clases en directo también estén en diferido para que puedan acceder siempre que quieran. Para el modelo estándar tendrán un límite de esas visualizaciones, pero para el premium tendrán todas desbloqueadas.
+
+También había pensado que un objetivo de ventas para este año es llegar a por lo menos 30.000 usuarias activas.
+```
 
 ### Output real del modelo
 
-> [SE AÑADE EN TASK 3]
+```text
+CATEGORÍA: Marca
+IMPORTANCIA: Alta
+IDEA: Debemos tener un trato muy cercano con todas las Yaya Fitter. Esto es algo que hay que incluir en toda nuestra documentación.
+
+---
+
+CATEGORÍA: Producto
+IMPORTANCIA: Alta
+IDEA: Las clases en directo también estarán en diferido para que puedan acceder siempre que quieran. Para el modelo estándar tendrán un límite de esas visualizaciones, pero para el premium tendrán todas desbloqueadas.
+
+---
+
+CATEGORÍA: Métricas comerciales
+IMPORTANCIA: Alta
+IDEA: Un objetivo de ventas para este año [PENDIENTE — confirmar fecha] es llegar a por lo menos 30.000 usuarias activas.
+```
 
 ### Análisis: alucinación de fechas
 
-> [SE AÑADE EN TASK 3]
+*El modelo respetó la referencia temporal relativa "este año" y no la convirtió en fecha concreta, gracias a la instrucción explícita de restricción temporal.*
 
 ---
 
