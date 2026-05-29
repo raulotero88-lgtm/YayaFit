@@ -262,15 +262,63 @@ Para avanzar en la conversación de inversión, se solicita al equipo:
 
 ### Capítulo 1 — Generado de forma independiente
 
-> [SE AÑADE EN TASK 5]
+> **Input utilizado:** bloques Marca y Producto (sin ver el bloque Métricas comerciales ni el Cap. 3)
+>
+> ---
+>
+> **Capítulo 1: Propuesta de valor y diferenciación**
+>
+> YayaFit es una app SaaS de fitness y comunidad dirigida exclusivamente a mujeres de 60-75 años en España. El segmento permanece desatendido por las plataformas generalistas: SAM de 3,0M mujeres digitalmente activas, TAM de 295M€.
+>
+> El principio de marca central es el trato cercano y personalizado con cada Yaya Fitter. Este compromiso no es retórica: queda codificado en toda la documentación del producto, desde el onboarding hasta el soporte post-venta. En un segmento donde la confianza es el principal driver de adopción, la proximidad es ventaja competitiva sostenible.
+>
+> La diferenciación de producto se articula sobre el acceso flexible al contenido. Las clases impartidas en directo quedan disponibles en diferido de forma inmediata. El **modelo estándar** incluye un límite de visualizaciones por período; el **plan premium** desbloquea todo el catálogo sin restricciones. Este diseño crea un mecanismo de upgrade de baja fricción alineado con el comportamiento del segmento objetivo.
+>
+> Unit economics: CAC €12,50 · LTV €156 · LTV/CAC 12,5x · Payback 6 semanas.
+>
+> **Equipo:** [PENDIENTE]
 
 ### Capítulo 3 — Generado de forma independiente
 
-> [SE AÑADE EN TASK 5]
+> **Input utilizado:** bloque Métricas comerciales únicamente (sin ver el Cap. 1 ni los bloques Marca/Producto)
+>
+> ---
+>
+> **Capítulo 3: Objetivos y métricas**
+>
+> El objetivo comercial prioritario para el ejercicio en curso es alcanzar **30.000 usuarias activas** [PENDIENTE — confirmar fecha de cierre del período].
+>
+> | Métrica | Valor objetivo | Período |
+> | --- | --- | --- |
+> | Usuarias activas | 30.000 | Este año [PENDIENTE — confirmar fecha] |
+> | ARR | [PENDIENTE] | 12 meses |
+> | Churn mensual | [PENDIENTE] | — |
+> | D30 retention | [PENDIENTE] | — |
+> | LTV/CAC | 12,5x | Actual |
+>
+> **Proyección a 12 meses:** [PENDIENTE]
+>
+> **Próximos Pasos:** Confirmar fecha de cierre del objetivo de 30.000 usuarias activas y completar métricas operativas para presentación a inversores.
 
 ### Tabla de verificación
 
-> [SE AÑADE EN TASK 5]
+| Variable | Cap. 1 (output real) | Cap. 3 (output real) | ¿Coinciden? |
+| --- | --- | --- | --- |
+| Nombre del plan básico | "modelo estándar" | no aplica | N/A |
+| Nombre del plan alto | "plan premium" | no aplica | N/A |
+| Métrica de usuarias | no aplica | "30.000 usuarias activas" | N/A |
+| Tono | directo / datos | directo / datos | Sí |
+
+**Hallazgo de coherencia — FALLO INTERNO EN CAP. 1:**
+
+Dentro del propio Capítulo 1, generado de forma independiente, el modelo usó dos terminologías distintas para referirse a los niveles del producto en la misma frase:
+
+- Plan básico → **"modelo estándar"** (término extraído literalmente del input clasificado)
+- Plan alto → **"plan premium"** (cambio de sustantivo de "modelo" a "plan")
+
+La inconsistencia **"modelo estándar" vs "plan premium"** ocurrió sin intervención externa, dentro de un mismo capítulo. En una propuesta real con múltiples capítulos generados de forma independiente, este tipo de drift terminológico se amplificaría: un capítulo podría usar "modelo estándar", otro "plan estándar", y un tercero simplemente "estándar". El resultado sería un documento que no supera una revisión de coherencia básica.
+
+**Veredicto:** FALLO DE COHERENCIA INTERNA. El test demuestra que sin un glosario de términos fijado en el system prompt (o en un campo de input dedicado), el modelo oscila libremente entre "modelo" y "plan" como sustantivo del nivel básico. La corrección preventiva es definir los nombres de los planes como variables fijas en el system prompt o en el template de input.
 
 ---
 
