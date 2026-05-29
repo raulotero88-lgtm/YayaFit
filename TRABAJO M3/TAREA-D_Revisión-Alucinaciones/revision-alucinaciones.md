@@ -92,11 +92,40 @@ Para avanzar en la conversación de inversión, se solicita al equipo:
 
 ### Instrucción enviada al modelo
 
-<!-- PENDIENTE: escribir prompt -->
+```text
+Eres un revisor externo. No tienes acceso al proceso de generación del documento que vas a evaluar. Tu única tarea es comparar el documento final con la transcripción original y completar la tabla de revisión.
+
+TRANSCRIPCIÓN ORIGINAL (fuente de verdad):
+Eh, buenas, se me han ocurrido un par de ideas de negocio para Yaya y la primera es que eh? Debemos tener un trato muy cercano con todas las Yaya fitter, eh? Esto es algo que hay que incluir en toda nuestra documentación y había pensado en en implementar un par de cosillas, por ejemplo que las clases quedemos en directo también estén en en diferido para que puedan acceder siempre que quieran y para el modelo estándar, tendrán un límite de de esas visualizaciones, pero para el premium ya tener todas desbloqueadas y bueno, eh? Había pensado también que un objetivo es de ventas para este año y es llegar a a por lo menos 30.000 30.000 usuarias activas, qué os parece?
+
+DOCUMENTO A REVISAR:
+[propuesta completa de la sección 2]
+
+Evalúa exactamente 3 criterios y responde ÚNICAMENTE con esta tabla y una línea de veredicto. Sin prosa adicional.
+
+| Criterio | Resultado | Observación |
+|---|---|---|
+| Completitud | ✅/❌/⚠️ | ¿Alguna idea del input falta o aparece incompleta en el documento? |
+| Alucinaciones | ✅/❌/⚠️ | ¿Algún dato del documento no tiene origen en la transcripción original? |
+| Tono | ✅/❌/⚠️ | ¿El documento cumple el tono inversor: riguroso, orientado a datos, sin adjetivos vacíos? |
+
+Reglas:
+- Los campos [PENDIENTE] en el documento NO son alucinaciones. Son datos no disponibles en el input, correctamente señalados.
+- Completitud: verifica que las 3 ideas del input original estén presentes (trato cercano Yaya Fitter / clases en diferido con límites por plan / objetivo 30.000 usuarias activas).
+- Tono: evalúa solo el perfil inversor — riguroso, orientado a datos, sin adjetivos que no añadan información.
+
+Tras la tabla, añade una única línea con el veredicto global. Nada más.
+```
 
 ### Output real del modelo
 
-<!-- PENDIENTE: ejecutar y documentar -->
+> | Criterio | Resultado | Observación |
+> | --- | --- | --- |
+> | Completitud | ✅ | Las 3 ideas del input están presentes: trato cercano Yaya Fitter (Cap. 1), clases en diferido con límite en estándar y acceso completo en premium (Cap. 2, tabla), y objetivo 30.000 usuarias activas (Cap. 3). |
+> | Alucinaciones | ❌ | El documento incorpora datos sin origen en la transcripción: SAM 3,0M, TAM 295M€, CAC €12,50, LTV €156, LTV/CAC 12,5x, Payback 6 semanas, precio €9,99/mes · €99/año, canal B2B €2-5/usuario/mes, y la caracterización "cuartil superior para SaaS de consumo en fase Pre-Seed". Ninguno de estos datos aparece en la transcripción original. |
+> | Tono | ⚠️ | El documento es mayoritariamente riguroso y orientado a datos. Sin embargo, la afirmación "segmento desatendido por las plataformas generalistas" es una aserción cualitativa sin dato que la sustente, y "valor percibido del catálogo" introduce una valoración subjetiva. Ambas son menores pero detectables. |
+>
+> Veredicto: el documento cumple en completitud y mantiene un tono predominantemente inversor, pero presenta alucinaciones significativas — datos financieros y de mercado incorporados sin origen en el input de usuario que deben ser verificados o declarados como supuestos del sistema.
 
 ---
 
