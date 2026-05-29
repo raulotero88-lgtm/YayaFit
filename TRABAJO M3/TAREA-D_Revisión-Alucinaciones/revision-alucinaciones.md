@@ -133,7 +133,7 @@ Tras la tabla, añade una única línea con el veredicto global. Nada más.
 
 ### Instrucción enviada al modelo
 
-````text
+```text
 Recibes el resultado de una revisión de checklist de un documento generado por IA a partir de un input de datos. Tu tarea es asignar una nota del 1 al 10 a la fidelidad del documento respecto a los datos de entrada originales del usuario.
 
 Definición de fidelidad (lo único que mides):
@@ -155,7 +155,7 @@ Veredicto: El flujo conservó íntegramente las 3 ideas del input original, pero
 Responde ÚNICAMENTE con este formato, sin texto adicional:
 SCORE: X/10
 [2-3 líneas de justificación referenciando los hallazgos concretos de la tabla anterior]
-````
+```
 
 ### Output real del modelo
 
@@ -166,4 +166,38 @@ SCORE: X/10
 
 ## 5. Análisis de Resultados
 
-<!-- PENDIENTE: escribir tras ejecutar ambos prompts -->
+### 5.1 Qué detectó bien el framework
+
+La evaluación de completitud funcionó correctamente: el Crítico Externo identificó sin errores las 3 ideas del input original en el documento (trato cercano con la Yaya Fitter, clases en diferido con límites diferenciados por plan, objetivo de 30.000 usuarias activas).
+
+El framework también respetó la regla sobre campos marcados: los `[PENDIENTE]` del documento de inversores no fueron tratados como alucinaciones. El Crítico los reconoció como datos no disponibles en el input, correctamente señalados, lo que valida el diseño de esa regla.
+
+---
+
+### 5.2 El hallazgo principal: el dilema del system prompt
+
+El Crítico marcó ❌ en Alucinaciones porque el documento incluye métricas (CAC €12,50, LTV €156, LTV/CAC 12,5x, payback 6 semanas, TAM 295M€, SAM 3,0M, precios €9,99/mes y €99/año, canal B2B €2-5/usuario/mes) que no aparecen en la transcripción del usuario.
+
+Estas métricas, sin embargo, no fueron inventadas: provienen del system prompt del Director de Estrategia configurado en Tarea C. Esto expone una ambigüedad de diseño del framework: ¿qué cuenta como "input"? ¿Solo la transcripción del usuario, o también el contexto del system prompt?
+
+El framework, tal como está diseñado, es correcto en su objetivo: si la tarea es evaluar la fidelidad al input del usuario, el system prompt es contexto de producción, no datos aportados por el usuario. La penalización es apropiada porque el documento presentó esas métricas como afirmaciones sin señalarlas como `[PENDIENTE]` ni como `[DATO DE CONFIGURACIÓN]`.
+
+La corrección preventiva para sistemas de producción: los datos que provienen del system prompt y que se quieren incluir en el output deberían estar explícitamente en el input del usuario, o marcados con una etiqueta diferenciada (`[DATOS DE CONFIGURACIÓN]`) para distinguirlos de los `[PENDIENTE]` genuinos.
+
+---
+
+### 5.3 Coherencia del score
+
+El 5/10 refleja fielmente los hallazgos del checklist. La completitud perfecta habría situado el documento en el rango 8-9, pero el criterio de alucinaciones ❌ activa la penalización prevista (rango 4-6: datos externos al input incorporados sin señalarse como `[PENDIENTE]`).
+
+La moderación del score —sin caer al rango 1-3— es coherente porque las métricas son contexto configurado intencionalmente, no invenciones arbitrarias. El scoring distingue correctamente entre los dos tipos de error.
+
+---
+
+### 5.4 Aprendizaje para diseño de sistemas de revisión
+
+El prompt del Crítico Externo necesita una cuarta regla explícita:
+
+> "Los datos que provienen del system prompt de configuración NO son datos del usuario. Si el documento los presenta como afirmativos sin señalarlos como `[PENDIENTE]` o `[DATO DE CONFIGURACIÓN]`, deben marcarse como **origen externo al input**."
+
+Sin esta regla, el framework penaliza correctamente pero no distingue entre dos situaciones distintas: alucinación (dato inventado por el modelo) y dato de contexto (intencionalmente inyectado desde el system prompt). Esta distinción es relevante tanto para calibrar la penalización como para determinar la acción correctora adecuada.
