@@ -33,30 +33,30 @@
 |---|---|---|---|
 | 2026-05-29 | Diseño del proyecto (tech stack, páginas, visual, plan) | Raúl + Claude | Spec en `docs/superpowers/specs/` |
 | 2026-05-29 | Plan de implementación (11 tareas, pasos exactos) | Raúl + Claude | Plan en `docs/superpowers/plans/` |
+| 2026-05-29 | **Tarea 1:** Estructura de carpetas en el repo | Raúl + Claude | `configuracion/`, `diseno/`, `contenido/` creadas |
+| 2026-05-29 | **Tarea 2:** Textos de las 3 páginas estáticas | Raúl + Claude | inicio.md, sobre-yayafit.md, como-funciona.md |
+| 2026-05-29 | **Tarea 3:** Contenido de las 5 rutinas | Raúl + Claude | equilibrio, fuerza-silla, movilidad, cardio, yoga |
+| 2026-05-29 | **Tarea 4:** 3 artículos de bienestar | Raúl + Claude | dormir, nutrición, rutina-diaria |
 
 ---
 
 ## En curso
 
-| Tarea | Quién | Desde | Referencia en el plan |
-|---|---|---|---|
-| **Tarea 1:** Crear estructura de carpetas en el repo | — | — | Plan § Tarea 1 |
+| Tarea                                                        | Quién | Desde | Referencia en el plan |
+| ------------------------------------------------------------ | ----- | ----- | --------------------- |
+| **Tarea 5:** Contratar hosting Hostinger y conectar dominio  | —     | —     | Plan § Tarea 5        |
 
 ---
 
 ## Próximos pasos (en orden)
 
-1. **Tarea 1** — Crear estructura de carpetas `APP YAYAFIT (PROYECTO)/` en el repo
-2. **Tarea 2** — Preparar textos de las 3 páginas estáticas (inicio, sobre, cómo funciona)
-3. **Tarea 3** — Preparar contenido de las 5 rutinas
-4. **Tarea 4** — Preparar los 3 artículos de bienestar
-5. **Tarea 5** — Contratar hosting Hostinger (~35€) y conectar dominio yayafit.es *(requiere tarjeta de crédito)*
-6. **Tarea 6** — Instalar WordPress, Astra, BuddyPress, Elementor, WP Forms
-7. **Tarea 7** — Configurar registro de usuarios, páginas y grupo de clase
-8. **Tarea 8** — Publicar todo el contenido en WordPress
-9. **Tarea 9** — Aplicar identidad visual YayaFit (colores, tipografía, logo)
-10. **Tarea 10** — Diseñar la página de inicio con Elementor
-11. **Tarea 11** — Pruebas completas e invitar a compañeros
+1. **Tarea 5** — Contratar hosting Hostinger (~35€) y conectar dominio yayafit.es *(requiere tarjeta de crédito)*
+2. **Tarea 6** — Instalar WordPress, Astra, BuddyPress, Elementor, WP Forms
+3. **Tarea 7** — Configurar registro de usuarios, páginas y grupo de clase
+4. **Tarea 8** — Publicar todo el contenido en WordPress
+5. **Tarea 9** — Aplicar identidad visual YayaFit (colores, tipografía, logo)
+6. **Tarea 10** — Diseñar la página de inicio con Elementor
+7. **Tarea 11** — Pruebas completas e invitar a compañeros
 
 ---
 
