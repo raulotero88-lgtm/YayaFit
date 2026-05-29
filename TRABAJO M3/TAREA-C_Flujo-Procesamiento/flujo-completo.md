@@ -308,15 +308,22 @@ Para avanzar en la conversación de inversión, se solicita al equipo:
 | Nombre del plan alto | "plan premium" | no aplica | N/A |
 | Métrica de usuarias | no aplica | "30.000 usuarias activas" | N/A |
 | Tono | directo / datos | directo / datos | Sí |
+| **Sustantivo plan básico (Cap. 1 interno)** | **"modelo" (párr. 3) / "plan" (párr. 3)** | **no aplica** | **❌ Fallo interno** |
+
+**Nota sobre las entradas N/A y el fallo interno:**
+- *N/A = variable no aparece en ese capítulo; no se evalúa coherencia inter-capítulos*
+- *❌ = incoherencia detectada DENTRO del mismo capítulo (intra-capítular)*
 
 **Hallazgo de coherencia — FALLO INTERNO EN CAP. 1:**
 
-Dentro del propio Capítulo 1, generado de forma independiente, el modelo usó dos terminologías distintas para referirse a los niveles del producto en la misma frase:
+Dentro del propio Capítulo 1, generado de forma independiente, el modelo usó dos terminologías distintas para referirse a los niveles del producto **en el mismo párrafo (párrafo 3, línea final)**:
 
-- Plan básico → **"modelo estándar"** (término extraído literalmente del input clasificado)
-- Plan alto → **"plan premium"** (cambio de sustantivo de "modelo" a "plan")
+> "La diferenciación de producto se articula sobre el acceso flexible al contenido. Las clases impartidas en directo quedan disponibles en diferido de forma inmediata. El **modelo estándar** incluye un límite de visualizaciones por período; el **plan premium** desbloquea todo el catálogo sin restricciones."
 
-La inconsistencia **"modelo estándar" vs "plan premium"** ocurrió sin intervención externa, dentro de un mismo capítulo. En una propuesta real con múltiples capítulos generados de forma independiente, este tipo de drift terminológico se amplificaría: un capítulo podría usar "modelo estándar", otro "plan estándar", y un tercero simplemente "estándar". El resultado sería un documento que no supera una revisión de coherencia básica.
+- Primera mención del plan básico → **"modelo estándar"**
+- Segunda mención del plan alto → **"plan premium"** (cambio inconsistente de sustantivo: de "modelo" a "plan")
+
+Esta inconsistencia **"modelo estándar" vs "plan premium"** ocurrió sin intervención externa, dentro de una misma oración. En una propuesta real con múltiples capítulos generados de forma independiente, este tipo de drift terminológico se amplificaría: un capítulo podría usar "modelo estándar", otro "plan estándar", y un tercero simplemente "estándar". El resultado sería un documento que no supera una revisión de coherencia básica.
 
 **Veredicto:** FALLO DE COHERENCIA INTERNA. El test demuestra que sin un glosario de términos fijado en el system prompt (o en un campo de input dedicado), el modelo oscila libremente entre "modelo" y "plan" como sustantivo del nivel básico. La corrección preventiva es definir los nombres de los planes como variables fijas en el system prompt o en el template de input.
 
