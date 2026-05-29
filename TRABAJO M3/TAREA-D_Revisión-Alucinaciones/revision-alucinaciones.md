@@ -133,11 +133,34 @@ Tras la tabla, añade una única línea con el veredicto global. Nada más.
 
 ### Instrucción enviada al modelo
 
-<!-- PENDIENTE: escribir prompt -->
+````text
+Recibes el resultado de una revisión de checklist de un documento generado por IA a partir de un input de datos. Tu tarea es asignar una nota del 1 al 10 a la fidelidad del documento respecto a los datos de entrada originales del usuario.
+
+Definición de fidelidad (lo único que mides):
+- 10: todas las ideas del input están en el documento, sin datos inventados ni incorporados de fuera del input
+- 7-9: todas las ideas del input presentes; los campos [PENDIENTE] son datos no disponibles en el input, correctamente señalados
+- 4-6: alguna idea del input perdida, o datos externos al input incorporados sin señalarse como [PENDIENTE]
+- 1-3: ideas del input perdidas o datos inventados críticos presentados como verídicos
+
+RESULTADO DE LA REVISIÓN (checklist del Crítico Externo):
+
+| Criterio | Resultado | Observación |
+|---|---|---|
+| Completitud | ✅ | Las 3 ideas del input (trato cercano Yaya Fitter, clases en diferido con límites por plan, objetivo 30.000 usuarias activas) están presentes en el documento. |
+| Alucinaciones | ❌ | El documento incorpora métricas (CAC €12,50, LTV €156, LTV/CAC 12,5x, payback 6 semanas, TAM 295M€, SAM 3,0M, precios €9,99/mes y €99/año, canal B2B €2-5/usuario/mes) que no tienen origen en la transcripción original. |
+| Tono | ⚠️ | El tono es predominantemente riguroso y orientado a datos, correcto para el perfil inversor. Dos aserciones cualitativas menores ("ventaja competitiva sostenible", "cuartil superior para SaaS de consumo") carecen de dato de respaldo en el input. |
+
+Veredicto: El flujo conservó íntegramente las 3 ideas del input original, pero el documento incorporó métricas externas al input de usuario (procedentes del system prompt) sin señalarlas como [PENDIENTE], lo que constituye una desviación de fidelidad respecto a los datos de entrada del usuario.
+
+Responde ÚNICAMENTE con este formato, sin texto adicional:
+SCORE: X/10
+[2-3 líneas de justificación referenciando los hallazgos concretos de la tabla anterior]
+````
 
 ### Output real del modelo
 
-<!-- PENDIENTE: ejecutar y documentar -->
+> SCORE: 5/10
+> Completitud perfecta: las 3 ideas del input (trato cercano Yaya Fitter, clases en diferido con límites por plan, objetivo 30.000 usuarias activas) están íntegramente recogidas en el documento. Sin embargo, el criterio de alucinaciones falla de forma significativa: métricas financieras y de mercado (CAC €12,50, LTV €156, LTV/CAC 12,5x, payback 6 semanas, TAM 295M€, SAM 3,0M, precios €9,99/mes y €99/año, canal B2B €2-5/usuario/mes) se presentan como datos afirmativos sin marcarlas como [PENDIENTE], cuando ninguna procede de la transcripción del usuario. La penalización se modera —sin caer al rango 1-3— porque dichas métricas provienen de un system prompt configurado intencionalmente y no son invenciones arbitrarias, y porque las dos aserciones cualitativas sin respaldo en tono constituyen una desviación menor adicional.
 
 ---
 
