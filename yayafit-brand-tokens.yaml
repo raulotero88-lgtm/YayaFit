@@ -1,0 +1,523 @@
+# ============================================================
+#  YayaFit — Brand Design Tokens
+#  Versión: 1.0.0
+#  Fecha: 2026-05-29
+#  Descripción: Fuente única de verdad para los estilos
+#               corporativos de YayaFit. Cualquier cambio
+#               de estilo parte de este archivo.
+# ============================================================
+
+brand:
+  name: YayaFit
+  community_name: YayaFitters
+  tagline: Movimiento suave para vivir mejor
+  target_audience: Mujeres 60-75 años
+  design_philosophy: >
+    Paleta cálida de pasteles, tipografía grande, espaciado
+    generoso. Accesibilidad primero. Comunidad sobre producto.
+  language_default: es
+  languages_supported: [es, ca, en]
+
+
+# ============================================================
+#  COLORES
+#  Cuatro paletas intercambiables. "Serenity" es la default.
+#  Cada paleta comparte la misma estructura de roles semánticos.
+# ============================================================
+
+colors:
+
+  # ----------------------------------------------------------
+  #  Roles semánticos (mapeados a la paleta activa en runtime)
+  #  Referencia interna: usa estos nombres en componentes.
+  # ----------------------------------------------------------
+  semantic_roles:
+    background:     Fondo general de pantalla
+    surface:        Fondo de tarjetas y paneles elevados
+    ink:            Texto principal (máximo contraste)
+    ink_soft:       Texto secundario / metadatos
+    primary:        Color de marca principal (pasteles)
+    primary_deep:   Versión oscura de primary (énfasis, links)
+    secondary:      Color de apoyo / variedad visual
+    secondary_deep: Versión oscura de secondary
+    accent:         Color de llamada a la acción / diferenciación
+    accent_deep:    Versión oscura de accent
+    pill:           Fondo de chips, pastillas, tags no activos
+
+  # ----------------------------------------------------------
+  #  PALETA 1 — Serenity  (DEFAULT)
+  #  Azul cielo + crema cálida. Calma y apertura.
+  # ----------------------------------------------------------
+  serenity:
+    background:     "#F5F1EA"   # crema cálido
+    surface:        "#FFFFFF"
+    ink:            "#1F2A2E"   # casi negro azulado
+    ink_soft:       "#6B7682"   # gris medio
+    primary:        "#CFE0EC"   # azul cielo pastel
+    primary_deep:   "#3B6A8A"   # azul profundo
+    secondary:      "#D8E4D4"   # verde salvia
+    secondary_deep: "#4F6E50"   # verde bosque
+    accent:         "#F4D9CB"   # coral suave
+    accent_deep:    "#A4543A"   # terracota
+    pill:           "#EFEAE1"   # hueso neutro
+
+  # ----------------------------------------------------------
+  #  PALETA 2 — Jardín
+  #  Verde salvia dominante. Naturaleza, serenidad vegetal.
+  # ----------------------------------------------------------
+  jardin:
+    background:     "#F2F1EA"
+    surface:        "#FFFFFF"
+    ink:            "#23302A"
+    ink_soft:       "#6E7A72"
+    primary:        "#D8E4D4"   # verde salvia
+    primary_deep:   "#4F6E50"
+    secondary:      "#E7E2D2"   # arena cálida
+    secondary_deep: "#7A6E48"
+    accent:         "#EFCFC4"   # melocotón suave
+    accent_deep:    "#9A4F39"
+    pill:           "#EBE7DB"
+
+  # ----------------------------------------------------------
+  #  PALETA 3 — Amanecer
+  #  Coral-melocotón dominante. Energía suave, mañana.
+  # ----------------------------------------------------------
+  amanecer:
+    background:     "#FAF1EA"
+    surface:        "#FFFFFF"
+    ink:            "#2A2024"
+    ink_soft:       "#7B6A6F"
+    primary:        "#F4D5C8"   # coral-melocotón pastel
+    primary_deep:   "#A4543A"   # terracota
+    secondary:      "#E9DFD0"   # lino neutro
+    secondary_deep: "#806A4B"
+    accent:         "#D8E0EB"   # azul lavanda suave
+    accent_deep:    "#456787"
+    pill:           "#F0E5DC"
+
+  # ----------------------------------------------------------
+  #  PALETA 4 — Lavanda
+  #  Violeta y lila. Calma introspectiva, meditación.
+  # ----------------------------------------------------------
+  lavanda:
+    background:     "#F1EEF2"
+    surface:        "#FFFFFF"
+    ink:            "#272231"
+    ink_soft:       "#736C7F"
+    primary:        "#DDD4E6"   # lavanda pastel
+    primary_deep:   "#5C4B7A"   # violeta profundo
+    secondary:      "#D6DFE6"   # azul-gris suave
+    secondary_deep: "#476078"
+    accent:         "#EFD7D9"   # rosa pálido
+    accent_deep:    "#8E4D55"
+    pill:           "#E9E4ED"
+
+  # ----------------------------------------------------------
+  #  Colores funcionales (invariantes entre paletas)
+  # ----------------------------------------------------------
+  functional:
+    white:              "#FFFFFF"
+    black:              "#000000"
+    overlay_light:      "rgba(0,0,0,0.08)"
+    overlay_medium:     "rgba(0,0,0,0.18)"
+    overlay_strong:     "rgba(0,0,0,0.35)"
+    surface_glass_light: "rgba(250,249,247,0.78)"
+    progress_inactive:  "rgba(0,0,0,0.08)"
+    border_glass_light: "rgba(255,255,255,0.6)"
+    border_glass_dark:  "rgba(255,255,255,0.15)"
+
+  # ----------------------------------------------------------
+  #  Colores de dispositivo / chrome iOS
+  # ----------------------------------------------------------
+  device:
+    frame_light:    "#F2F2F7"
+    frame_dark:     "#000000"
+    dynamic_island: "#000000"
+    keyboard_key_light: "rgba(255,255,255,0.85)"
+    keyboard_bg_light:  "rgba(209,213,219,0.92)"
+
+
+# ============================================================
+#  TIPOGRAFÍA
+# ============================================================
+
+typography:
+
+  # ----------------------------------------------------------
+  #  Fuentes
+  # ----------------------------------------------------------
+  fonts:
+    display:
+      family:    '"Fraunces", "Cormorant Garamond", Georgia, serif'
+      source:    Google Fonts
+      url:       "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&display=swap"
+      weights:   [300, 400, 500, 600]
+      use_for:   Títulos, encabezados, texto hero
+
+    body:
+      family:    '"Nunito", "Quicksand", -apple-system, system-ui, sans-serif'
+      source:    Google Fonts
+      url:       "https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap"
+      weights:   [400, 500, 600, 700, 800]
+      use_for:   Cuerpo de texto, etiquetas, botones, meta
+
+  # ----------------------------------------------------------
+  #  Escala de tamaños (valores base — se multiplican por
+  #  el factor de accesibilidad en runtime)
+  # ----------------------------------------------------------
+  sizes:
+    status_time:      17px    # barra de estado iOS
+    eyebrow:          14px    # etiqueta superior (uppercase)
+    label_tab:        13px    # etiquetas de tab bar
+    body_small:       15px    # fecha / metadata menor
+    body:             17px    # texto corriente
+    body_large:       18px    # pregunta de estado de ánimo
+    button:           17px    # texto de botones y pills
+    card_title_small: 20px    # título en tarjeta pequeña
+    card_title:       22px    # título en sección / semana
+    hero_title:       30px    # título de tarjeta hero
+    greeting:         38px    # saludo principal en home
+
+  # ----------------------------------------------------------
+  #  Pesos semánticos
+  # ----------------------------------------------------------
+  weights:
+    regular:    400
+    medium:     500
+    semibold:   600
+    bold:       700
+    extrabold:  800
+
+  # ----------------------------------------------------------
+  #  Espaciado de letras
+  # ----------------------------------------------------------
+  letter_spacing:
+    eyebrow:          "0.08em"   # uppercase labels
+    heading_serif:    "-0.02em"  # Fraunces headings
+    heading_sans:     "-0.03em"  # Nunito headings
+    subheading_serif: "-0.01em"
+    subheading_sans:  "-0.02em"
+    default:          "0"
+
+  # ----------------------------------------------------------
+  #  Interlineado
+  # ----------------------------------------------------------
+  line_height:
+    tight:    1.05   # headings grandes
+    snug:     1.1    # hero title, tarjetas
+    normal:   1.35   # cuerpo de texto, recordatorios
+    relaxed:  1.5    # párrafos largos (no app, sí web/email)
+
+
+# ============================================================
+#  ESPACIADO
+#  Escala basada en múltiplos de 4px.
+# ============================================================
+
+spacing:
+  "1":   4px
+  "2":   8px
+  "3":   12px
+  "4":   16px
+  "5":   20px
+  "6":   24px
+  "7":   28px
+  "8":   32px
+  "10":  40px
+  "16":  64px
+  "18":  70px    # padding superior de pantalla (status bar + nav)
+  "28":  110px   # padding inferior de pantalla (tab bar + home indicator)
+
+  # Gaps frecuentes
+  gap_xs:   4px    # items de tab bar
+  gap_sm:   8px    # botones mood, días de semana, progress dots
+  gap_md:   12px   # tarjetas quick actions
+  gap_lg:   16px   # flex de greeting
+  gap_xl:   28px   # entre secciones mayores
+
+  # Padding de secciones (top / horizontal)
+  section_top:       28px
+  section_top_first: 8px
+  section_horizontal: 20px
+  section_horizontal_greeting: 24px
+
+
+# ============================================================
+#  BORDES Y RADIOS
+# ============================================================
+
+border_radius:
+  none:       0px
+  key:        8.5px    # teclas de teclado iOS
+  tab_button: 16px     # botones tab bar
+  icon_bg:    16px     # fondos de iconos pequeños
+  icon_bg_lg: 18px
+  pill_week:  14px     # celdas de semana
+  button:     20px     # botones CTA
+  quick_card: 24px     # tarjetas quick actions
+  avatar:     24px     # píldora de avatar
+  dynamic_island: 24px
+  week_card:  28px     # tarjeta de semana
+  reminder:   28px     # tarjeta de recordatorio
+  photo_pill: 28px     # contenedor de foto en hero
+  hero_card:  32px     # tarjeta hero principal
+  device:     48px     # marco del dispositivo
+  full:       9999px   # círculo / pastilla completa (mood buttons, home indicator)
+
+
+# ============================================================
+#  SOMBRAS
+# ============================================================
+
+shadows:
+  card_subtle:      "0 2px 8px rgba(20,40,60,0.04)"
+  glass_light:      "0 1px 3px rgba(0,0,0,0.07), 0 3px 10px rgba(0,0,0,0.06)"
+  glass_dark:       "0 2px 6px rgba(0,0,0,0.35), 0 6px 16px rgba(0,0,0,0.2)"
+  device_frame:     "0 40px 80px rgba(0,0,0,0.18), 0 0 0 1px rgba(0,0,0,0.12)"
+  keyboard_light:   "0 -1px 6px rgba(0,0,0,0.018), 0 -3px 20px rgba(0,0,0,0.012)"
+  keyboard_dark:    "0 -2px 20px rgba(0,0,0,0.09)"
+  panel:            "0 1px 0 rgba(255,255,255,0.5) inset, 0 12px 40px rgba(0,0,0,0.18)"
+
+
+# ============================================================
+#  EFECTOS VISUALES
+# ============================================================
+
+effects:
+  glass_blur:         "blur(24px) saturate(160%)"
+  keyboard_blur:      "blur(12px) saturate(180%)"
+  panel_backdrop:     "blur(24px) saturate(160%)"
+
+
+# ============================================================
+#  TRANSICIONES Y ANIMACIONES
+#  (no definidas en código base — recomendación 1.0.0)
+# ============================================================
+
+transitions:
+  duration_fast:    150ms   # micro-interacciones (taps, toggles)
+  duration_normal:  250ms   # la mayoría de transiciones
+  duration_slow:    400ms   # entradas de pantalla / modales
+  easing_default:   "cubic-bezier(0.4, 0, 0.2, 1)"   # ease-in-out suave
+  easing_spring:    "cubic-bezier(0.34, 1.56, 0.64, 1)"  # rebote sutil
+  easing_out:       "cubic-bezier(0, 0, 0.2, 1)"
+
+
+# ============================================================
+#  Z-INDEX
+#  (no definido en código base — recomendación 1.0.0)
+# ============================================================
+
+z_index:
+  base:         0
+  content:      10
+  card:         20
+  sticky:       30
+  overlay:      40
+  modal:        50
+  toast:        60
+  status_bar:   70
+  tweaks_panel: 80
+
+
+# ============================================================
+#  DIMENSIONES DE COMPONENTES
+# ============================================================
+
+components:
+
+  device_frame:
+    width:   402px
+    height:  874px
+
+  status_bar:
+    height: 22px
+
+  dynamic_island:
+    width:        126px
+    height:       37px
+    border_radius: 24px
+
+  home_indicator:
+    width:        139px
+    height:       5px
+    border_radius: 100px
+    offset_bottom: 8px
+
+  tab_bar:
+    height:          44px
+    padding:         "8px 4px"
+    padding_bottom:  28px   # incluye zona de home indicator
+
+  keyboard_key:
+    height:         42px
+    border_radius:  8.5px
+
+  avatar_pill:
+    size: 48px
+
+  reminder_icon:
+    size: 56px
+
+  hero_image_height:     240px
+  quick_card_img_height: 120px
+
+  mood_button:
+    padding:       "14px 20px"
+    border_radius: 9999px
+    border_width:  1.5px
+
+  progress_dot:
+    height:        8px
+    border_radius: 4px
+    gap:           8px
+
+  tweaks_panel:
+    width:      280px
+    max_height: "calc(100vh - 32px)"
+    border_radius: 14px
+
+  week_grid:
+    columns: 7
+    gap:     8px
+
+  tab_grid:
+    columns: 4
+    gap:     4px
+
+
+# ============================================================
+#  ICONOS
+# ============================================================
+
+icons:
+  default_size:     28px
+  stroke_width:     2
+  stroke_linecap:   round
+  stroke_linejoin:  round
+  catalog:
+    - home
+    - classes
+    - heart
+    - person
+    - play
+    - arrow
+    - bell
+    - leaf
+    - cup
+    - users
+
+
+# ============================================================
+#  ACCESIBILIDAD
+# ============================================================
+
+accessibility:
+  text_scale:
+    standard:
+      body_multiplier:    1.0
+      display_multiplier: 1.0
+    large:
+      body_multiplier:    1.14
+      display_multiplier: 1.06
+    maximum:
+      body_multiplier:    1.28
+      display_multiplier: 1.10
+
+  typography_modes:
+    sans:
+      font:   Nunito
+      weight: 700
+    serif:
+      font:   Fraunces
+      weight: 400
+
+
+# ============================================================
+#  IMÁGENES Y ASSETS
+# ============================================================
+
+assets:
+  images:
+    hero:
+      id:          yf-hero
+      file:        hero-mujeres.png
+      description: Mujer mayor haciendo ejercicio suave en casa
+      tint:        "#FBF0DE"
+    clase:
+      id:          yf-clase-v2
+      file:        clase-libre.png
+      description: Clase de yoga senior
+      tint:        secondary  # usa color secondary de la paleta activa
+    grupo:
+      id:          yf-grupo-v2
+      file:        grupo.png
+      description: Grupo de amigas
+      tint:        accent
+    respira:
+      id:          yf-respira-v2
+      file:        respiracion.png
+      description: Respiración consciente
+      tint:        surface
+    nutricion:
+      id:          yf-nutri-v2
+      file:        nutricion.png
+      description: Nutrición consciente
+      tint:        surface
+
+  paths:
+    images_app:   DISEÑO YAYAFIT/YayaFit Estilos/assets/
+    images_ref:   DISEÑO YAYAFIT/IMAGENES/
+
+
+# ============================================================
+#  VOZ Y TONO
+# ============================================================
+
+voice_and_tone:
+  principles:
+    - Cercano sin ser condescendiente (tuteo siempre)
+    - Empoderador sin culpabilizar
+    - Directo y sin rodeos (una idea por párrafo)
+    - Concreto sobre abstracto ("7 minutos al día", no conceptos vagos)
+    - Comunidad sobre producto
+
+  by_audience:
+    usuarias:
+      tone:       Cálido, personal, motivador
+      length:     Párrafos cortos (máx. 150 palabras)
+      register:   Tuteo, informal
+    inversores:
+      tone:       Riguroso, orientado a datos
+      length:     Denso, sin relleno
+      register:   Formal
+    instituciones_b2b:
+      tone:       Profesional, impacto social
+      length:     Estructurado con métricas
+      register:   Formal
+    prensa:
+      tone:       Narrativo, con historia humana
+      length:     Medio, con cita
+      register:   Neutro
+    redes_sociales:
+      tone:       Conversacional
+      length:     Máx. 3 líneas
+      register:   Tuteo, directo
+
+  prohibited_words:
+    ai_patterns:   [Increíble, Fantástico, Impresionante]
+    corporate:     [Potenciar, Optimizar, Sinergia, Ecosistema]
+    vague:         [Holístico, Integral]
+    anglicisms:    [Journey, Experience]
+    impersonal:    [Usuarios, Clientes]
+
+  prohibited_constructs:
+    - Doble exclamación (!!)
+    - '"Recuerda que..."'
+    - '"Como bien sabes..."'
+    - '"En el mundo actual..."'
+
+  preferred_terms:
+    - YayaFitters (no "usuarios" ni "clientes")
+    - movimiento (no "ejercicio" o "entrenamiento")
+    - comunidad (no "audiencia" o "base de clientes")
