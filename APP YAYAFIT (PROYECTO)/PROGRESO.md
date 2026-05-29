@@ -104,4 +104,20 @@
 - Creado el plan de implementación con 11 tareas y pasos exactos
 - Creada la estructura de documentación del proyecto
 
-**Próxima sesión debe empezar en:** Tarea 1 (crear carpetas del repo)
+**Próxima sesión debe empezar en:** ~~Tarea 1 (crear carpetas del repo)~~ — **completada en Sesión 2**
+
+---
+
+### Sesión 2 — 2026-05-29
+
+**Quién:** Raúl + Claude
+
+**Qué se hizo:**
+
+- **Tarea 1:** Creada la estructura completa de carpetas en `APP YAYAFIT (PROYECTO)/` (configuracion, diseno, contenido)
+- **Tarea 2:** Escritos los textos de las 3 páginas estáticas (inicio, sobre-yayafit, como-funciona)
+- **Tarea 3:** Escritas las 5 rutinas completas (equilibrio, fuerza-silla, movilidad-espalda, cardio-caminar, yoga-calma)
+- **Tarea 4:** Escritos los 3 artículos de bienestar (dormir-mejor, nutricion-sencilla, rutina-diaria)
+- Proyecto subido a GitHub (9 commits nuevos en origin/main)
+
+**Próxima sesión debe empezar en:** Tarea 5 — Contratar hosting Hostinger y conectar dominio yayafit.es *(requiere tarjeta de crédito, hacerlo manualmente en el navegador)*
