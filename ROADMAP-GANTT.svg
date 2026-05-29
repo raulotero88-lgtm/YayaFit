@@ -1,0 +1,338 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="1200" height="680" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- ============================================================
+       YAYAFIT — ROADMAP LEAN STARTUP
+       1200 × 680 px | Ratio 16:9 | Mayo 2026 – Mayo 2029
+       Timeline: x=190–1180 (990px / 36 meses = 27.5px/mes)
+       Mes 0 = May 2026 = x=190
+  ============================================================ -->
+
+  <!-- FONDO GENERAL -->
+  <rect width="1200" height="680" fill="#FDFAF4"/>
+
+  <!-- CABECERA -->
+  <rect x="0" y="0" width="1200" height="56" fill="#2D2D2D"/>
+  <text x="600" y="22" text-anchor="middle" fill="#F5ECD7" font-size="15" font-weight="700" letter-spacing="1.2">YAYAFIT — HOJA DE RUTA PARA INVERSORES</text>
+  <text x="600" y="42" text-anchor="middle" fill="#E8734A" font-size="10" font-weight="600" letter-spacing="2.5">LEAN STARTUP · BUILD-MEASURE-LEARN · MAYO 2026 – MAYO 2029</text>
+
+  <!-- ============================================================
+       EJE DE MESES (y=56-83)
+       Cada 3 meses = 82.5px ≈ 83px
+  ============================================================ -->
+  <rect x="0" y="56" width="190" height="28" fill="#3D3D3D"/>
+  <text x="95" y="73" text-anchor="middle" fill="#9A8A7A" font-size="8" font-weight="600" letter-spacing="1">LÍNEA DE TRABAJO</text>
+
+  <rect x="190" y="56" width="990" height="28" fill="#F0EAD6"/>
+
+  <!-- Labels cada 3 meses -->
+  <g fill="#2D2D2D" font-size="9" font-weight="600" opacity="0.65">
+    <text x="190" y="73" text-anchor="middle">May'26</text>
+    <text x="273" y="73" text-anchor="middle">Ago'26</text>
+    <text x="355" y="73" text-anchor="middle">Nov'26</text>
+    <text x="438" y="73" text-anchor="middle">Feb'27</text>
+    <text x="520" y="73" text-anchor="middle">May'27</text>
+    <text x="603" y="73" text-anchor="middle">Ago'27</text>
+    <text x="685" y="73" text-anchor="middle">Nov'27</text>
+    <text x="768" y="73" text-anchor="middle">Feb'28</text>
+    <text x="850" y="73" text-anchor="middle">May'28</text>
+    <text x="933" y="73" text-anchor="middle">Ago'28</text>
+    <text x="1015" y="73" text-anchor="middle">Nov'28</text>
+    <text x="1098" y="73" text-anchor="middle">Feb'29</text>
+    <text x="1180" y="73" text-anchor="middle">May'29</text>
+  </g>
+
+  <!-- Líneas verticales de cuadrícula (cada 3 meses) -->
+  <g stroke="#D4C8B0" stroke-width="0.5" stroke-dasharray="3,3">
+    <line x1="273"  y1="84" x2="273"  y2="648"/>
+    <line x1="355"  y1="84" x2="355"  y2="648"/>
+    <line x1="438"  y1="84" x2="438"  y2="648"/>
+    <line x1="520"  y1="84" x2="520"  y2="648"/>
+    <line x1="603"  y1="84" x2="603"  y2="648"/>
+    <line x1="685"  y1="84" x2="685"  y2="648"/>
+    <line x1="768"  y1="84" x2="768"  y2="648"/>
+    <line x1="850"  y1="84" x2="850"  y2="648"/>
+    <line x1="933"  y1="84" x2="933"  y2="648"/>
+    <line x1="1015" y1="84" x2="1015" y2="648"/>
+    <line x1="1098" y1="84" x2="1098" y2="648"/>
+    <line x1="1180" y1="84" x2="1180" y2="648"/>
+  </g>
+
+  <!-- Línea HOY (May 25, 2026 ≈ x=192) -->
+  <line x1="192" y1="56" x2="192" y2="648" stroke="#E8734A" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.8"/>
+  <rect x="182" y="56" width="20" height="14" rx="3" fill="#E8734A"/>
+  <text x="192" y="66" text-anchor="middle" fill="white" font-size="7" font-weight="700">HOY</text>
+
+  <!-- ============================================================
+       HITOS DE FINANCIACIÓN — marcadores en el eje
+  ============================================================ -->
+
+  <!-- Pre-Seed: Ago 2026 = m3 = x=273 -->
+  <polygon points="273,56 273,84" stroke="#2D2D2D" stroke-width="1.5" stroke-dasharray="3,2" fill="none"/>
+  <rect x="249" y="57" width="48" height="14" rx="3" fill="#2D2D2D"/>
+  <text x="273" y="67" text-anchor="middle" fill="#F5ECD7" font-size="7" font-weight="700">PRE-SEED €250k</text>
+
+  <!-- Seed: Feb 2027 = m9 = x=438 -->
+  <line x1="438" y1="57" x2="438" y2="84" stroke="#7A9E7E" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <rect x="411" y="57" width="54" height="14" rx="3" fill="#7A9E7E"/>
+  <text x="438" y="67" text-anchor="middle" fill="white" font-size="7" font-weight="700">SEED €500k-1M</text>
+
+  <!-- Serie A: Nov 2027 = m18 = x=685 -->
+  <line x1="685" y1="57" x2="685" y2="84" stroke="#4A7A7E" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <rect x="657" y="57" width="56" height="14" rx="3" fill="#4A7A7E"/>
+  <text x="685" y="67" text-anchor="middle" fill="white" font-size="7" font-weight="700">SERIE A €2-5M</text>
+
+  <!-- ============================================================
+       FASE 0 — AJUSTE PROBLEMA/SOLUCIÓN (y=84–227)
+       Color: Amber #C8A87A
+  ============================================================ -->
+
+  <!-- Fondo de fase -->
+  <rect x="0"   y="84" width="190" height="144" fill="#C8A87A"/>
+  <rect x="190" y="84" width="990" height="144" fill="#FFF8EE" opacity="0.8"/>
+
+  <!-- Encabezado de sección -->
+  <rect x="0"   y="84" width="190" height="24" fill="#A07840"/>
+  <rect x="190" y="84" width="990" height="24" fill="#C8A87A" opacity="0.35"/>
+  <text x="10"  y="100" fill="white" font-size="10" font-weight="700">FASE 0 · PROB/SOL FIT</text>
+  <text x="400" y="100" text-anchor="middle" fill="#5A3A10" font-size="9" font-weight="600">MAY – AGO 2026 · BOOTSTRAP · PREGUNTA: ¿EL PROBLEMA EXISTE A ESCALA?</text>
+
+  <!-- Etiquetas de fila izquierda -->
+  <rect x="0" y="108" width="190" height="40" fill="#C8A87A" opacity="0.3"/>
+  <rect x="0" y="148" width="190" height="40" fill="#C8A87A" opacity="0.18"/>
+  <rect x="0" y="188" width="190" height="40" fill="#C8A87A" opacity="0.3"/>
+
+  <text x="10" y="124" fill="#2D2D2D" font-size="9" font-weight="600">H0.1 · H0.2</text>
+  <text x="10" y="137" fill="#2D2D2D" font-size="8" opacity="0.7">Entrevistas JTBD (40)</text>
+  <text x="10" y="164" fill="#2D2D2D" font-size="9" font-weight="600">H0.3 · H0.5</text>
+  <text x="10" y="177" fill="#2D2D2D" font-size="8" opacity="0.7">Landing A/B + lista espera</text>
+  <text x="10" y="204" fill="#2D2D2D" font-size="9" font-weight="600">H0.2 · H0.4</text>
+  <text x="10" y="217" fill="#2D2D2D" font-size="8" opacity="0.7">Comunidad semilla + prototipo</text>
+
+  <!-- BARRAS FASE 0 -->
+  <!-- Row 0a: Entrevistas m0(190) → m2(245) → w=55 -->
+  <rect x="192" y="118" width="53" height="20" rx="4" fill="#C8A87A"/>
+  <text x="219" y="131" text-anchor="middle" fill="white" font-size="8" font-weight="600">entrevistas JTBD</text>
+
+  <!-- Row 0b: Landing m0(190) → m3(273) → w=83 -->
+  <rect x="192" y="158" width="81" height="20" rx="4" fill="#A07840"/>
+  <text x="233" y="171" text-anchor="middle" fill="white" font-size="8" font-weight="600">landing A/B + emails</text>
+
+  <!-- Row 0c: Comunidad m1(218) → m3.5(286) → w=68 -->
+  <rect x="219" y="198" width="67" height="20" rx="4" fill="#C8A87A" opacity="0.8"/>
+  <text x="253" y="211" text-anchor="middle" fill="white" font-size="8" font-weight="600">comunidad semilla</text>
+
+  <!-- KPI Norte Fase 0 (box a la derecha) -->
+  <rect x="900" y="100" width="278" height="36" rx="4" fill="#A07840" opacity="0.15"/>
+  <text x="1039" y="115" text-anchor="middle" fill="#5A3A10" font-size="8" font-weight="700">MÉTRICA NORTE</text>
+  <text x="1039" y="128" text-anchor="middle" fill="#5A3A10" font-size="8">% entrevistadas con frustración &gt;65%</text>
+
+  <!-- ============================================================
+       GAP + P/P CHECKPOINT 0 (y=228–235)
+  ============================================================ -->
+  <rect x="190" y="228" width="990" height="8" fill="#F0EAD6" opacity="0.5"/>
+  <!-- Diamond checkpoint a x=273, y=232 -->
+  <polygon points="273,224 281,232 273,240 265,232" fill="#E8734A" stroke="white" stroke-width="2"/>
+  <text x="285" y="227" fill="#E8734A" font-size="8" font-weight="700">◆ PIVOTAR</text>
+  <text x="285" y="238" fill="#E8734A" font-size="8" font-weight="700">  O PERSEVERAR</text>
+
+  <!-- ============================================================
+       FASE 1 — PRODUCT/MARKET FIT (y=236–379)
+       Color: Dark #2D2D2D + Coral #E8734A
+  ============================================================ -->
+
+  <rect x="0"   y="236" width="190" height="144" fill="#2D2D2D"/>
+  <rect x="190" y="236" width="990" height="144" fill="#FEF0E8" opacity="0.6"/>
+
+  <rect x="0"   y="236" width="190" height="24" fill="#1A1A1A"/>
+  <rect x="190" y="236" width="990" height="24" fill="#E8734A" opacity="0.2"/>
+  <text x="10"  y="252" fill="#F5ECD7" font-size="10" font-weight="700">FASE 1 · PRODUCT/MKT FIT</text>
+  <text x="470" y="252" text-anchor="middle" fill="#8A3A10" font-size="9" font-weight="600">AGO 2026 – FEB 2027 · PRE-SEED €250k · PREGUNTA: ¿EL MVP RETIENE Y CONVIERTE?</text>
+
+  <rect x="0" y="260" width="190" height="40" fill="#2D2D2D" opacity="0.6"/>
+  <rect x="0" y="300" width="190" height="40" fill="#2D2D2D" opacity="0.45"/>
+  <rect x="0" y="340" width="190" height="40" fill="#2D2D2D" opacity="0.6"/>
+
+  <text x="10" y="276" fill="#F5ECD7" font-size="9" font-weight="600">BUILD · CRÍTICO</text>
+  <text x="10" y="289" fill="#9A8A7A" font-size="8">Desarrollo MVP iOS + Android</text>
+  <text x="10" y="316" fill="#F5ECD7" font-size="9" font-weight="600">H1.1 · H1.2 · H1.4</text>
+  <text x="10" y="329" fill="#9A8A7A" font-size="8">Beta cerrada + cohortes D1/D7/D30</text>
+  <text x="10" y="356" fill="#F5ECD7" font-size="9" font-weight="600">H1.3 · H1.5</text>
+  <text x="10" y="369" fill="#9A8A7A" font-size="8">Paywall + piloto prescriptores</text>
+
+  <!-- BARRAS FASE 1 (CRÍTICAS: coral) -->
+  <!-- Row 1a MVP: m3(273) → m6(355) → w=82 -->
+  <rect x="274" y="270" width="81" height="20" rx="4" fill="#E8734A"/>
+  <rect x="274" y="270" width="4" height="20" rx="2" fill="#C0522A"/>
+  <text x="315" y="283" text-anchor="middle" fill="white" font-size="8" font-weight="700">DESARROLLO MVP</text>
+
+  <!-- Row 1b Beta: m6(355) → m9(438) → w=83 -->
+  <rect x="356" y="310" width="82" height="20" rx="4" fill="#E8734A"/>
+  <rect x="356" y="310" width="4" height="20" rx="2" fill="#C0522A"/>
+  <text x="397" y="323" text-anchor="middle" fill="white" font-size="8" font-weight="700">BETA + COHORTES</text>
+
+  <!-- Row 1c Paywall: m7(383) → m9(438) → w=55 -->
+  <rect x="384" y="350" width="54" height="20" rx="4" fill="#D0622A" opacity="0.75"/>
+  <text x="411" y="363" text-anchor="middle" fill="white" font-size="8" font-weight="600">paywall + Rx</text>
+
+  <!-- KPI Norte Fase 1 -->
+  <rect x="730" y="248" width="278" height="36" rx="4" fill="#E8734A" opacity="0.12"/>
+  <text x="869" y="263" text-anchor="middle" fill="#8A3A10" font-size="8" font-weight="700">MÉTRICA NORTE</text>
+  <text x="869" y="276" text-anchor="middle" fill="#8A3A10" font-size="8">D30 Retention cohorte &gt;30%</text>
+
+  <!-- Milestone markers dentro de Fase 1 -->
+  <!-- App launch: Nov 2026 = m6 = x=355 -->
+  <circle cx="355" cy="299" r="5" fill="#E8734A" stroke="white" stroke-width="1.5"/>
+  <text x="358" y="296" fill="#E8734A" font-size="7" font-weight="700">APP</text>
+
+  <!-- ============================================================
+       GAP + P/P CHECKPOINT 1 (y=380–387)
+  ============================================================ -->
+  <rect x="190" y="380" width="990" height="8" fill="#F0EAD6" opacity="0.5"/>
+  <polygon points="438,376 446,384 438,392 430,384" fill="#E8734A" stroke="white" stroke-width="2"/>
+  <text x="450" y="379" fill="#E8734A" font-size="8" font-weight="700">◆ PIVOTAR</text>
+  <text x="450" y="390" fill="#E8734A" font-size="8" font-weight="700">  O PERSEVERAR</text>
+
+  <!-- ============================================================
+       FASE 2 — MOTOR DE CRECIMIENTO (y=388–531)
+       Color: Sage Green #7A9E7E
+  ============================================================ -->
+
+  <rect x="0"   y="388" width="190" height="144" fill="#7A9E7E"/>
+  <rect x="190" y="388" width="990" height="144" fill="#F0F5F0" opacity="0.7"/>
+
+  <rect x="0"   y="388" width="190" height="24" fill="#5A7E5E"/>
+  <rect x="190" y="388" width="990" height="24" fill="#7A9E7E" opacity="0.2"/>
+  <text x="10"  y="404" fill="white" font-size="10" font-weight="700">FASE 2 · MOTOR CREC.</text>
+  <text x="510" y="404" text-anchor="middle" fill="#2A5A2E" font-size="9" font-weight="600">FEB – NOV 2027 · SEED €500k-1M · PREGUNTA: ¿QUÉ MOTOR DOMINA? ¿LTV/CAC &gt;4x?</text>
+
+  <rect x="0" y="412" width="190" height="40" fill="#7A9E7E" opacity="0.35"/>
+  <rect x="0" y="452" width="190" height="40" fill="#7A9E7E" opacity="0.2"/>
+  <rect x="0" y="492" width="190" height="40" fill="#7A9E7E" opacity="0.35"/>
+
+  <text x="10" y="428" fill="white" font-size="9" font-weight="600">H2.1 · H2.5</text>
+  <text x="10" y="441" fill="#D8EED8" font-size="8">Programa Yaya Embajadora</text>
+  <text x="10" y="468" fill="white" font-size="9" font-weight="600">H2.2 · STICKY</text>
+  <text x="10" y="481" fill="#D8EED8" font-size="8">Clases en vivo (3x/semana)</text>
+  <text x="10" y="508" fill="white" font-size="9" font-weight="600">H2.3 · H2.4 · B2B</text>
+  <text x="10" y="521" fill="#D8EED8" font-size="8">Pipeline B2B institucional</text>
+
+  <!-- BARRAS FASE 2 (verde) -->
+  <!-- Row 2a Embajadoras: m10(465) → m15(603) → w=138 -->
+  <rect x="466" y="422" width="137" height="20" rx="4" fill="#7A9E7E"/>
+  <text x="535" y="435" text-anchor="middle" fill="white" font-size="8" font-weight="600">programa embajadoras · k-factor</text>
+
+  <!-- Row 2b Lives: m11(493) → m16(630) → w=137 -->
+  <rect x="494" y="462" width="136" height="20" rx="4" fill="#5A8E5E"/>
+  <text x="562" y="475" text-anchor="middle" fill="white" font-size="8" font-weight="600">clases en vivo 3x/sem · churn -20%</text>
+
+  <!-- Row 2c B2B: m10(465) → m17(658) → w=193 -->
+  <rect x="466" y="502" width="192" height="20" rx="4" fill="#7A9E7E" opacity="0.7"/>
+  <text x="562" y="515" text-anchor="middle" fill="white" font-size="8" font-weight="600">pipeline B2B — 3 contratos piloto</text>
+
+  <!-- Milestone: 50k usuarios Jun 2027 = m13 = x=548 -->
+  <circle cx="548" cy="451" r="5" fill="#5A8E5E" stroke="white" stroke-width="1.5"/>
+  <text x="551" y="448" fill="#5A8E5E" font-size="7" font-weight="700">50k</text>
+
+  <!-- Milestone: 2 LOIs B2B Oct 2027 = m17 = x=658 -->
+  <circle cx="658" cy="531" r="5" fill="#5A8E5E" stroke="white" stroke-width="1.5"/>
+  <text x="661" y="528" fill="#5A8E5E" font-size="7" font-weight="700">LOIs</text>
+
+  <!-- KPI Norte Fase 2 -->
+  <rect x="730" y="400" width="278" height="36" rx="4" fill="#7A9E7E" opacity="0.15"/>
+  <text x="869" y="415" text-anchor="middle" fill="#2A5A2E" font-size="8" font-weight="700">MÉTRICA NORTE</text>
+  <text x="869" y="428" text-anchor="middle" fill="#2A5A2E" font-size="8">LTV/CAC mix de canales &gt;4x</text>
+
+  <!-- ============================================================
+       GAP + P/P CHECKPOINT 2 (y=532–539)
+  ============================================================ -->
+  <rect x="190" y="532" width="990" height="8" fill="#F0EAD6" opacity="0.5"/>
+  <polygon points="685,528 693,536 685,544 677,536" fill="#7A9E7E" stroke="white" stroke-width="2"/>
+  <text x="697" y="531" fill="#7A9E7E" font-size="8" font-weight="700">◆ PIVOTAR</text>
+  <text x="697" y="542" fill="#7A9E7E" font-size="8" font-weight="700">  O PERSEVERAR</text>
+
+  <!-- ============================================================
+       FASE 3 — ESCALA Y B2B (y=540–643)
+       Color: Teal #4A7A7E
+  ============================================================ -->
+
+  <rect x="0"   y="540" width="190" height="104" fill="#4A7A7E"/>
+  <rect x="190" y="540" width="990" height="104" fill="#EFF5F5" opacity="0.7"/>
+
+  <rect x="0"   y="540" width="190" height="24" fill="#2A5A5E"/>
+  <rect x="190" y="540" width="990" height="24" fill="#4A7A7E" opacity="0.2"/>
+  <text x="10"  y="556" fill="white" font-size="10" font-weight="700">FASE 3 · ESCALA + B2B</text>
+  <text x="570" y="556" text-anchor="middle" fill="#0A3A3E" font-size="9" font-weight="600">NOV 2027 – MAY 2029 · SERIE A €2-5M · 250k USUARIAS · B2B €500k ARR · LATAM VALIDADO</text>
+
+  <rect x="0" y="564" width="190" height="40" fill="#4A7A7E" opacity="0.35"/>
+  <rect x="0" y="604" width="190" height="40" fill="#4A7A7E" opacity="0.2"/>
+
+  <text x="10" y="580" fill="white" font-size="9" font-weight="600">H3.1 · H3.2 · B2B</text>
+  <text x="10" y="593" fill="#BDE0E4" font-size="8">Contratos B2B + LATAM 60 entrevistas</text>
+  <text x="10" y="620" fill="white" font-size="9" font-weight="600">H3.3 · H3.4 · H3.5</text>
+  <text x="10" y="633" fill="#BDE0E4" font-size="8">Escala 250k + margen 65% + embajadoras</text>
+
+  <!-- BARRAS FASE 3 (teal) -->
+  <!-- Row 3a B2B+LATAM: m18.5(699) → m28(960) → w=261 -->
+  <rect x="700" y="574" width="260" height="20" rx="4" fill="#4A7A7E"/>
+  <text x="830" y="587" text-anchor="middle" fill="white" font-size="8" font-weight="600">H3.1 · H3.2 · contratos B2B + validación LATAM</text>
+
+  <!-- Row 3b Scale: m20(740) → m36(1180) → w=440 -->
+  <rect x="741" y="614" width="438" height="20" rx="4" fill="#2A5A5E" opacity="0.8"/>
+  <text x="960" y="627" text-anchor="middle" fill="white" font-size="8" font-weight="600">H3.3 · H3.4 · H3.5 · escala 250k usuarias · margen &gt;65% · embajadoras v2</text>
+
+  <!-- Milestone: 1er contrato B2B Mar 2028 = m22 = x=795 -->
+  <circle cx="795" cy="563" r="5" fill="#2A5A5E" stroke="white" stroke-width="1.5"/>
+  <text x="798" y="560" fill="#2A5A5E" font-size="7" font-weight="700">B2B</text>
+
+  <!-- Milestone: 250k users Dec 2028 = m31 = x=1043 -->
+  <circle cx="1043" cy="603" r="5" fill="#2A5A5E" stroke="white" stroke-width="1.5"/>
+  <text x="1047" y="600" fill="#2A5A5E" font-size="7" font-weight="700">250k</text>
+
+  <!-- Checkpoint final: May 2029 = x=1180 -->
+  <polygon points="1180,540 1188,548 1180,556 1172,548" fill="#2D2D2D" stroke="white" stroke-width="2"/>
+  <text x="1157" y="538" fill="#2D2D2D" font-size="7.5" font-weight="700">◆ SERIE B</text>
+
+  <!-- KPI Norte Fase 3 -->
+  <rect x="730" y="552" width="190" height="36" rx="4" fill="#4A7A7E" opacity="0.15"/>
+  <text x="825" y="567" text-anchor="middle" fill="#0A3A3E" font-size="8" font-weight="700">MÉTRICA NORTE</text>
+  <text x="825" y="580" text-anchor="middle" fill="#0A3A3E" font-size="8">ARR total B2C + B2B &gt;€862k</text>
+
+  <!-- ============================================================
+       LEYENDA (y=648–680)
+  ============================================================ -->
+  <rect x="0" y="648" width="1200" height="32" fill="#F0EAD6"/>
+
+  <!-- Leyenda: barras por fase -->
+  <rect x="20"  y="658" width="22" height="12" rx="3" fill="#C8A87A"/>
+  <text x="46"  y="668" fill="#2D2D2D" font-size="8">Fase 0 · Prob/Sol</text>
+
+  <rect x="160" y="658" width="22" height="12" rx="3" fill="#E8734A"/>
+  <text x="186" y="668" fill="#2D2D2D" font-size="8">Fase 1 · MVP (crítico)</text>
+
+  <rect x="320" y="658" width="22" height="12" rx="3" fill="#7A9E7E"/>
+  <text x="346" y="668" fill="#2D2D2D" font-size="8">Fase 2 · Motor crec.</text>
+
+  <rect x="480" y="658" width="22" height="12" rx="3" fill="#4A7A7E"/>
+  <text x="506" y="668" fill="#2D2D2D" font-size="8">Fase 3 · Escala B2B</text>
+
+  <!-- Leyenda: checkpoint P/P -->
+  <polygon points="645,664 651,658 657,664 651,670" fill="#E8734A" stroke="none"/>
+  <text x="661" y="668" fill="#2D2D2D" font-size="8">Checkpoint Pivotar/Perseverar</text>
+
+  <!-- Leyenda: milestone -->
+  <circle cx="810" cy="664" r="5" fill="#5A8E5E" stroke="white" stroke-width="1.5"/>
+  <text x="819" y="668" fill="#2D2D2D" font-size="8">Hito KPI</text>
+
+  <!-- Leyenda: hoy -->
+  <line x1="882" y1="658" x2="882" y2="672" stroke="#E8734A" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="887" y="668" fill="#2D2D2D" font-size="8">Hoy (May 2026)</text>
+
+  <!-- Firma -->
+  <text x="1180" y="672" text-anchor="end" fill="#9A8A7A" font-size="7">YayaFit · Lean Startup · Documento Confidencial · Mayo 2026</text>
+
+  <!-- Borde coral inferior de marca -->
+  <rect x="0" y="677" width="1200" height="3" fill="#E8734A" opacity="0.5"/>
+  <rect x="0" y="677" width="400" height="1" fill="#E8734A" opacity="0.3"/>
+  <rect x="800" y="677" width="400" height="1" fill="#7A9E7E" opacity="0.3"/>
+
+</svg>
