@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "suno-music-creator": {
+      "source": "schwepps/skills",
+      "sourceType": "github",
+      "skillPath": "suno-music-creator/SKILL.md",
+      "computedHash": "d6cfeb3b49e549eecc49bc176c52b2567769d5c1d617cf8279ffb45a1d249023"
+    }
+  }
+}
