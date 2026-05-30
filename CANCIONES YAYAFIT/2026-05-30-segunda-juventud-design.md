@@ -29,9 +29,9 @@ El tono sigue el manual de estilo YayaFit: cercano, motivador, concreto. Sin pal
 
 ---
 
-## Style prompt Suno V5
+## Style prompt
 
-```
+```text
 Electropop, 120 BPM, uplifting, warm synth pads, four-on-the-floor kick, bright melodic hooks, powerful female vocals, Spanish lyrics, polished production, no harsh distortion, no guitars
 ```
 
@@ -137,6 +137,18 @@ YayaFit...
 Aquí estoy...
 (Aquí estoy...)
 ```
+
+---
+
+## Resultado de producción
+
+- **Plataforma:** Mureka.ai
+- **URL canción:** [Segunda Juventud en Mureka](https://www.mureka.ai/song-detail/YEGgJVXyTBSvi8KKa7LS9w?is_from_share=1&song_title=segunda-juventud-yayafit&singer=ra%C3%BAl-gf)
+- **Duración:** 2:44
+- **Géneros:** Electropop, Euphoric, Analog Polyphonic Synthesizer, Four-on-the-floor
+- **Fecha:** 2026-05-30
+- **Estado:** Pendiente de descarga
+- **Archivo local:** pendiente
 
 ---
 
