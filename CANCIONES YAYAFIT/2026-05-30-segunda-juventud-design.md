@@ -39,7 +39,9 @@ Electropop, 120 BPM, uplifting, warm synth pads, four-on-the-floor kick, bright 
 
 ## Letra completa con metatags
 
-```
+*Versión híbrida v2 — chorus optimizado por Suno, verso 1 y bridge de la versión original.*
+
+```text
 [Intro]
 [Mood: Uplifting]
 [Energy: Medium]
@@ -68,12 +70,11 @@ Solo hay una: YayaFit
 [Vocal Style: Power]
 YAYAFIT
 Mi tiempo es hoy
-Me muevo, respiro
-Y aquí estoy
-(Aquí estoy, aquí estoy)
+Me muevo y respiro aquí estoy
+Aquí estoy aquí estoy
 YAYAFIT
-La vida sigue~
-YayaFit, YayaFit
+La vida sigue en mí
+YayaFit YayaFit
 
 [Verse 2]
 [Vocal Style: Open, Confident]
@@ -81,12 +82,12 @@ YayaFit, YayaFit
 Somos miles las que un día
 Dijimos "esto es para mí"
 Cada reto nos une más
-Esto es nuestro, es así
+Esta fuerza es para ti
 
 No buscamos la perfección
 Buscamos movernos bien
-Con amigas que nos ven
-Y nos dicen "tú puedes"
+Con amigas y canción
+Que nos dicen "tú puedes"
 
 [Pre-Chorus]
 [Energy: Rising]
@@ -100,12 +101,11 @@ Solo hay una: YayaFit
 [Vocal Style: Power]
 YAYAFIT
 Mi tiempo es hoy
-Me muevo, respiro
-Y aquí estoy
-(Aquí estoy, aquí estoy)
+Me muevo y respiro aquí estoy
+Aquí estoy aquí estoy
 YAYAFIT
-La vida sigue~
-YayaFit, YayaFit
+La vida sigue en mí
+YayaFit YayaFit
 
 [Bridge]
 [Mood: Triumphant]
@@ -125,12 +125,11 @@ Siempre
 [Energy: Maximum]
 YAYAFIT
 Mi tiempo es hoy
-Me muevo, respiro
-Y aquí estoy
-(Aquí estoy, aquí estoy)
+Me muevo y respiro aquí estoy
+Aquí estoy aquí estoy
 YAYAFIT
-La vida sigue~
-YayaFit, YayaFit
+La vida sigue en mí
+YayaFit YayaFit
 
 [Outro]
 [Fade Out]
