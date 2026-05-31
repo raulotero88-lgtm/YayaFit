@@ -147,8 +147,8 @@ Aquí estoy...
 - **Duración:** 2:44
 - **Géneros:** Electropop, Euphoric, Analog Polyphonic Synthesizer, Four-on-the-floor
 - **Fecha:** 2026-05-30
-- **Estado:** Pendiente de descarga
-- **Archivo local:** pendiente
+- **Estado:** Exportado ✓
+- **Archivo local:** `Segunda Juventud _ YayaFit.wav` + `Segunda Juventud _ YayaFit.mp3`
 
 ---
 
@@ -167,8 +167,8 @@ Aquí estoy...
 - [ ] Seleccionar la mejor por claridad vocal y adherencia al BPM
 - [ ] Verificar BPM con songbpm.com (target: 120 ±5)
 - [ ] Aplicar Remaster (Subtle) para calidad uniforme
-- [ ] Exportar WAV 16-bit/44.1kHz para distribución
-- [ ] Exportar MP3 320kbps para preview
+- [x] Exportar WAV 16-bit/44.1kHz para distribución
+- [x] Exportar MP3 320kbps para preview
 - [ ] Verificar que no hay artefactos de audio
 - [ ] Confirmar que la estructura Intro > V1 > PreC > C > V2 > PreC > C > Bridge > Drop > C > Outro está completa
 
