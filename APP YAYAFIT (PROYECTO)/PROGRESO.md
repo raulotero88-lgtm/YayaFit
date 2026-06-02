@@ -1,8 +1,11 @@
 # YayaFit App — Registro de Progreso
 
-> **Documento compartido.** Cada vez que avances, actualiza este archivo:
-> añade lo que hiciste en "Completado", mueve la tarea activa a "En curso",
-> y ajusta "Próximos pasos". Así cualquier compañero puede continuar sin preguntar.
+> ⚠️ **El seguimiento del desarrollo WordPress se ha trasladado a un documento dedicado:**
+> [WORDPRESS/DESARROLLO-WORDPRESS.md](../WORDPRESS/DESARROLLO-WORDPRESS.md).
+> Actualizad el progreso allí a partir de ahora. Este archivo se conserva como histórico.
+>
+> **Documento compartido (histórico).** Cada vez que avances, actualiza el documento
+> dedicado de arriba; este se mantiene solo como referencia del estado inicial.
 
 ---
 
@@ -10,9 +13,9 @@
 
 | Campo | Valor |
 |---|---|
-| Fase | Inicio — preparación de contenido local |
-| URL del sitio | https://yayafit.es (dominio disponible, hosting pendiente) |
-| Stack | WordPress + BuddyPress + Astra + Elementor |
+| Fase | Sitio en producción — pendiente publicar contenido y montar comunidad |
+| URL del sitio | https://yayafit.es (✅ vivo en Hostinger, SSL activo) |
+| Stack | WordPress + tema `hostinger-ai-theme` (ver decisión D1 en el doc dedicado) |
 | Spec completo | `docs/superpowers/specs/2026-05-29-yayafit-wordpress-prototipo-design.md` |
 | Plan completo | `docs/superpowers/plans/2026-05-29-yayafit-wordpress-prototipo.md` |
 
