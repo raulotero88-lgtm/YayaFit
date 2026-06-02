@@ -1,0 +1,119 @@
+<h2>Portada — "Segunda Juventud"</h2>
+<p class="subtitle">3 direcciones de diseño. Haz clic en la que más te gusta para seleccionarla.</p>
+
+<div class="cards">
+
+  <!-- OPCIÓN A: Energía Neón -->
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="
+      background: #0a0a1a;
+      height: 220px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px 8px 0 0;
+    ">
+      <!-- Fondo de ondas neón -->
+      <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 30% 60%, rgba(255,0,180,0.35) 0%, transparent 55%), radial-gradient(ellipse at 75% 30%, rgba(0,200,255,0.3) 0%, transparent 50%), radial-gradient(ellipse at 60% 80%, rgba(120,0,255,0.25) 0%, transparent 45%);"></div>
+      <!-- Líneas de energía -->
+      <div style="position:absolute;inset:0;background:repeating-linear-gradient(135deg, transparent, transparent 18px, rgba(0,210,255,0.06) 18px, rgba(0,210,255,0.06) 19px);"></div>
+      <!-- Círculo central neón -->
+      <div style="width:90px;height:90px;border-radius:50%;border:2.5px solid rgba(0,210,255,0.7);box-shadow:0 0 18px rgba(0,210,255,0.5), 0 0 40px rgba(255,0,180,0.3);display:flex;align-items:center;justify-content:center;position:relative;z-index:2;">
+        <span style="font-size:32px;">⚡</span>
+      </div>
+      <!-- Texto -->
+      <div style="position:relative;z-index:2;text-align:center;margin-top:14px;">
+        <div style="font-size:11px;letter-spacing:4px;color:rgba(0,210,255,0.9);text-transform:uppercase;font-weight:600;">YayaFit</div>
+        <div style="font-size:17px;font-weight:700;color:#fff;letter-spacing:1px;margin-top:3px;">Segunda Juventud</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Energía Neón</h3>
+      <p>Fondo oscuro con degradados eléctricos en cian, rosa y violeta. Estética pura electropop/synthwave. Impacta en Spotify al hacer scroll — contrasta con portadas claras. <strong>Más arriesgada, más llamativa.</strong></p>
+    </div>
+  </div>
+
+  <!-- OPCIÓN B: Sol y Movimiento -->
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="
+      background: linear-gradient(145deg, #FF6B35 0%, #F7C59F 30%, #FFAB76 55%, #E84F8C 85%, #C23B76 100%);
+      height: 220px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px 8px 0 0;
+    ">
+      <!-- Sol circular -->
+      <div style="position:absolute;top:-20px;right:-20px;width:130px;height:130px;border-radius:50%;background:rgba(255,220,100,0.35);"></div>
+      <div style="position:absolute;top:5px;right:5px;width:75px;height:75px;border-radius:50%;background:rgba(255,240,150,0.5);"></div>
+      <!-- Silueta mujer en movimiento (forma abstracta CSS) -->
+      <div style="position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;">
+        <!-- cabeza -->
+        <div style="width:22px;height:22px;border-radius:50%;background:rgba(80,20,40,0.7);"></div>
+        <!-- cuerpo brazos levantados (V-shape) -->
+        <div style="display:flex;align-items:flex-start;gap:6px;margin-top:2px;">
+          <div style="width:4px;height:38px;background:rgba(80,20,40,0.7);transform:rotate(-30deg);transform-origin:bottom center;border-radius:4px;"></div>
+          <div style="width:4px;height:52px;background:rgba(80,20,40,0.7);border-radius:4px;"></div>
+          <div style="width:4px;height:38px;background:rgba(80,20,40,0.7);transform:rotate(30deg);transform-origin:bottom center;border-radius:4px;"></div>
+        </div>
+        <!-- piernas -->
+        <div style="display:flex;gap:4px;margin-top:1px;">
+          <div style="width:4px;height:30px;background:rgba(80,20,40,0.7);transform:rotate(10deg);border-radius:4px;"></div>
+          <div style="width:4px;height:30px;background:rgba(80,20,40,0.7);transform:rotate(-10deg);border-radius:4px;"></div>
+        </div>
+      </div>
+      <!-- Texto -->
+      <div style="position:absolute;bottom:18px;text-align:center;z-index:2;width:100%;">
+        <div style="font-size:10px;letter-spacing:5px;color:rgba(255,255,255,0.95);text-transform:uppercase;font-weight:700;text-shadow:0 1px 4px rgba(0,0,0,0.3);">YayaFit</div>
+        <div style="font-size:18px;font-weight:800;color:#fff;text-shadow:0 2px 8px rgba(180,40,80,0.5);letter-spacing:0.5px;">Segunda Juventud</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Sol y Movimiento ⭐ Recomendada</h3>
+      <p>Degradado cálido coral-naranja-magenta con silueta de mujer en movimiento (brazos abiertos). Transmite energía, alegría y vida. Conecta con el mensaje de la canción. <strong>Equilibrio perfecto entre marca YayaFit y vitalidad.</strong></p>
+    </div>
+  </div>
+
+  <!-- OPCIÓN C: Geométrica Minimal -->
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="
+      background: #f5f0ff;
+      height: 220px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px 8px 0 0;
+    ">
+      <!-- Formas geométricas -->
+      <div style="position:absolute;top:-30px;left:-30px;width:150px;height:150px;border-radius:50%;background:linear-gradient(135deg,#c084fc,#818cf8);opacity:0.4;"></div>
+      <div style="position:absolute;bottom:-20px;right:-20px;width:120px;height:120px;background:linear-gradient(135deg,#f472b6,#fb923c);opacity:0.45;transform:rotate(20deg);border-radius:18px;"></div>
+      <div style="position:absolute;bottom:30px;left:20px;width:50px;height:50px;border-radius:50%;background:#4ade80;opacity:0.3;"></div>
+      <!-- Triángulo YayaFit -->
+      <div style="position:relative;z-index:2;text-align:center;">
+        <div style="width:0;height:0;border-left:35px solid transparent;border-right:35px solid transparent;border-bottom:60px solid rgba(124,58,237,0.85);margin:0 auto;filter:drop-shadow(0 4px 10px rgba(124,58,237,0.4));"></div>
+        <div style="width:0;height:0;border-left:20px solid transparent;border-right:20px solid transparent;border-bottom:34px solid rgba(249,115,22,0.8);margin:-10px auto 0;"></div>
+      </div>
+      <!-- Texto -->
+      <div style="position:relative;z-index:2;text-align:center;margin-top:16px;">
+        <div style="font-size:10px;letter-spacing:5px;color:#6b21a8;text-transform:uppercase;font-weight:700;">YayaFit</div>
+        <div style="font-size:16px;font-weight:800;color:#1e1b4b;letter-spacing:0.5px;margin-top:2px;">Segunda Juventud</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Geométrica Minimal</h3>
+      <p>Fondo claro con formas geométricas flotantes en violeta, naranja y verde. Estética moderna y clean, sin foto ni siluetas. Muy legible, reconocible como marca. <strong>Más segura, menos impactante emocionalmente.</strong></p>
+    </div>
+  </div>
+
+</div>
+
+<p class="subtitle" style="margin-top: 24px; text-align: center;">💡 La opción B es la recomendada — transmite el mensaje de la canción más directamente y tiene más impacto emocional en plataformas de streaming.</p>
