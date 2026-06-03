@@ -51,21 +51,21 @@
 
 [Verse 1]
 [Vocal Style: Warm, confessional, intimate]
-Me desperté un día y pensé:
-"¿Quién dije que no podía?"
-He gastado tanto tiempo
-En lo que otros querían de mí
+Me desperté una mañana
+y algo dentro me cambió
+cuántos años entregados
+a lo que el mundo me pidió
 
 Ahora que soy libre
-No vuelvo atrás, mi gente
-Tengo setenta y tantos
-Y me siento adolescente
+hago lo que me dé la gana
+y me siento más viva
+que en cualquier otra mañana
 
 [Pre-Chorus]
 [Energy: Slightly rising]
 [Vocal Style: Confident, knowing]
-Este es mi tiempo, es ahora
-La vida me dice que me mueva
+Este es mi momento, mi lugar
+la vida me dice: a bailar
 
 [Chorus]
 [Energy: Medium-High]
@@ -74,7 +74,7 @@ Libre, libre, libre
 Eso es lo que soy
 Libre, libre, libre
 Y aquí me quedo yo
-(Aquí, aquí estoy)
+(Y no me voy)
 Libre, libre, libre
 Sin pedir permiso
 Libre, libre, libre
@@ -83,20 +83,20 @@ Ese es mi destino
 [Verse 2]
 [Vocal Style: Open, real, conversational]
 [Energy: Medium]
-Con mis amigas en la clase
-Nos miramos y nos reímos
-De todo lo que nos dijeron
-Que ya no podemos hacer
+Con mis amigas me río
+de lo que un día nos creímos
+nos dijeron "ya es muy tarde"
+y mira dónde seguimos
 
-La verdad es que es al revés
-Ahora es cuando sé quién soy
-No es perfección lo que busco
-Es poder vivir en paz
+Y resulta que es al revés
+hoy es cuando sé quién soy
+no persigo ser perfecta
+solo estar en paz con hoy
 
 [Pre-Chorus]
 [Energy: Rising]
-Este es mi tiempo, es ahora
-La vida me dice que me mueva
+Este es mi momento, mi lugar
+la vida me dice: a bailar
 
 [Chorus]
 [Energy: High]
@@ -105,7 +105,7 @@ Libre, libre, libre
 Eso es lo que soy
 Libre, libre, libre
 Y aquí me quedo yo
-(Aquí, aquí estoy)
+(Y no me voy)
 Libre, libre, libre
 Sin pedir permiso
 Libre, libre, libre
@@ -115,18 +115,18 @@ Ese es mi destino
 [Mood: Triumphant, grounded]
 [Energy: Building]
 [Instrument: Full synths, beat more present]
-A los 65, a los 70
-A cualquier edad que sea
-Tú eres libre
-Tú eres libre
-Eso que te prohíben
-Es lo que más vale
+A los sesenta y cinco, a los setenta
+o a la edad que a ti te dé la gana
+tú eres libre, siempre libre
+y esa libertad no se acaba
+lo que dicen que ya no te toca
+es justo lo que más te llama
 
 [Breakdown]
 [Energy: Dropping back to medium]
 [Vocal: Whispered/confidential]
 Libre...
-(Aquí estoy)
+(No me voy)
 Libre...
 (Sin miedo)
 
@@ -137,7 +137,7 @@ Libre, libre, libre
 Eso es lo que soy
 Libre, libre, libre
 Y aquí me quedo yo
-(Aquí, aquí estoy)
+(Y no me voy)
 Libre, libre, libre
 Sin pedir permiso
 Libre, libre, libre
@@ -151,7 +151,7 @@ YayaFit, este es mi himno
 [Fade Out]
 Libre...
 (Libre, libre...)
-Aquí estoy...
+No me voy...
 (Libre...)
 ```
 
@@ -212,7 +212,7 @@ smooth transitions, space for vocal breathing, celebratory without being loud
 |----------|-----------|-------|
 | **BPM** | Suena a ~100 BPM, constante sin aceleraciones extrañas | [ ] |
 | **Voz femenina** | Clara, cálida, en español comprensible, no robótica | [ ] |
-| **Gancho "Respira y sigue"** | Frase principal es memorable y pegadiza | [ ] |
+| **Gancho "Libre, libre, libre"** | El coro es memorable y pegadizo; la respuesta "(Y no me voy)" engancha | [ ] |
 | **Ritmo vs Tranquilidad** | Se siente movimiento pero sin prisa; invita a respirar | [ ] |
 | **Energía de curva** | Verso suave → Pre-coro sube → Coro potente → Bridge transcendente | [ ] |
 | **Sin artefactos** | No hay chasquidos, cortes raros, distorsión no deseada | [ ] |
@@ -257,8 +257,8 @@ smooth transitions, space for vocal breathing, celebratory without being loud
   [Callback: continue with same vibe as chorus but relaxing into outro]
   [Energy: Medium]
   [Fade Out]
-  Respira...
-  (Sigue, sigue...)
+  Libre...
+  (No me voy...)
   ```
 - [ ] **Paso 4:** Generar la extensión y verificar que el corte es natural
 - [ ] **Paso 5:** Si suena brusco, repetir Extend con:
@@ -293,9 +293,9 @@ smooth transitions, space for vocal breathing, celebratory without being loud
 | Check | Descripción | ✓ |
 |-------|------------|---|
 | **Claridad vocal** | Cada palabra en español es inteligible | [ ] |
-| **Gancho principal** | "Respira y sigue" se quedará en la mente del escucha | [ ] |
+| **Gancho principal** | "Libre, libre, libre" se quedará en la mente del escucha | [ ] |
 | **Energía correcta** | Tranquilo sin ser aburrido; tiene groove sin ser acelerado | [ ] |
-| **Respiración** | Hay espacio entre frases para respirar (literal) | [ ] |
+| **Espacio vocal** | Hay aire entre frases; la voz respira y no se atropella | [ ] |
 | **Estructura completa** | Intro → Versos → Coros × 2 → Bridge → Outro presente | [ ] |
 | **Sin artefactos** | No hay chasquidos, cortes raros, distorsión | [ ] |
 | **BPM consistente** | Verified 95-110 BPM (Tarea 4) | [ ] |
@@ -322,7 +322,7 @@ Crear nuevo archivo: `CANCIONES YAYAFIT/2026-06-03-ritmo-tranquilo-design.md`
 
 ## Concepto
 Downtempo pop con groove, ritmo constante a 100 BPM, ideal para yoga y vuelta a calma.
-Tema: respiración consciente, movimiento lento pero intencional, comunidad sin competición.
+Tema: libertad y autonomía a cualquier edad, vivir sin pedir permiso, comunidad sin competición.
 
 ## Especificaciones
 
@@ -336,9 +336,9 @@ Tema: respiración consciente, movimiento lento pero intencional, comunidad sin 
 | Instrumentos | Synths cálidos, beat groove, bajo melódico |
 
 ## Ganchos principales
-- **Verso:** "Me desperté un día y pensé / ¿Quién dije que no podía?"
-- **Coro:** "Libre, libre, libre / Eso es lo que soy / Sin pedir permiso"
-- **Bridge:** "A los 65, a los 70 / Tú eres libre / Ese que te prohíben / Es lo que más vale"
+- **Verso:** "Me desperté una mañana / y algo dentro me cambió"
+- **Coro:** "Libre, libre, libre / Eso es lo que soy / (Y no me voy) / Sin pedir permiso"
+- **Bridge:** "A los sesenta y cinco, a los setenta / o a la edad que a ti te dé la gana / tú eres libre, siempre libre / y esa libertad no se acaba"
 
 ## Casos de uso en la app
 - Rutina de yoga
