@@ -1,0 +1,49 @@
+========================================================
+PROMPT LEONARDO.AI — PORTADA "LIBRE" (YayaFit)
+========================================================
+Canción: Libre — YayaFit
+Fecha: 2026-06-03
+Objetivo: Portada de álbum coherente con el estilo
+visual de "Segunda Juventud", adaptada al tema de
+libertad de la canción "Libre".
+
+Referencia base: mujer en acantilado al atardecer,
+vestido y pelo al viento (sensación de libertad).
+Identidad de marca: mujer madura plateada, paleta
+magenta-coral-turquesa neón, sol semicírculo, acabado
+cinematográfico glossy y saturado.
+
+--------------------------------------------------------
+PROMPT PRINCIPAL (copiar-pegar)
+--------------------------------------------------------
+Cinematic album cover portrait of a joyful, confident woman in her late 60s with short silver-white wind-swept hair, standing on a dramatic ocean cliff at golden-hour sunset, arms relaxed and open in a gesture of total freedom, eyes closed with a warm serene smile, face lifted toward the breeze. She wears a flowing pastel-coral athleisure outfit and a long sheer peach scarf streaming dramatically in the wind. Behind her, a huge glowing semicircular sun on the horizon over the sea. Bold YayaFit color palette: vibrant magenta and hot pink blended with warm coral and orange, accented by glowing neon teal-cyan light streaks along the cliff edge. High saturation, glossy modern finish, soft volumetric backlight, dreamy haze, ocean waves crashing far below, golden grass on the cliff. Empowered, alive, peaceful and powerful mood. Highly detailed, photorealistic, professional music cover art, centered composition.
+
+--------------------------------------------------------
+NEGATIVE PROMPT
+--------------------------------------------------------
+young woman, child, teenager, wrinkled sad face, gloomy, dark, desaturated, dull colors, blurry, low quality, deformed hands, extra fingers, text, watermark, logo, distorted face, cartoonish, oversharpened, cluttered background
+
+--------------------------------------------------------
+CONFIGURACIÓN RECOMENDADA EN LEONARDO
+--------------------------------------------------------
+Modelo .............. Leonardo Phoenix o Leonardo Diffusion XL
+Aspect ratio ........ 1:1 (cuadrado, portada de álbum)
+Preset Style ........ Cinematic / Dynamic
+Photoreal / Alchemy . Activado
+Guidance Scale ...... 7
+Image Guidance ...... Sube la imagen de referencia en
+                      "Style" o "Character" al 30-40 %
+                      para mantener la composición sin
+                      copiarla literalmente.
+
+--------------------------------------------------------
+NOTAS DE ADAPTACIÓN
+--------------------------------------------------------
+- Composición de libertad de la referencia: acantilado,
+  atardecer, tela y pelo al viento.
+- Identidad YayaFit (de "Segunda Juventud"): mujer madura
+  plateada, paleta magenta-coral-turquesa neón, sol
+  semicírculo, acabado glossy cinematográfico.
+- Gesto de brazos abiertos + sonrisa serena = tema de la
+  canción: "hago lo que me dé la gana", "sin pedir permiso".
+========================================================
