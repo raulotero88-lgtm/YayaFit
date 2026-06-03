@@ -1,18 +1,13 @@
-# ── DISEÑO YAYAFIT ──────────────────────────────────────────
-# Excluir imágenes generadas (no definitivas) y logos en revisión
-DISEÑO YAYAFIT/IMAGENES/
-DISEÑO YAYAFIT/*.svg
-DISEÑO YAYAFIT/*.png
-DISEÑO YAYAFIT/*.html
-
-# ── TRABAJO M3 ───────────────────────────────────────────────
-# Archivo original sustituido por la versión .md
-TRABAJO M3/Ejercicio YayaFit.txt
-
-# ── CLAUDE CODE (configuración local, no relevante para compañeros) ──
+# ── Configuración local de herramientas (no relevante para compañeros) ──
 .claude/
+.agents/
+.superpowers/
 
-# ── SISTEMA / EDITOR ─────────────────────────────────────────
+# ── Estado de ejecución / scratch de herramientas ──
+**/state/
+*.pid
+
+# ── Sistema / editor ──
 .DS_Store
 Thumbs.db
 desktop.ini
