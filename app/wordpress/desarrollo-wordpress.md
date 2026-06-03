@@ -239,7 +239,7 @@ claude mcp add --transport http yayafit https://yayafit.es/wp-json/mcp/mcp-adapt
 - [x] Publicar 3 artículos de bienestar (con categoría, subcategoría y extracto) — 2026-06-03 (Claude, vía REST API) · falta imagen destacada
 - [ ] Aplicar paleta y tipografía de marca
 - [ ] Subir logo y favicon
-- [ ] Diseñar página de Inicio (hero + pilares + CTA)
+- [x] Diseñar página de Inicio (hero + 4 tarjetas-hub + cierre) — 2026-06-03 (Claude+Raúl, vía REST API). ⚠️ El dominio pelado `yayafit.es` sigue mostrando el **blog** (`<body class="home blog">`); poner Inicio como página frontal está en *Ajustes → Lectura* y **requiere Administrador**
 - [ ] Activar comunidad (perfiles, grupo, miembros, muro)
 - [x] Configurar menú de navegación — 2026-06-03 (Claude+Raúl, vía REST API): barra de marca incrustada en las 6 páginas + 8 entradas, páginas índice Rutinas (51) y Bienestar (52), y reorganización (Cómo funciona fundida en Sobre; Himno enlazado desde Música)
 
@@ -289,7 +289,10 @@ claude mcp add --transport http yayafit https://yayafit.es/wp-json/mcp/mcp-adapt
 - **Reorganización:** "Cómo funciona" (10) fundida en "Sobre YayaFit" (8) y pasada a **borrador** (404 público); "Himno" enlazado desde "Música" con botón verde.
 - **Menú definitivo:** Inicio · Rutinas · Bienestar · Música · Sobre YayaFit.
 - **Verificado en vivo:** las 8 URLs sirven la barra; Sobre incluye Cómo funciona; Cómo funciona da 404; Música enlaza al Himno.
-- **Pendiente (otras fases):** pie del tema muestra placeholders `trans-menu`/`trans-contacts` (requiere Customizer = Admin); rediseño del hub de Inicio (Fase 2); imágenes en tarjetas (Fase 3). **Revocar** el Application Password "Claude navegacion" al cerrar.
+- **Portada Inicio (id 9) rediseñada como hub:** hero ("Tu segunda juventud empieza aquí" + botón "Únete gratis" aspiracional con nota "✨ muy pronto"), 4 tarjetas a las secciones (Rutinas/Bienestar/Música/Sobre) y cierre con CTA real a Rutinas. Artefacto en `app/wordpress/paginas/inicio-hub.html`.
+- **Coherencia de CTAs:** el botón de registro de "Sobre YayaFit" (era `wp-block-button` → `/wp-login.php?action=register`, estilo gris del tema) se cambió al mismo coral + nota "muy pronto". 🐞 **Gotcha Gutenberg:** editar solo el `<a>` dentro de un bloque botón invalida el bloque y WordPress lo **borra al renderizar**; hay que sustituir el bloque `wp:buttons` **completo** por HTML libre.
+- **Hallazgo importante:** `yayafit.es` (dominio pelado) muestra el **blog**, no la página Inicio. Cambiarlo (Ajustes → Lectura → página frontal estática) **requiere Administrador**. Mientras tanto, el botón "Inicio" del menú lleva al hub en `/inicio/`.
+- **Pendiente (otras fases):** página frontal del dominio = Inicio (Admin); pie del tema con `trans-menu`/`trans-contacts` (Admin); imágenes en tarjetas (Fase 3). **Revocar** el Application Password "Claude navegacion" al cerrar.
 
 ### 2026-06-03 (noche) — Raúl + Claude (taxonomía + 8 entradas de contenido)
 - **Revisión completa** de la documentación y del contenido local: las 5 rutinas y los 3 artículos están bien escritos y coherentes; listos para publicar tal cual.
