@@ -22,7 +22,7 @@ $footer = [IO.File]::ReadAllText("$root\pie-navegacion.html")
 
 # Resaltar la seccion activa (se anade al final del style del enlace que coincide)
 if ($Active) {
-  $nav = [regex]::Replace($nav, "(data-yaya=`"$Active`"[^>]*style=`"[^`"]*)", '$1;color:#E8634A;background:#F4B3A1;font-weight:800')
+  $nav = [regex]::Replace($nav, "(data-yaya=`"$Active`"[^>]*style=`"[^`"]*)", '$1;color:#E8634A;background:#F6C0B0;font-weight:800')
 }
 
 # Leer contenido actual en crudo
