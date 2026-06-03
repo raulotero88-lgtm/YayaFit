@@ -6,7 +6,7 @@
 > 2. Marca la casilla de la tarea en el **Tracker** al terminar.
 > 3. Si cambias algo importante de rumbo, apúntalo en **Decisiones**.
 >
-> Última actualización: **2026-06-03** (sincronizado leyendo el sitio en vivo vía REST API)
+> Última actualización: **2026-06-03** (publicadas las 8 entradas de contenido — 5 rutinas + 3 artículos — y creada la taxonomía completa, todo vía REST API con Application Password)
 
 ---
 
@@ -31,8 +31,9 @@ compañía con excusa de deporte"). Todo lo que construyamos debe servir a eso.
 | Tema activo | `hostinger-ai-theme` | Generado por el asistente IA de Hostinger (ver Decisión D1) |
 | Plugins clave | ❌ Pendientes | No hay BuddyPress / Elementor / formularios aún |
 | Páginas publicadas | **5** | Inicio (id 9), Sobre YayaFit (id 8), Cómo funciona (id 10), Himno (id 14), **Música (id 20) ← nueva** |
-| Entradas publicadas | 1 ("Hello world", id 1) | Demo de WordPress — borrar cuando empecemos las rutinas |
-| Categorías | 1 ("Uncategorized") | Faltan Rutinas y Bienestar |
+| Entradas publicadas | **9** | "Hello world" demo (id 1, sin borrar por decisión de Raúl) + **5 rutinas (id 32-36)** + **3 artículos de bienestar (id 37-39)**, publicadas 2026-06-03 |
+| Categorías | **10** | **Rutinas** (id 3) → Equilibrio 5, Fuerza 6, Movilidad 7, Cardio 8, Yoga 9 · **Bienestar** (id 4) → Descanso 10, Nutrición 14, Hábitos 15 · "Uncategorized" (id 1) |
+| Etiquetas | **5** | Principiante 11, Con silla 12, Exterior 13, Mañana 16, Relajación 17 |
 | Medios | 11 ficheros (ver detalle abajo) | Quedan: png ajena (id 7) por borrar + 2 MP3 duplicados huérfanos (id 22, id 24) por borrar |
 | Conexión Claude (MCP) | ✅ **Conectada** | `yayafit` re-registrado; lectura/escritura por REST API + abilities de lectura por MCP. Ver sección 6 |
 
@@ -54,8 +55,8 @@ compañía con excusa de deporte"). Todo lo que construyamos debe servir a eso.
 
 **Contenido ya escrito en local** (en `../APP YAYAFIT (PROYECTO)/contenido/`):
 - 3 páginas: ✅ publicadas (Inicio, Sobre YayaFit, Cómo funciona)
-- 5 rutinas: ⏳ pendientes de publicar (equilibrio, fuerza-silla, movilidad-espalda, cardio-caminar, yoga-calma)
-- 3 artículos de bienestar: ⏳ pendientes (dormir-mejor, nutricion-sencilla, rutina-diaria)
+- 5 rutinas: ✅ **publicadas 2026-06-03** (equilibrio id 32, fuerza-silla id 33, movilidad-espalda id 34, cardio-caminar id 35, yoga-calma id 36) — falta imagen destacada (2ª pasada)
+- 3 artículos de bienestar: ✅ **publicados 2026-06-03** (dormir-mejor id 37, nutricion-sencilla id 38, rutina-diaria id 39) — falta imagen destacada (2ª pasada)
 - Himno "Segunda Juventud": ✅ publicado en `/himno/` (portada + reproductor + letra)
 
 **Página Música (`/musica/`, id 20) — 3 canciones (orden: más nuevas arriba):**
@@ -224,7 +225,7 @@ claude mcp add --transport http yayafit https://yayafit.es/wp-json/mcp/mcp-adapt
 - [ ] Limpiar demo de Hostinger (Hello world + páginas demo)
 - [ ] Definir e instalar plugins (comunidad / formularios / editor)
 - [ ] Ajustes base (idioma, título, registro abierto, rol por defecto)
-- [ ] Crear categorías Rutinas (+ subcategorías) y Bienestar
+- [x] Crear categorías Rutinas (+ subcategorías) y Bienestar — 2026-06-03 (Claude, vía REST API)
 - [ ] Crear cuentas Editor para compañeros 2 y 3
 
 **Fase 2 — Contenido, diseño y comunidad**
@@ -234,8 +235,8 @@ claude mcp add --transport http yayafit https://yayafit.es/wp-json/mcp/mcp-adapt
 - [x] Publicar página Himno de YayaFit (portada + reproductor MP3 + letra) — 2026-06-02 · https://yayafit.es/himno/
 - [x] Publicar página Música (2 canciones: Corazón Poderoso + Segunda Juventud) — 2026-06-02 (Raúl, directo en la web) · https://yayafit.es/musica/
 - [x] Añadir canción **Libre** a la página Música (portada + reproductor MP3) — 2026-06-03 (Claude, vía REST API) · https://yayafit.es/musica/
-- [ ] Publicar 5 rutinas (con categoría, extracto e imagen)
-- [ ] Publicar 3 artículos de bienestar
+- [x] Publicar 5 rutinas (con categoría, subcategoría, etiquetas y extracto) — 2026-06-03 (Claude, vía REST API) · falta imagen destacada
+- [x] Publicar 3 artículos de bienestar (con categoría, subcategoría y extracto) — 2026-06-03 (Claude, vía REST API) · falta imagen destacada
 - [ ] Aplicar paleta y tipografía de marca
 - [ ] Subir logo y favicon
 - [ ] Diseñar página de Inicio (hero + pilares + CTA)
@@ -259,6 +260,8 @@ claude mcp add --transport http yayafit https://yayafit.es/wp-json/mcp/mcp-adapt
 | D1 | 2026-06-02 | Mantener el tema `hostinger-ai-theme` en vez de cambiar a Astra | Decisión del equipo; la comunidad se añadirá luego con un plugin sobre este tema |
 | D2 | 2026-06-02 | Conectar Claude por el MCP nativo del sitio (no por WordPress.com) | yayafit.es es WordPress auto-hospedado; el MCP de WordPress.com no aplica |
 | D3 | 2026-06-02 | Llevar el desarrollo WordPress en este archivo independiente | Separar lo técnico de la documentación de negocio |
+| D4 | 2026-06-03 | **Vía de escritura oficial = REST API estándar con Application Password** (Basic Auth), no las abilities MCP | Confirmado en vivo: aun con el permiso `mcp__yayafit__mcp-adapter-execute-ability` añadido en Claude Code, el adaptador MCP responde "Access denied" al *ejecutar* (exige rol Administrador). La REST API sí funciona con rol Editor (`publish_posts`, `manage_categories`, etc.). Las abilities MCP quedan solo para **lectura** (`discover-abilities`, `get-ability-info`) hasta tener Admin |
+| D5 | 2026-06-03 | **Descartar el conector oficial de WordPress.com** (`public-api.wordpress.com/wpcom/v2/mcp/v1`) | yayafit.es es self-hosted en Hostinger; ese conector exige vincular el sitio vía Jetpack a una cuenta WordPress.com, lo que a su vez requiere Administrador. No resuelve nada que la REST API no resuelva ya. Refuerza D2 |
 
 ---
 
@@ -268,12 +271,24 @@ claude mcp add --transport http yayafit https://yayafit.es/wp-json/mcp/mcp-adapt
 |---|---|---|
 | 2026-06-02 | Falta acceso Administrador (cuenta `mkhzipgd@gmail.com`) | Abierto — bloquea instalar plugins y gestionar usuarios |
 | 2026-06-03 | ~~Nombre canción 2: "Corazón Poderoso" vs "Libre"~~ | ✅ **Cerrado 2026-06-03** — son canciones DISTINTAS. "Corazón Poderoso" se creó en otro ordenador y se subió directa a la web (no está en este repo). "Libre" es otra canción local, aún sin publicar. |
-| 2026-06-03 | Conexión MCP `yayafit` desconectada (no está en `claude mcp list`) | Abierto — re-registrar con el comando de la sección 6 para volver a editar el sitio desde Claude |
-| 2026-06-03 | 2 MP3 duplicados huérfanos en Medios (id 22, id 24) + png ajena (id 7) | Abierto — borrar de la Biblioteca para liberar espacio |
+| 2026-06-03 | Conexión MCP `yayafit` | ✅ **Conectada** (lectura). La **escritura** por MCP exige Administrador (ver D4); mientras tanto se escribe por REST API |
+| 2026-06-03 | Escritura por abilities MCP bloqueada (rol Editor) | Abierto — se resolverá al obtener Administrador; no bloquea el contenido (se usa REST API) |
+| 2026-06-03 | 2 MP3 duplicados huérfanos en Medios (id 22, id 24) + png ajena (id 7) | Abierto — Raúl decidió **no borrar** por ahora (2026-06-03) |
+| 2026-06-03 | Application Password "Claude REST API" en uso (compartida en chat) | Abierto — **rotar/revocar** desde wp-admin → Perfil cuando termine el trabajo de contenido |
 
 ---
 
 ## 11. Historial de sesiones
+
+### 2026-06-03 (noche) — Raúl + Claude (taxonomía + 8 entradas de contenido)
+- **Revisión completa** de la documentación y del contenido local: las 5 rutinas y los 3 artículos están bien escritos y coherentes; listos para publicar tal cual.
+- **Diagnóstico de la vía de escritura (cerrado, ver D4):** se añadió el permiso `mcp__yayafit__mcp-adapter-execute-ability` a `.claude/settings.local.json` y se reinició Claude Code, pero el adaptador MCP **sigue devolviendo "Access denied" al ejecutar** → confirma que las abilities MCP exigen **Administrador**. La escritura se hizo por la **REST API estándar** con una Application Password nueva ("Claude REST API") creada en el perfil de Raúl (rol Editor). Preflight con credenciales falsas → HTTP 401 (camino abierto), luego 201 en todas las creaciones.
+- **Taxonomía creada:** categorías **Rutinas** (3) → Equilibrio 5, Fuerza 6, Movilidad 7, Cardio 8, Yoga 9; **Bienestar** (4) → Descanso 10, Nutrición 14, Hábitos 15. Etiquetas: Principiante 11, Con silla 12, Exterior 13, Mañana 16, Relajación 17.
+- **8 entradas publicadas** (HTML semántico limpio, con ficha de nivel/duración/material en las rutinas, categoría + subcategoría + etiquetas + extracto): rutinas id **32-36**, artículos id **37-39**. Verificado en vivo (HTTP 201 + acentos correctos).
+- 🐞 **Gotcha UTF-8 (importante para futuras sesiones):** el shell de Windows **corrompe los acentos** si el JSON va inline en `curl --data '...'` (WordPress responde `rest_invalid_json` / "Malformed UTF-8"). **Solución:** escribir el payload JSON a un archivo con la herramienta Write (UTF-8) y enviarlo con `curl --data @archivo.json`. Así se publicó todo sin problemas.
+- **Decisión de Raúl:** publicar **sin imagen destacada** ahora; las imágenes van en una 2ª pasada (subir media nueva requiere REST API, no es ability MCP). Y **no borrar** de momento la demo "Hello world" (id 1) ni los medios huérfanos (id 7, 22, 24).
+- **Conector WordPress.com** propuesto por Raúl → descartado (ver D5).
+- **Pendiente:** imágenes destacadas de las 8 entradas; recuperar acceso Administrador (sigue bloqueando Fase 1: plugins/comunidad/usuarios); **rotar la Application Password** cuando termine el trabajo de contenido.
 
 ### 2026-06-03 (tarde) — Raúl + Claude (publicación de "Libre")
 - Subidos a Medios vía REST API los 2 ficheros de **Libre** desde `CANCIONES YAYAFIT/`: portada `portada-libre.jpg` (id 27, 230 KB) y `libre-yayafit.mp3` (id 28, 3.0 MB, MP3 con portada ya incrustada).
