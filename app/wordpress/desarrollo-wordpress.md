@@ -6,7 +6,7 @@
 > 2. Marca la casilla de la tarea en el **Tracker** al terminar.
 > 3. Si cambias algo importante de rumbo, apúntalo en **Decisiones**.
 >
-> Última actualización: **2026-06-03** (publicadas las 8 entradas de contenido — 5 rutinas + 3 artículos — y creada la taxonomía completa, todo vía REST API con Application Password)
+> Última actualización: **2026-06-03** (Fase 1 navegación viva: barra de marca incrustada en todas las páginas/entradas + páginas índice Rutinas y Bienestar + reorganización, todo vía REST API)
 
 ---
 
@@ -30,7 +30,7 @@ compañía con excusa de deporte"). Todo lo que construyamos debe servir a eso.
 | Dominio | ✅ yayafit.es en producción | — |
 | Tema activo | `hostinger-ai-theme` | Generado por el asistente IA de Hostinger (ver Decisión D1) |
 | Plugins clave | ❌ Pendientes | No hay BuddyPress / Elementor / formularios aún |
-| Páginas publicadas | **5** | Inicio (id 9), Sobre YayaFit (id 8), Cómo funciona (id 10), Himno (id 14), **Música (id 20) ← nueva** |
+| Páginas publicadas | **6** | Inicio (9), Sobre YayaFit (8), Himno (14), Música (20), **Rutinas (51) ← nueva**, **Bienestar (52) ← nueva**. Cómo funciona (10) → **borrador** (fundida en Sobre YayaFit) |
 | Entradas publicadas | **9** | "Hello world" demo (id 1, sin borrar por decisión de Raúl) + **5 rutinas (id 32-36)** + **3 artículos de bienestar (id 37-39)**, publicadas 2026-06-03 |
 | Categorías | **10** | **Rutinas** (id 3) → Equilibrio 5, Fuerza 6, Movilidad 7, Cardio 8, Yoga 9 · **Bienestar** (id 4) → Descanso 10, Nutrición 14, Hábitos 15 · "Uncategorized" (id 1) |
 | Etiquetas | **5** | Principiante 11, Con silla 12, Exterior 13, Mañana 16, Relajación 17 |
@@ -241,7 +241,7 @@ claude mcp add --transport http yayafit https://yayafit.es/wp-json/mcp/mcp-adapt
 - [ ] Subir logo y favicon
 - [ ] Diseñar página de Inicio (hero + pilares + CTA)
 - [ ] Activar comunidad (perfiles, grupo, miembros, muro)
-- [ ] Configurar menú de navegación
+- [x] Configurar menú de navegación — 2026-06-03 (Claude+Raúl, vía REST API): barra de marca incrustada en las 6 páginas + 8 entradas, páginas índice Rutinas (51) y Bienestar (52), y reorganización (Cómo funciona fundida en Sobre; Himno enlazado desde Música)
 
 **Fase 3 — Pruebas**
 - [ ] Flujo completo de usuario en incógnito
@@ -279,6 +279,17 @@ claude mcp add --transport http yayafit https://yayafit.es/wp-json/mcp/mcp-adapt
 ---
 
 ## 11. Historial de sesiones
+
+### 2026-06-03 (noche, +tarde) — Raúl + Claude (Fase 1: navegación viva)
+- **Diagnóstico:** el `hostinger-ai-theme` no comparte un menú entre páginas (su cabecera nativa tiene un hamburguesa vacío), por eso desde `/musica/` no se podía navegar. Brainstorming + diseño + plan en `app/planning/2026-06-03-estructura-navegable-{design,plan}.md`.
+- **Barra y pie de navegación de marca** (HTML+CSS en línea, autónomo, entre marcadores `YAYAFIT-NAV-START/END`) versionados en `app/wordpress/barra-navegacion.html` y `pie-navegacion.html` (fuente única de verdad). Colores de marca; activo en pastilla coral `#F4B3A1`; logo centrado arriba y botones centrados (ajustado tras revisión en móvil de Raúl).
+- **Script idempotente** `app/wordpress/scripts/inject-nav.ps1`: lee la barra/pie maestros, quita la versión previa y reinyecta vía REST API (rol Editor); marca la sección activa. Credencial por `$env:WP_USER`/`$env:WP_APP_PASS`.
+- **Páginas índice nuevas:** Rutinas (id **51**, `/rutinas/`, 5 tarjetas) y Bienestar (id **52**, `/bienestar/`, 3 tarjetas), enlazando a las entradas 32-36 y 37-39.
+- **Barra propagada** a las 6 páginas (8,9,14,20,51,52) y las 8 entradas (32-39).
+- **Reorganización:** "Cómo funciona" (10) fundida en "Sobre YayaFit" (8) y pasada a **borrador** (404 público); "Himno" enlazado desde "Música" con botón verde.
+- **Menú definitivo:** Inicio · Rutinas · Bienestar · Música · Sobre YayaFit.
+- **Verificado en vivo:** las 8 URLs sirven la barra; Sobre incluye Cómo funciona; Cómo funciona da 404; Música enlaza al Himno.
+- **Pendiente (otras fases):** pie del tema muestra placeholders `trans-menu`/`trans-contacts` (requiere Customizer = Admin); rediseño del hub de Inicio (Fase 2); imágenes en tarjetas (Fase 3). **Revocar** el Application Password "Claude navegacion" al cerrar.
 
 ### 2026-06-03 (noche) — Raúl + Claude (taxonomía + 8 entradas de contenido)
 - **Revisión completa** de la documentación y del contenido local: las 5 rutinas y los 3 artículos están bien escritos y coherentes; listos para publicar tal cual.
