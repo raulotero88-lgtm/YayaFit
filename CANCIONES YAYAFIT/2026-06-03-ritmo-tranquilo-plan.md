@@ -1,8 +1,8 @@
-# Ritmo Tranquilo — Plan de Producción Suno V5
+# Libre — Plan de Producción Suno V5
 
 > **Objetivo:** Crear una canción más tranquila pero con ritmo y muy pegadiza para YayaFit — ideal para rutinas de yoga, meditación y vuelta a la calma.
 
-**Concepto:** Canción pop accesible con ritmo constante y gancho melódico fuerte, ritmo relajante pero con groove. Audiencia: mujeres 60-75 años de YayaFit que buscan calma sin aburrimiento.
+**Concepto:** Canción pop sobre libertad y autonomía con ritmo constante y gancho melódico fuerte. Ritmo relajante pero con groove, temática empoderadora. Audiencia: mujeres 60-75 años de YayaFit descubriendo su libertad sin límites.
 
 **Architecture:** Generación en Suno V5 con Custom Mode (style prompt + letra con metatags), selección de mejor versión entre 3-4 generaciones, post-proceso con Remaster Subtle, exportación WAV + MP3.
 
@@ -39,9 +39,9 @@
 ## FASE 2: Creación de la Letra
 
 ### Tema central
-**"Respira y sigue"** — La importancia de los pequeños pasos, la respiración consciente, y encontrar paz en el movimiento.
+**"Libre"** — Libertad, autonomía, vivir sin límites a cualquier edad. Descubrir que ahora es el momento de ser quien quiero ser.
 
-### Estructura de la letra (con metatags)
+### Estructura de la letra (con metatags) — NATURALIZADA Y HUMANIZADA
 
 ```
 [Intro]
@@ -50,97 +50,109 @@
 [Instrument: Soft synth pads, subtle beat]
 
 [Verse 1]
-[Vocal Style: Warm, gentle, intimate]
-En este momento no hay prisa
-Solo respira, deja ir
-Tu cuerpo sabe lo que quiere
-Cada paso es decir "sí"
+[Vocal Style: Warm, confessional, intimate]
+Me desperté un día y pensé:
+"¿Quién dije que no podía?"
+He gastado tanto tiempo
+En lo que otros querían de mí
 
-La vida es el camino
-No la meta, mi amor
-Aquí, en este instante
-Encontramos el valor
+Ahora que soy libre
+No vuelvo atrás, mi gente
+Tengo setenta y tantos
+Y me siento adolescente
 
 [Pre-Chorus]
 [Energy: Slightly rising]
-[Vocal Style: Confident]
-Respira, sigue adelante
-El ritmo es tu mejor amante
+[Vocal Style: Confident, knowing]
+Este es mi tiempo, es ahora
+La vida me dice que me mueva
 
 [Chorus]
 [Energy: Medium-High]
-[Vocal Style: Warm and powerful]
-(Gancho principal — repetible)
-Respira y sigue
-Respira y sigue
-El ritmo en tu pecho
-Te lleva a casa
-Respira y sigue
-(Respira, sigue, sigue)
+[Vocal Style: Warm, powerful, genuine]
+Libre, libre, libre
+Eso es lo que soy
+Libre, libre, libre
+Y aquí me quedo yo
+(Aquí, aquí estoy)
+Libre, libre, libre
+Sin pedir permiso
+Libre, libre, libre
+Ese es mi destino
 
 [Verse 2]
-[Vocal Style: Open, intimate]
+[Vocal Style: Open, real, conversational]
 [Energy: Medium]
-Con mis amigas lado a lado
-Descubrimos quiénes somos
-El cuerpo no miente nunca
-Cuando brindamos por nosotras
+Con mis amigas en la clase
+Nos miramos y nos reímos
+De todo lo que nos dijeron
+Que ya no podemos hacer
 
-No es perfección lo que buscas
-Es sentirte de verdad
-Y en ese sentimiento puro
-Está toda la libertad
+La verdad es que es al revés
+Ahora es cuando sé quién soy
+No es perfección lo que busco
+Es poder vivir en paz
 
 [Pre-Chorus]
 [Energy: Rising]
-Respira, sigue adelante
-El ritmo es tu mejor amante
+Este es mi tiempo, es ahora
+La vida me dice que me mueva
 
 [Chorus]
 [Energy: High]
-[Vocal Style: Powerful but warm]
-Respira y sigue
-Respira y sigue
-El ritmo en tu pecho
-Te lleva a casa
-Respira y sigue
-(Respira, sigue, sigue)
+[Vocal Style: Powerful, unapologetic]
+Libre, libre, libre
+Eso es lo que soy
+Libre, libre, libre
+Y aquí me quedo yo
+(Aquí, aquí estoy)
+Libre, libre, libre
+Sin pedir permiso
+Libre, libre, libre
+Ese es mi destino
 
 [Bridge]
-[Mood: Transcendent, still grounded]
+[Mood: Triumphant, grounded]
 [Energy: Building]
-[Instrument: Layers of synth]
-Cada respiración
-Es un regalo
-Cada movimiento
-Te trae a ti
+[Instrument: Full synths, beat more present]
+A los 65, a los 70
+A cualquier edad que sea
+Tú eres libre
+Tú eres libre
+Eso que te prohíben
+Es lo que más vale
 
 [Breakdown]
 [Energy: Dropping back to medium]
-[Vocal: Whispered/intimate]
-Respira...
-(Sigue)
-Respira...
-(Sigue)
+[Vocal: Whispered/confidential]
+Libre...
+(Aquí estoy)
+Libre...
+(Sin miedo)
 
 [Chorus - Final]
 [Energy: High]
-[Vocal Style: Full power but not aggressive]
-Respira y sigue
-Respira y sigue
-El ritmo en tu pecho
-Te lleva a casa
-Respira y sigue
-(Respira, sigue, sigue)
-YayaFit, aquí estoy
-(Aquí estoy)
+[Vocal Style: Full power, celebratory]
+Libre, libre, libre
+Eso es lo que soy
+Libre, libre, libre
+Y aquí me quedo yo
+(Aquí, aquí estoy)
+Libre, libre, libre
+Sin pedir permiso
+Libre, libre, libre
+Ese es mi destino
+
+YayaFit, este es mi himno
+(Mi himno, mi himno)
 
 [Outro]
-[Mood: Peaceful, resolved]
+[Mood: Peaceful, resolved, powerful]
 [Fade Out]
-Respira...
-Sigue...
-(Sigue, sigue...)
+Libre...
+(Libre, libre...)
+Aquí estoy...
+(Libre...)
 ```
 
 ---
@@ -155,8 +167,9 @@ Sigue...
 
 ```
 Electropop, 100 BPM, downtempo groove, warm synth pads, steady four-on-the-floor beat, 
-groovy bass line, soft melodic hooks, warm female vocals, Spanish lyrics, serene but rhythmic, 
-polished production, no harsh sounds, no guitars, smooth transitions, breathing space between phrases
+groovy bass line, powerful melodic hooks, warm confident female vocals, Spanish lyrics, 
+empowering yet serene, rhythmic and uplifting, polished production, no harsh sounds, no guitars, 
+smooth transitions, space for vocal breathing, celebratory without being loud
 ```
 
 **Explicación de cada elemento:**
@@ -182,9 +195,9 @@ polished production, no harsh sounds, no guitars, smooth transitions, breathing 
 - [ ] **Paso 1:** Ir a [suno.com](https://suno.com) e iniciar sesión
 - [ ] **Paso 2:** Hacer clic en **Create** y activar el toggle **Custom Mode**
 - [ ] **Paso 3:** En **Style of Music**, pegar el style prompt de arriba
-- [ ] **Paso 4:** En **Title**, escribir:
+- [ ] **Paso 4:** En **Title**, escribir exactamente:
   ```
-  Respira y Sigue — YayaFit
+  Libre — YayaFit
   ```
 - [ ] **Paso 5:** En **Lyrics**, pegar la letra completa de la Fase 2
 - [ ] **Paso 6:** Hacer clic en **Create** — Suno genera 2 versiones automáticamente
@@ -323,9 +336,9 @@ Tema: respiración consciente, movimiento lento pero intencional, comunidad sin 
 | Instrumentos | Synths cálidos, beat groove, bajo melódico |
 
 ## Ganchos principales
-- **Verso:** "La vida es el camino / No la meta, mi amor"
-- **Coro:** "Respira y sigue / El ritmo en tu pecho / Te lleva a casa"
-- **Bridge:** "Cada respiración / Es un regalo"
+- **Verso:** "Me desperté un día y pensé / ¿Quién dije que no podía?"
+- **Coro:** "Libre, libre, libre / Eso es lo que soy / Sin pedir permiso"
+- **Bridge:** "A los 65, a los 70 / Tú eres libre / Ese que te prohíben / Es lo que más vale"
 
 ## Casos de uso en la app
 - Rutina de yoga
@@ -353,13 +366,13 @@ git push origin main
 
 ## Próximos pasos tras completar
 
-Con **"Respira y Sigue"** validada, la playlist YayaFit escala con:
+Con **"Libre"** validada, la playlist YayaFit escala con:
 
 1. **Canción 3** — Electropop 110 BPM, alta energía, para cardio activo (ya planificada en "Segunda Juventud")
 2. **Artwork** — Imagen 3000×3000px alineada con identidad visual YayaFit
 3. **Playlist en Spotify** — Cargar las 3 canciones (si hay derechos)
 4. **Curva de energía** — 30 minutos: intro tranquila → energía media → vuelta a calma
-5. **Branding** — Usar "Respira y Sigue" como lema de la comunidad
+5. **Branding** — Usar "Libre" como lema de la comunidad
 
 ---
 

@@ -2,12 +2,12 @@
 
 ## 🎵 La Canción en 30 segundos
 
-**Nombre:** Respira y Sigue — YayaFit  
-**Concepto:** Downtempo pop con groove, tranquilo pero muy pegadizo  
+**Nombre:** Libre — YayaFit  
+**Concepto:** Downtempo pop sobre libertad y autonomía, tranquilo pero muy pegadizo  
 **BPM:** 100 (±5)  
 **Duración:** 2:30 - 3:30  
-**Gancho:** "Respira y sigue / El ritmo en tu pecho / Te lleva a casa"  
-**Audiencia:** Mujeres 60-75 años, rutinas de yoga y vuelta a calma  
+**Gancho:** "Libre, libre, libre / Eso es lo que soy / Sin pedir permiso"  
+**Audiencia:** Mujeres 60-75 años descubriendo su libertad sin límites  
 
 ---
 
@@ -25,7 +25,7 @@ polished production, no harsh sounds, no guitars, smooth transitions, breathing 
 ### EN SUNO (Tarea 2-3)
 1. [ ] Crear → Custom Mode
 2. [ ] Pegar Style Prompt
-3. [ ] Title: `Respira y Sigue — YayaFit`
+3. [ ] Title: `Libre — YayaFit`
 4. [ ] Pegar la letra COMPLETA (from `2026-06-03-ritmo-tranquilo-plan.md` — Fase 2)
 5. [ ] Click Create → Esperar 2 versiones
 6. [ ] Escuchar ambas
@@ -67,32 +67,34 @@ Escucha checklist (todos deben ser ✓):
 ## 🎼 La Letra (Simplificada)
 
 ```
-[Intro] - Soft pads
+[Intro] - Soft pads, warm synths
 
 [Verso 1]
-En este momento no hay prisa
-Solo respira, deja ir
-Tu cuerpo sabe lo que quiere
-Cada paso es decir "sí"
+Me desperté un día y pensé:
+"¿Quién dije que no podía?"
+He gastado tanto tiempo
+En lo que otros querían de mí
 
 [Pre-Coro]
-Respira, sigue adelante
-El ritmo es tu mejor amante
+Este es mi tiempo, es ahora
+La vida me dice que me mueva
 
 [CORO] ← GANCHO PRINCIPAL
-Respira y sigue / Respira y sigue
-El ritmo en tu pecho / Te lleva a casa
-Respira y sigue
+Libre, libre, libre / Eso es lo que soy
+Libre, libre, libre / Y aquí me quedo yo
+(Aquí, aquí estoy)
+Libre, libre, libre / Sin pedir permiso
 
 [Verso 2]
-Con mis amigas lado a lado
-Descubrimos quiénes somos
-No es perfección lo que buscas
-Es sentirte de verdad
+Con mis amigas en la clase
+Nos miramos y nos reímos
+Ahora es cuando sé quién soy
+No es perfección lo que busco
+Es poder vivir en paz
 
 [Pre-Coro + Coro × 2]
 
-[Bridge] Transcendental - "Cada respiración / Es un regalo"
+[Bridge] Empowering - "A los 65, a los 70 / Tú eres libre"
 
 [Coro Final] + Outro fade
 
@@ -143,7 +145,7 @@ Es sentirte de verdad
 
 ## 📝 Próxima Canción (Después de esta)
 
-Una vez "Respira y Sigue" esté lista:
+Una vez "Libre" esté lista:
 
 **Canción 3 — Energía Cardio (ya diseñada)**
 - BPM: 110-128
