@@ -1,5 +1,9 @@
 # Paleta de colores YayaFit
 
+> ⚠️ **Histórico (anterior al pacto de estilo del 2026-06-04).** El coral `#E8634A` de aquí ya
+> **no** es el color de acción: se sustituye por el Fucsia Atardecer. La referencia vigente es
+> [`guia-estilo-yayafit-v1.md`](guia-estilo-yayafit-v1.md).
+>
 > Basada en los mockups de `DISEÑO YAYAFIT/APP YAYAFIT ESTILOS (DESIGN)/`
 
 | Nombre | Hex | Uso |
