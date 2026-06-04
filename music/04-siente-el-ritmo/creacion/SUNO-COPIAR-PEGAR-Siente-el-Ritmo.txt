@@ -1,0 +1,163 @@
+═══════════════════════════════════════════════════════════════
+  SIENTE EL RITMO — YayaFit  |  ARCHIVO LISTO PARA COPIAR-PEGAR EN SUNO
+═══════════════════════════════════════════════════════════════
+
+  ✅ LETRA FINAL: ya pasada por /humanizer y revisada. Lista para generar.
+     Copia la sección ③ tal cual en Suno.
+
+INSTRUCCIONES RÁPIDAS:
+  1. Ve a https://suno.com → Create → activa "Custom Mode"
+  2. Copia cada bloque de abajo en su campo correspondiente
+  3. Clic en "Create" → espera 2 versiones
+  4. Verifica BPM en https://songbpm.com (debe dar 113-123)
+
+
+───────────────────────────────────────────────────────────────
+  ① CAMPO "STYLE OF MUSIC"  (copia el bloque completo)
+───────────────────────────────────────────────────────────────
+
+Disco-pop, nu-disco, 118 BPM, joyful and uplifting, bright string section, funky slap bass, four-on-the-floor kick, open hi-hats, handclaps, shimmering clean rhythm guitar, glittery synths, powerful luminous female vocals, Spanish lyrics, danceable feel-good groove, polished retro-modern production, no harsh distortion, no harsh distorted guitars, sunny Sunday morning energy
+
+
+───────────────────────────────────────────────────────────────
+  ② CAMPO "TITLE"
+───────────────────────────────────────────────────────────────
+
+Siente el Ritmo — YayaFit
+
+
+───────────────────────────────────────────────────────────────
+  ③ CAMPO "LYRICS"  (copia desde [Intro] hasta el final)
+───────────────────────────────────────────────────────────────
+
+[Intro]
+[Mood: Uplifting]
+[Energy: Medium]
+[Instrument: Bright strings, four-on-the-floor, funky bass]
+
+[Verse 1]
+[Vocal Style: Open, Confident]
+Domingo por la mañana,
+el sol entra a saludar.
+Suena algo en la radio
+y los pies quieren bailar.
+
+No sé qué tiene esa nota,
+que me saca del sofá.
+Me sé la letra de memoria
+¡y esto no puede parar!
+
+[Pre-Chorus]
+[Energy: Rising]
+Sube, sube, sube el volumen,
+que hoy el día es para mí.
+
+[Chorus]
+[Energy: High]
+[Vocal Style: Power]
+Siente el ritmo
+y ya no puedo parar.
+Siente el ritmo,
+me levanta sin pensar.
+(¡Sin pensar!)
+Siente el ritmo,
+todo el cuerpo dice "¡ya!".
+Pongo el salón a bailar,
+¡siente el ritmo!
+
+[Verse 2]
+[Vocal Style: Open, Confident]
+[Energy: Medium]
+Llamo a todas mis amigas,
+que esto hay que celebrar.
+El pasillo es una pista,
+y el balcón, un carnaval.
+
+Aquí nadie mira el reloj,
+hoy el tiempo va al revés.
+Si la radio me lo pide,
+yo me pongo en pie.
+
+[Pre-Chorus]
+[Energy: Rising]
+[Callback: continue with same vibe as chorus]
+Sube, sube, sube el volumen,
+que hoy el día es para mí.
+
+[Chorus]
+[Energy: High]
+[Vocal Style: Power]
+Siente el ritmo
+y ya no puedo parar.
+Siente el ritmo,
+me levanta sin pensar.
+(¡Sin pensar!)
+Siente el ritmo,
+todo el cuerpo dice "¡ya!".
+Pongo el salón a bailar,
+¡siente el ritmo!
+
+[Bridge]
+[Mood: Triumphant]
+[Energy: Building]
+[Instrument: Full strings, claps, funky bass up front]
+Que suene fuerte, que se oiga,
+que lo baile el portal.
+Tengo años de buen ritmo
+y aún me sé soltar.
+No hay edad para esta fiesta,
+solo ganas y compás.
+
+[Breakdown]
+[Energy: Drop to medium]
+[Instrument: Bass and handclaps only]
+[Vocal Style: Playful]
+Solo el bajo y mis palmas...
+(eh, eh, eh)
+ya vuelve, ya vuelve...
+(¡otra vez!)
+
+[Chorus - Final]
+[Energy: Maximum]
+[Vocal Style: Belt]
+[crowd sings]
+Siente el ritmo
+y ya no puedo parar.
+Siente el ritmo,
+me levanta sin pensar.
+(¡Sin pensar!)
+Siente el ritmo,
+todo el cuerpo dice "¡ya!".
+Pongo el salón a bailar,
+¡siente el ritmo!
+
+[Outro]
+[Mood: Joyful]
+[Fade Out]
+Siente el ritmo...
+(YayaFit, a bailar)
+y ya no puedo parar...
+(el ritmo, el ritmo...)
+
+
+───────────────────────────────────────────────────────────────
+  CALLBACK PARA "EXTEND" (solo si la canción dura < 2:30)
+───────────────────────────────────────────────────────────────
+
+[Callback: continue with same disco groove and vibe as chorus]
+[Energy: High]
+Siente el ritmo
+y ya no puedo parar.
+[Fade Out]
+(el ritmo, el ritmo...)
+
+
+───────────────────────────────────────────────────────────────
+  NOMBRES DE ARCHIVO AL DESCARGAR
+───────────────────────────────────────────────────────────────
+
+  WAV → Siente el Ritmo - YayaFit.wav
+  MP3 → Siente el Ritmo - YayaFit.mp3
+  Guardar en: music/04-siente-el-ritmo/
+
+═══════════════════════════════════════════════════════════════

@@ -1,0 +1,69 @@
+========================================================
+PROMPT LEONARDO.AI — PORTADA "SIENTE EL RITMO" (YayaFit)
+========================================================
+Canción: Siente el Ritmo — YayaFit
+Fecha: 2026-06-04
+Objetivo: Portada de álbum coherente con el sistema
+visual de YayaFit ("Segunda Juventud" / "Libre"),
+adaptada al tema de baile alegre y comunidad de
+"Siente el Ritmo".
+
+Referencia base: foto de mujeres mayores bailando con
+alegría en una sala luminosa (heroína en primer plano,
+amigas bailando detrás). Energía real, diversa, sin pose.
+Identidad de marca: mujer madura plateada, gesto de
+baile, acabado cinematográfico glossy y saturado, sol
+semicírculo de fondo.
+Decisiones para esta portada: composición "heroína +
+amigas detrás" (ref. 1) · paleta LILA/MORADA de marca
+(no el magenta-coral de "Libre").
+
+--------------------------------------------------------
+PROMPT PRINCIPAL (copiar-pegar)
+--------------------------------------------------------
+Cinematic square album cover, joyful disco-pop energy. In the foreground, a radiant Black woman in her late 60s with short silver-grey natural hair and gold hoop earrings, caught mid-dance with one arm raised and fingers clicking, a big genuine open-mouthed smile and bright joyful eyes, wearing a colourful floral sleeveless dress. Behind her, softly out of focus, three diverse older women in their 60s and 70s dancing together with their hands in the air, laughing, conveying a warm sense of community. Setting: a sunlit room with a warm exposed-brick wall and a large window, golden Sunday-morning light streaming in. A large soft glowing semicircular halo of light frames her from behind (YayaFit sun motif). Floating glitter and gentle mirror-ball light flecks drift through the air for a disco-pop sparkle. Bold YayaFit lilac palette: rich lavender and violet purple, deep magenta-purple shadows, soft pink highlights, warmed by glowing golden sunlight. High saturation, glossy modern finish, soft volumetric backlight, dreamy haze. Empowered, alive, celebratory, feel-good Sunday-morning mood. Clean uncluttered space toward the bottom for a title. Highly detailed, photorealistic, professional music cover art, centered composition, 1:1, 3000x3000.
+
+--------------------------------------------------------
+NEGATIVE PROMPT
+--------------------------------------------------------
+young woman, child, teenager, man, men, sad or gloomy face, tired, dark, desaturated, dull colors, washed out, blurry hero face, deformed hands, extra fingers, mutated fingers, missing fingers, text, letters, words, watermark, logo, signature, distorted face, cartoonish, plastic skin, oversharpened, cluttered gym equipment, harsh fluorescent lighting
+
+--------------------------------------------------------
+CONFIGURACIÓN RECOMENDADA EN LEONARDO
+--------------------------------------------------------
+Modelo .............. Leonardo Phoenix o Leonardo Diffusion XL
+Aspect ratio ........ 1:1 (cuadrado, portada de álbum)
+Preset Style ........ Cinematic / Dynamic
+Photoreal / Alchemy . Activado
+Guidance Scale ...... 7
+Image Guidance ...... Sube la imagen de referencia 1
+                      (heroína + grupo) en "Style" o
+                      "Character" al 30-40 % para fijar la
+                      composición sin copiarla literalmente.
+
+--------------------------------------------------------
+NOTAS DE ADAPTACIÓN
+--------------------------------------------------------
+- Composición elegida: heroína en primer plano + amigas
+  bailando detrás (referencia 1). Protagonista clara,
+  como el resto de portadas del álbum, pero con la
+  comunidad presente ("mis amigas", "el portal").
+- Paleta: lila/morado de marca, no el magenta-coral de
+  "Libre". La luz dorada de domingo aporta calidez sin
+  romper el morado.
+- Motivo de marca: halo/sol semicírculo detrás de la
+  protagonista + acabado glossy saturado.
+- El título "Siente el Ritmo — YayaFit" se añade en
+  post (Leonardo no escribe texto fiable). Por eso el
+  negative prompt excluye texto y se deja espacio limpio
+  en la parte de abajo.
+
+- VARIANTE protagonista (referencia 2): para una mujer
+  rubia de pelo largo sobre fondo de color liso, sustituye
+  la frase del primer plano por:
+    "a radiant woman in her late 60s with long silver-blonde
+     hair, caught mid-dance with both fists up and her head
+     thrown back laughing, wearing a bright loose shirt"
+  y, si la quieres sin sala, cambia el "Setting" por:
+    "a flat vibrant lilac studio backdrop".
+========================================================
