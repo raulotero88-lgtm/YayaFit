@@ -6,7 +6,7 @@
 > 2. Marca la casilla de la tarea en el **Tracker** al terminar.
 > 3. Si cambias algo importante de rumbo, apúntalo en **Decisiones**.
 >
-> Última actualización: **2026-06-03** (Fase 1 navegación viva: barra de marca incrustada en todas las páginas/entradas + páginas índice Rutinas y Bienestar + reorganización, todo vía REST API)
+> Última actualización: **2026-06-04** (canción **Siente el Ritmo** publicada en `/musica/` con portada incrustada en el MP3, vía REST API)
 
 ---
 
@@ -59,7 +59,8 @@ compañía con excusa de deporte"). Todo lo que construyamos debe servir a eso.
 - 3 artículos de bienestar: ✅ **publicados 2026-06-03** (dormir-mejor id 37, nutricion-sencilla id 38, rutina-diaria id 39) — falta imagen destacada (2ª pasada)
 - Himno "Segunda Juventud": ✅ publicado en `/himno/` (portada + reproductor + letra)
 
-**Página Música (`/musica/`, id 20) — 3 canciones (orden: más nuevas arriba):**
+**Página Música (`/musica/`, id 20) — 4 canciones (orden: más nuevas arriba):**
+- 🎵 **Siente el Ritmo** — portada (id 156) + reproductor MP3 (id 157, con portada incrustada). Publicada 2026-06-04 por Claude vía REST API.
 - 🎵 **Libre** — portada (id 27) + reproductor MP3 (id 28). Publicada 2026-06-03 por Claude vía REST API.
 - 🎵 **Corazón Poderoso** — portada + reproductor MP3.
 - 🎵 **Segunda Juventud (Canción Oficial YayaFit)** — portada + reproductor MP3 (versión distinta a la de `/himno/`: usa los medios id 18/19, no id 12/13).
@@ -235,6 +236,7 @@ claude mcp add --transport http yayafit https://yayafit.es/wp-json/mcp/mcp-adapt
 - [x] Publicar página Himno de YayaFit (portada + reproductor MP3 + letra) — 2026-06-02 · https://yayafit.es/himno/
 - [x] Publicar página Música (2 canciones: Corazón Poderoso + Segunda Juventud) — 2026-06-02 (Raúl, directo en la web) · https://yayafit.es/musica/
 - [x] Añadir canción **Libre** a la página Música (portada + reproductor MP3) — 2026-06-03 (Claude, vía REST API) · https://yayafit.es/musica/
+- [x] Añadir canción **Siente el Ritmo** a la página Música (portada + reproductor MP3, medios id 156/157) — 2026-06-04 (Claude, vía REST API) · https://yayafit.es/musica/
 - [x] Publicar 5 rutinas (con categoría, subcategoría, etiquetas y extracto) — 2026-06-03 (Claude, vía REST API) · falta imagen destacada
 - [x] Publicar 3 artículos de bienestar (con categoría, subcategoría y extracto) — 2026-06-03 (Claude, vía REST API) · falta imagen destacada
 - [ ] Aplicar paleta y tipografía de marca
@@ -279,6 +281,14 @@ claude mcp add --transport http yayafit https://yayafit.es/wp-json/mcp/mcp-adapt
 ---
 
 ## 11. Historial de sesiones
+
+### 2026-06-04 — Raúl + Claude (publicación de "Siente el Ritmo")
+- **Portada incrustada en el MP3** local con mutagen: `Portada Siente el Ritmo - YayaFit.jpg` (JPEG 1024×1024) como `APIC`/COVER_FRONT + tags ID3 título/artista/álbum. Backup `.mp3.bak` local (ignorado por `.gitignore`).
+- **Repo:** la carpeta local no estaba inicializada como git; reconectada al remoto `raulotero88-lgtm/YayaFit` (`git init` + `remote` + `fetch` + `reset` mixto, sin tocar el working tree). Commiteados la canción 04 y los backups HTML de las ediciones del día; push a `main`.
+- **2 medios subidos** a la Biblioteca vía REST API (Basic Auth, rol Editor): `portada-siente-el-ritmo.jpg` (id **156**, 249 KB) y `siente-el-ritmo-yayafit.mp3` (id **157**, 3.0 MB, MP3 con portada ya incrustada). Fijados título y `alt_text`.
+- **Bloque añadido** a la página Música (id 20) en **primera posición** (convención: más nuevas arriba), replicando el patrón lila existente (`<div>` borde `#cdb6e3` + `<img>` + `<h3 #a887c9>` + `<audio>`), sin tocar las otras 3 canciones. Body enviado como bytes UTF-8 (gotcha de acentos).
+- **Verificado en vivo:** orden Siente el Ritmo · Libre · Corazón Poderoso · Segunda Juventud; portada y MP3 sirven HTTP 200 con los tamaños correctos (249.430 y 3.093.868 bytes).
+- **Pendiente:** **rotar/revocar** la Application Password usada en esta sesión desde wp-admin → Perfil.
 
 ### 2026-06-03 (noche, +tarde) — Raúl + Claude (Fase 1: navegación viva)
 - **Diagnóstico:** el `hostinger-ai-theme` no comparte un menú entre páginas (su cabecera nativa tiene un hamburguesa vacío), por eso desde `/musica/` no se podía navegar. Brainstorming + diseño + plan en `app/planning/2026-06-03-estructura-navegable-{design,plan}.md`.

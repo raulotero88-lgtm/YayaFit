@@ -8,7 +8,7 @@ Dentro de cada carpeta están el audio, la portada y, en `creacion/`, los docume
 | 01 | **Segunda Juventud** | Publicada en `yayafit.es/himno/` | [`01-segunda-juventud/`](01-segunda-juventud/) |
 | 02 | **Corazón Poderoso** | Lista para publicar en `/musica/` | [`02-corazon-poderoso/`](02-corazon-poderoso/) |
 | 03 | **Libre** | Publicada en `yayafit.es/musica/` | [`03-libre/`](03-libre/) |
-| 04 | **Siente el Ritmo** | Letra y prompt listos · pendiente de generar en Suno | [`04-siente-el-ritmo/`](04-siente-el-ritmo/) |
+| 04 | **Siente el Ritmo** | Publicada en `yayafit.es/musica/` | [`04-siente-el-ritmo/`](04-siente-el-ritmo/) |
 
 ## Estructura de cada carpeta
 
