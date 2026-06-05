@@ -1,0 +1,132 @@
+═══════════════════════════════════════════════════════════════
+  PASITO A PASO — YayaFit  |  ARCHIVO LISTO PARA COPIAR-PEGAR EN SUNO
+═══════════════════════════════════════════════════════════════
+
+  ✅ LETRA FINAL: ya pasada por /humanizer y revisada. Lista para generar.
+     Copia la sección ③ tal cual en Suno.
+
+INSTRUCCIONES RÁPIDAS:
+  1. Ve a https://suno.com → Create → activa "Custom Mode"
+  2. Copia cada bloque de abajo en su campo correspondiente
+  3. Clic en "Create" → espera 2 versiones
+  4. Verifica BPM en https://songbpm.com (debe dar 100-110)
+
+
+───────────────────────────────────────────────────────────────
+  ① CAMPO "STYLE OF MUSIC"  (copia el bloque completo)
+───────────────────────────────────────────────────────────────
+
+Latin pop, light acoustic cumbia, 105 BPM, warm playful and uplifting, nylon acoustic guitar, bright accordion, güira and congas, light walking bass, gentle handclaps, call-and-response montuno section, bright warm female lead vocals with small backing choir, Spanish lyrics, catchy singalong hook, breezy feel-good walking groove, sunny morning street energy, organic acoustic production, relaxed danceable swing, no harsh distortion, no electronic drops, clean warm mix
+
+
+───────────────────────────────────────────────────────────────
+  ② CAMPO "TITLE"
+───────────────────────────────────────────────────────────────
+
+Pasito a Paso — YayaFit
+
+
+───────────────────────────────────────────────────────────────
+  ③ CAMPO "LYRICS"  (copia desde [Intro] hasta el final)
+───────────────────────────────────────────────────────────────
+
+[Intro]
+[Mood: Sunny, warm cumbia morning]
+[Energy: Medium]
+[Instrument: Accordion, güira, congas, walking bass]
+
+[Verse 1]
+[Vocal Style: Warm, Conversational]
+Suena el despertador y no protesto,
+hoy la cama no me va a ganar.
+Me pongo lo cómodo, lo de siempre,
+y bajo a ver qué cuenta la ciudad.
+
+La panadera sube la persiana,
+el quiosco huele a tinta y a café.
+Le doy los buenos días al que pasa
+y hasta el semáforo me deja en verde otra vez.
+
+[Chorus]
+[Energy: High]
+[Vocal Style: Bright, Catchy]
+Pasito a paso, paso a paso,
+que la prisa no va conmigo.
+Pasito a paso, paso a paso,
+y el barrio entero es mi amigo.
+
+[Verse 2]
+[Vocal Style: Warm, Conversational]
+[Energy: Medium]
+En la esquina me esperan las de siempre,
+Carmen con su gorra y su reír.
+Loli cuenta lo de ayer por enésima vez
+y damos la vuelta entera sin sentir.
+
+Subimos la cuesta como quien no quiere,
+presumiendo de que aún podemos más.
+Y si alguna se cansa, pues paramos,
+que el banco de la plaza no se va a marchar.
+
+[Chorus]
+[Energy: High]
+[Vocal Style: Bright, Catchy]
+Pasito a paso, paso a paso,
+que la prisa no va conmigo.
+Pasito a paso, paso a paso,
+y el barrio entero es mi amigo.
+
+[Bridge]
+[Mood: Heartfelt, reflective]
+[Energy: Building]
+[Instrument: Accordion lead, soft congas]
+Hubo años de correr a todas partes,
+sin mirar la acera ni el jardín.
+Ahora voy despacio, y me da tiempo
+a ver el mundo entero antes de ir.
+
+[Montuno]
+[Call and response, choir and lead]
+[Energy: High]
+[Instrument: Accordion, güira, congas, handclaps]
+(¡Una vuelta más!) que el cuerpo lo agradece
+(¡Una vuelta más!) que la mañana crece
+(¡Una vuelta más!) y mañana, otra vez
+
+[Chorus - Final]
+[Energy: Maximum]
+[Vocal Style: Belt, with choir]
+Pasito a paso, paso a paso, (¡una vuelta más!)
+que la prisa no va conmigo.
+Pasito a paso, paso a paso, (¡una vuelta más!)
+y el barrio entero es mi amigo.
+
+[Outro]
+[Mood: Joyful]
+[Fade Out]
+[Instrument: Accordion and güira fade, footsteps]
+Pasito a paso...
+(el barrio se despide, pasos que se alejan)
+
+
+───────────────────────────────────────────────────────────────
+  CALLBACK PARA "EXTEND" (solo si la canción dura < 2:30)
+───────────────────────────────────────────────────────────────
+
+[Callback: continue with same light cumbia groove and montuno feel]
+[Energy: High]
+Pasito a paso, paso a paso,
+que la prisa no va conmigo.
+[Fade Out]
+(pasito a paso...)
+
+
+───────────────────────────────────────────────────────────────
+  NOMBRES DE ARCHIVO AL DESCARGAR
+───────────────────────────────────────────────────────────────
+
+  WAV → Pasito a Paso - YayaFit.wav
+  MP3 → Pasito a Paso - YayaFit.mp3
+  Guardar en: music/05-pasito-a-paso/
+
+═══════════════════════════════════════════════════════════════

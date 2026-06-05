@@ -1,0 +1,70 @@
+========================================================
+PROMPT LEONARDO.AI — PORTADA "PASITO A PASO" (YayaFit)
+========================================================
+Canción: Pasito a Paso — YayaFit
+Fecha: 2026-06-05
+Objetivo: Portada de álbum coherente con el sistema
+visual de YayaFit ("Segunda Juventud" / "Libre" /
+"Siente el Ritmo"), adaptada al tema de caminar y
+comunidad de "Pasito a Paso".
+
+Referencia base: foto de mujeres mayores caminando
+juntas y alegres por una calle de barrio luminosa
+(heroína en primer plano, amigas caminando a su lado).
+Energía real, diversa, sin pose, en movimiento.
+Identidad de marca: mujer madura plateada, paso firme y
+sonrisa, acabado cinematográfico glossy y saturado, sol
+semicírculo de fondo.
+Decisiones para esta portada: composición "heroína +
+amigas caminando" · paleta LILA/MORADA de marca
+(coherente con "Siente el Ritmo").
+
+--------------------------------------------------------
+PROMPT PRINCIPAL (copiar-pegar)
+--------------------------------------------------------
+Cinematic square album cover, warm latin-pop morning energy. In the foreground, a radiant woman in her late 60s with short silver-grey hair and a bright open smile, walking briskly toward the camera mid-stride, wearing comfortable colourful walking clothes and clean sneakers, a small crossbody bag, looking alive and content. Beside and just behind her, softly out of focus, two or three diverse older women in their 60s and 70s walking together, chatting and laughing, conveying a warm sense of community on the move. Setting: a sunlit neighbourhood street with leafy trees, a low brick wall and a park entrance, golden early-morning light. A large soft glowing semicircular halo of light rises behind them (YayaFit sun motif). Gentle light flecks and a soft morning haze drift through the air. Bold YayaFit lilac palette: rich lavender and violet purple, deep magenta-purple shadows, soft pink highlights, warmed by glowing golden morning sunlight. High saturation, glossy modern finish, soft volumetric backlight, dreamy haze. Empowered, alive, easygoing, feel-good walking mood. Clean uncluttered space toward the bottom for a title. Highly detailed, photorealistic, professional music cover art, centered composition, 1:1, 3000x3000.
+
+--------------------------------------------------------
+NEGATIVE PROMPT
+--------------------------------------------------------
+young woman, child, teenager, man, men, sad or gloomy face, tired, exhausted, hunched, frail, dark, desaturated, dull colors, washed out, blurry hero face, deformed hands, extra fingers, mutated fingers, missing fingers, text, letters, words, watermark, logo, signature, distorted face, cartoonish, plastic skin, oversharpened, cars in motion, traffic, cluttered street, harsh midday lighting
+
+--------------------------------------------------------
+CONFIGURACIÓN RECOMENDADA EN LEONARDO
+--------------------------------------------------------
+Modelo .............. Leonardo Phoenix o Leonardo Diffusion XL
+Aspect ratio ........ 1:1 (cuadrado, portada de álbum)
+Preset Style ........ Cinematic / Dynamic
+Photoreal / Alchemy . Activado
+Guidance Scale ...... 7
+Image Guidance ...... Sube la imagen de referencia
+                      (heroína + grupo caminando) en "Style"
+                      o "Character" al 30-40 % para fijar la
+                      composición sin copiarla literalmente.
+
+--------------------------------------------------------
+NOTAS DE ADAPTACIÓN
+--------------------------------------------------------
+- Composición elegida: heroína caminando en primer plano
+  + amigas caminando con ella (en movimiento). Protagonista
+  clara, como el resto de portadas del álbum, pero con la
+  comunidad presente y "de paseo" ("las de siempre", "el
+  barrio").
+- Paleta: lila/morado de marca, coherente con "Siente el
+  Ritmo". La luz dorada de mañana aporta calidez sin romper
+  el morado.
+- Movimiento: mid-stride / walking toward camera para que se
+  lea "caminar", no "posar". Es la diferencia clave con las
+  portadas anteriores (baile o calma estática).
+- Motivo de marca: halo/sol semicírculo detrás del grupo +
+  acabado glossy saturado.
+- El título "Pasito a Paso — YayaFit" se añade en post
+  (Leonardo no escribe texto fiable). Por eso el negative
+  prompt excluye texto y se deja espacio limpio en la parte
+  de abajo.
+
+- VARIANTE protagonista (sin calle): si la prefieres sobre
+  fondo de color liso, cambia el "Setting" por:
+    "a flat vibrant lilac studio backdrop"
+  y mantén a las amigas caminando detrás en grupo.
+========================================================
