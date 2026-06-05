@@ -23,10 +23,12 @@ community for women aged 60 to 75. A small group of two or three vital, radiant 
 women with silver and grey natural hair and real, diverse body types, smiling with genuine
 joy and quiet strength, doing a gentle guided exercise together — light balance work and
 chair-supported movement, soft stretching — in a bright, airy, welcoming studio with
-large windows and warm golden-hour daylight. Calm lavender tones in the space
-(#F3ECFA, #CDB6E3) with small warm fuchsia accents (#D63E78) on a yoga mat and a top.
-Authentic candid moment, real movement, dignified and confident, never frail, never
-posed like a stock photo. Soft warm sunset color grade, gentle film grain, shallow
+large windows and warm golden-hour daylight. Bright, clear, fully open and alert eyes with
+a focused, present gaze looking ahead, sharp natural catchlights in both eyes, healthy
+expressive eyes. Calm lavender tones in the space (#F3ECFA, #CDB6E3) with small warm fuchsia
+accents (#D63E78) on a yoga mat and a top. Everyone standing and actively moving, vital and
+independent. Authentic candid moment, real movement, dignified and confident, never frail,
+never posed like a stock photo. Soft warm sunset color grade, gentle film grain, shallow
 depth of field, premium lifestyle magazine aesthetic, lots of clean, airy space.
 No text, no logos, no letters.
 ```
@@ -34,10 +36,13 @@ No text, no logos, no letters.
 ## Negative prompt
 
 ```
+blind, blind eyes, clouded eyes, cataracts, white glazed eyes, milky eyes, vacant empty stare,
+unfocused glassy gaze, eyes rolled back, half-closed drooping eyes, squinting shut, crossed eyes,
+lazy eye, misaligned asymmetric eyes, googly eyes, no catchlights, dead eyes,
 young women, models under 55, glossy stock-photo look, stiff catalog poses, fake smiles,
-clinical or medical setting, fragile or sad elderly stereotype, wheelchair, harsh neon,
-oversaturated fuchsia background, cluttered busy background, text, words, letters,
-watermark, logo, deformed hands, extra fingers, low resolution, jpeg artifacts
+clinical or medical setting, fragile or sad elderly stereotype, wheelchair, mobility scooter,
+walking frame, harsh neon, oversaturated fuchsia background, cluttered busy background, text,
+words, letters, watermark, logo, deformed hands, extra fingers, low resolution, jpeg artifacts
 ```
 
 ## Ajustes en Leonardo
