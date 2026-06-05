@@ -6,7 +6,7 @@
 > 2. Marca la casilla de la tarea en el **Tracker** al terminar.
 > 3. Si cambias algo importante de rumbo, apúntalo en **Decisiones**.
 >
-> Última actualización: **2026-06-04** (canción **Siente el Ritmo** publicada en `/musica/` con portada incrustada en el MP3, vía REST API)
+> Última actualización: **2026-06-05** (paleta de marca final aplicada a todo el sitio: base lavanda + **fucsia como único color de acción**, vía REST API)
 
 ---
 
@@ -85,13 +85,13 @@ compañía con excusa de deporte"). Todo lo que construyamos debe servir a eso.
 |---|---|---|
 | WordPress admin | https://yayafit.es/wp-admin | — |
 | Panel Hostinger | https://hpanel.hostinger.com | Raúl |
-| Cuenta Raúl | `raulotero88@gmail.com` | **Editor** (contenido sí; plugins/ajustes/usuarios no) |
+| Cuenta Raúl | `raulotero88@gmail.com` | **Administrador** (verificado por REST 2026-06-05; antes Editor) |
 | Cuenta Administrador | `mkhzipgd@gmail.com` | Creada por Hostinger — **recuperar acceso** (desbloqueante) |
 | Compañero 2 | — | (crear cuenta, rol Editor) |
 | Compañero 3 | — | (crear cuenta, rol Editor) |
 
-**Acción prioritaria:** conseguir el acceso de Administrador o asignar rol
-Administrador a Raúl. Sin admin no se pueden instalar plugins ni gestionar usuarios.
+**Acceso Administrador:** ✅ resuelto — la cuenta de Raúl ya tiene rol **Administrador**
+(verificado 2026-06-05). Desbloquea plugins, usuarios, Personalizador y abilities MCP.
 
 ---
 
@@ -239,7 +239,7 @@ claude mcp add --transport http yayafit https://yayafit.es/wp-json/mcp/mcp-adapt
 - [x] Añadir canción **Siente el Ritmo** a la página Música (portada + reproductor MP3, medios id 156/157) — 2026-06-04 (Claude, vía REST API) · https://yayafit.es/musica/
 - [x] Publicar 5 rutinas (con categoría, subcategoría, etiquetas y extracto) — 2026-06-03 (Claude, vía REST API) · falta imagen destacada
 - [x] Publicar 3 artículos de bienestar (con categoría, subcategoría y extracto) — 2026-06-03 (Claude, vía REST API) · falta imagen destacada
-- [ ] Aplicar paleta y tipografía de marca
+- [~] Aplicar paleta y tipografía de marca — **paleta ✅ 2026-06-05** (lavanda + fucsia de acción, 14 URLs, vía REST API); **tipografía (Fraunces/Nunito) pendiente** (requiere Personalizador → Administrador)
 - [ ] Subir logo y favicon
 - [x] Diseñar página de Inicio (hero + 4 tarjetas-hub + cierre) — 2026-06-03 (Claude+Raúl, vía REST API). ⚠️ El dominio pelado `yayafit.es` sigue mostrando el **blog** (`<body class="home blog">`); poner Inicio como página frontal está en *Ajustes → Lectura* y **requiere Administrador**
 - [ ] Activar comunidad (perfiles, grupo, miembros, muro)
@@ -271,16 +271,29 @@ claude mcp add --transport http yayafit https://yayafit.es/wp-json/mcp/mcp-adapt
 
 | Fecha | Tema | Estado |
 |---|---|---|
-| 2026-06-02 | Falta acceso Administrador (cuenta `mkhzipgd@gmail.com`) | Abierto — bloquea instalar plugins y gestionar usuarios |
+| 2026-06-02 | Falta acceso Administrador (cuenta `mkhzipgd@gmail.com`) | ✅ **Resuelto 2026-06-05** — la cuenta de Raúl `raulotero88@gmail.com` ya es **Administrador** (verificado por REST) |
 | 2026-06-03 | ~~Nombre canción 2: "Corazón Poderoso" vs "Libre"~~ | ✅ **Cerrado 2026-06-03** — son canciones DISTINTAS. "Corazón Poderoso" se creó en otro ordenador y se subió directa a la web (no está en este repo). "Libre" es otra canción local, aún sin publicar. |
 | 2026-06-03 | Conexión MCP `yayafit` | ✅ **Conectada** (lectura). La **escritura** por MCP exige Administrador (ver D4); mientras tanto se escribe por REST API |
 | 2026-06-03 | Escritura por abilities MCP bloqueada (rol Editor) | Abierto — se resolverá al obtener Administrador; no bloquea el contenido (se usa REST API) |
 | 2026-06-03 | 2 MP3 duplicados huérfanos en Medios (id 22, id 24) + png ajena (id 7) | Abierto — Raúl decidió **no borrar** por ahora (2026-06-03) |
 | 2026-06-03 | Application Password "Claude REST API" en uso (compartida en chat) | Abierto — **rotar/revocar** desde wp-admin → Perfil cuando termine el trabajo de contenido |
+| 2026-06-05 | Application Password usada para el empuje de la paleta (compartida en chat) | Abierto — **revocar** desde wp-admin → Perfil ahora que el trabajo de estilo terminó |
 
 ---
 
 ## 11. Historial de sesiones
+
+### 2026-06-05 — Raúl + Claude (paleta de marca final: lavanda + fucsia de acción)
+
+- **Contexto:** tras pactar la guía v1 (commit `bc7a3ef`) y aprobar el plano final (héroe editorial + fucsia solo en lo accionable), el sitio estaba en un paso intermedio "lila": base lavanda OK pero **botones en lila `#a887c9`** y un **CTA verde `#6BAB7A`**, y la barra/pie seguían en el **coral antiguo**. Inicio (9) había perdido la barra en el restyle a lila.
+- **Archivos fuente actualizados** a la paleta final (base lavanda + fucsia `#D63E78`/`#B12E62` de acción + títulos en tinta `#2A2233`): `barra-navegacion.html`, `pie-navegacion.html`, `paginas/inicio-hub.html`, `paginas/rutinas-indice.html`, `paginas/bienestar-indice.html`, y el color de pestaña activa en `scripts/inject-nav.ps1`.
+- **Nuevo script** `scripts/push-style.ps1`: empuja por REST API el cuerpo (desde artefacto local, o por sustitución puntual con `-FixMusica`/`-FixSobre`) + barra(activa)+pie. Hace **backup** del estado previo en `backups/fucsia-restyle-2026-06-05/` (`.before.html`/`.after.html` por id). Mismo mecanismo UTF-8 probado.
+- **Empuje a 14 URLs (todas HTTP 200):** páginas 9 (inicio, cuerpo nuevo), 51 (rutinas, cuerpo nuevo), 52 (bienestar, cuerpo nuevo), 8 (sobre: "Cómo funciona" lila→tinta + CTA registro lila→fucsia), 20 (música: títulos lila→tinta + botón Himno verde→fucsia), 14 (himno: solo barra+pie); entradas 32-36 (activo rutinas) y 37-39 (activo bienestar), solo barra+pie. De paso **Inicio recupera la barra**.
+- **Verificado** por API (contenido guardado) y por **frontend público** (caché LiteSpeed ya servía lo nuevo): fucsia presente en lo accionable, **cero** `#E8634A`/`#F4A261`/`#6BAB7A`/`#a887c9`, barra+pie en todas, pestaña activa en pastilla fucsia.
+- **Corrección (mismo día):** Raúl detectó que el **tema ya tiene un menú nativo** con las secciones creadas (Inicio · Sobre YayaFit · Rutinas · Bienestar · Música + restos demo Home · Contacta · Book Now). La barra inyectada lo **duplicaba**. Decisión: **dejar el menú del tema y quitar el nuestro**. Nuevo script `scripts/strip-nav.ps1` retiró la barra+pie inyectados de las 14 URLs (HTTP 200), **conservando el restyle de color del cuerpo**; backup en `backups/strip-nav-2026-06-05/`. Verificado: sin marcadores `YAYAFIT-NAV/FOOTER`, fucsia del cuerpo intacto. → La barra/pie inyectados quedan **obsoletos** (la fuente `barra-navegacion.html`/`pie-navegacion.html` se conserva por si se necesitara, pero no está en uso).
+- **Rebrand del tema por CSS adicional (en vivo):** la cuenta de Raúl ya es **`administrator`** (verificado por REST). El tema **vw-yoga-fitness** ("Free Yoga" de ThemesCaliber, doc: <https://preview.themescaliber.com/doc/free-yoga/>) **no tiene opción nativa de color de acento en la versión gratis** (el "Global Color Option" es de pago), así que los acentos del tema (lila `#a887c9` + azul `#788ecf`) se sustituyen por la paleta de marca vía **Apariencia → Personalizar → CSS adicional**. Bloque versionado en [`tema-menu-marca.css`](tema-menu-marca.css); cubre: menú (tinta + activo/hover fucsia), logo `.logo-inner` (fucsia hondo), migas `.bradcrumbs` (pastilla lavanda + enlace fucsia), botón `.top-btn` "Book Now" (píldora fucsia, antes asomaba el contenedor azul), barra de créditos `.footer-2` (tinta `#2A2233`), botón subir `.scrollup` (fucsia), y otros acentos (`input[submit]`, `.view-more`, `hr.section-hr`). **Publicado y verificado en vivo (2026-06-05):** los 6 overrides presentes en `wp-custom-css`.
+- **Controles nativos del tema (para no parchear con CSS):** **Book Now** → *Personalizar → VW Settings → Homepage Setting → Topbar Section* (texto/URL o desactivar); **texto del pie** → *VW Settings → Homepage Settings → Footer Settings* (cambiar copyright); **logo** → *Ajustes de identidad del sitio*. (Las migas no tienen ajuste nativo → solo CSS.)
+- **Pendiente:** (1) decidir **Book Now** (darle URL real o desactivarlo en Topbar Section); (2) cambiar el **texto del pie** "Tema de WordPress Yoga By ThemesCaliber" por uno de YayaFit (Footer Settings); (3) **quitar del menú** los restos demo **Home** y **Contacta Con Nosotros** (Apariencia → Menús); (4) **tipografía** de marca (Fraunces/Nunito) → Theme Typography; (5) **revocar** la Application Password usada (se compartió en chat).
 
 ### 2026-06-04 — Raúl + Claude (publicación de "Siente el Ritmo")
 - **Portada incrustada en el MP3** local con mutagen: `Portada Siente el Ritmo - YayaFit.jpg` (JPEG 1024×1024) como `APIC`/COVER_FRONT + tags ID3 título/artista/álbum. Backup `.mp3.bak` local (ignorado por `.gitignore`).
