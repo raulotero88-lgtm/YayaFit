@@ -1,0 +1,54 @@
+/* ===== Marca YayaFit · tema vw-yoga-fitness → lavanda + fucsia de acción =====
+   Pegar en: Apariencia → Personalizar → CSS adicional → Publicar.
+   Va al FINAL del CSS que ya hay (no borra nada).
+   Sustituye los acentos del tema (lila #a887c9 y azul #788ecf) por la paleta de marca.
+   Última edición: 2026-06-05
+*/
+
+/* --- Menú principal: enlaces en tinta; activo/hover en fucsia --- */
+#menu-main-menus li a { color:#2A2233 !important; font-weight:600 !important; }
+#menu-main-menus li a:hover,
+#menu-main-menus li a:focus,
+#menu-main-menus li.current-menu-item > a,
+#menu-main-menus li.current_page_item > a,
+#menu-main-menus li.current-menu-ancestor > a { color:#D63E78 !important; }
+.main-navigation a:hover { border-top-color:#D63E78 !important; border-bottom-color:#D63E78 !important; }
+
+/* --- Logo: caja fucsia hondo (mantiene el wordmark blanco) --- */
+.logo-inner { background:#B12E62 !important; border-bottom-color:#8E2550 !important; }
+
+/* --- Migas de pan: pastilla lavanda suave, enlace en fucsia, actual en gris --- */
+.bradcrumbs a, .bradcrumbs span { background:#E7DAF3 !important; color:#6B6275 !important; }
+.bradcrumbs a { color:#B12E62 !important; font-weight:600 !important; }
+.bradcrumbs a:hover { color:#D63E78 !important; }
+
+/* --- Botón "Book Now": contenedor sin fondo + el botón como píldora fucsia --- */
+.top-btn { background:transparent !important; padding:0 !important; }
+.top-btn:hover { background:transparent !important; }
+.top-btn a {
+  display:inline-block !important;
+  background:#D63E78 !important;
+  background-image:none !important;
+  color:#fff !important;
+  padding:12px 24px !important;
+  border-radius:30px !important;
+  box-shadow:0 4px 14px rgba(214,62,120,.35) !important;
+}
+.top-btn a:hover, .top-btn a:focus { background:#B12E62 !important; }
+.top-btn i { color:#fff !important; }
+
+/* --- Barra del final (créditos del tema): de lila a tinta de marca --- */
+.footer-2 { background:#2A2233 !important; }
+
+/* --- Botón "subir arriba" --- */
+.scrollup i { background:#D63E78 !important; }
+
+/* --- Otros acentos del tema → fucsia --- */
+input[type="submit"], .view-more,
+.custom-about-us a.custom_read_more { background:#D63E78 !important; }
+.search-box i { color:#B12E62 !important; }
+hr.section-hr { border-top-color:#D63E78 !important; }
+
+/* (Opcional) Ocultar "Book Now" si no se va a usar.
+   Quita las marcas de comentario de la línea de abajo: */
+/* .top-btn { display:none !important; } */
