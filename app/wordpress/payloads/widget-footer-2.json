@@ -1,0 +1,9 @@
+{
+  "id_base": "block",
+  "sidebar": "footer-2",
+  "instance": {
+    "raw": {
+      "content": "<!-- wp:html --><h3 class=\"widget-title\">Secciones</h3><ul><li><a href=\"https://yayafit.es/rutinas/\">Rutinas</a></li><li><a href=\"https://yayafit.es/bienestar/\">Bienestar</a></li><li><a href=\"https://yayafit.es/musica/\">Música</a></li><li><a href=\"https://yayafit.es/himno/\">Nuestro himno</a></li><li><a href=\"https://yayafit.es/sobre-yayafit/\">Sobre YayaFit</a></li></ul><!-- /wp:html -->"
+    }
+  }
+}

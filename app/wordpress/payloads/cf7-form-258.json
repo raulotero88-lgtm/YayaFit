@@ -1,0 +1,25 @@
+{
+  "title": "Formulario de contacto YayaFit",
+  "locale": "es_ES",
+  "form": "<label> Tu nombre\n    [text* your-name autocomplete:name] </label>\n\n<label> Tu correo electrónico\n    [email* your-email autocomplete:email] </label>\n\n<label> Asunto\n    [text* your-subject] </label>\n\n<label> Tu mensaje\n    [textarea* your-message] </label>\n\n[submit \"Enviar mensaje\"]",
+  "mail": {
+    "subject": "[YayaFit] [your-subject]",
+    "sender": "[_site_title] <wordpress@yayafit.es>",
+    "body": "Mensaje desde el formulario de contacto de yayafit.es\n\nDe: [your-name] <[your-email]>\nAsunto: [your-subject]\n\nMensaje:\n[your-message]\n\n-- \nEste correo se ha enviado desde el formulario de contacto de YayaFit (https://yayafit.es)",
+    "recipient": "[_site_admin_email]",
+    "additional_headers": "Reply-To: [your-email]",
+    "attachments": "",
+    "use_html": "",
+    "exclude_blank": ""
+  },
+  "messages": {
+    "mail_sent_ok": "¡Gracias por tu mensaje! Te responderemos muy pronto.",
+    "mail_sent_ng": "Ha habido un error al enviar tu mensaje. Inténtalo de nuevo más tarde, por favor.",
+    "validation_error": "Revisa los campos marcados, por favor.",
+    "spam": "Ha habido un error al enviar tu mensaje. Inténtalo de nuevo más tarde, por favor.",
+    "invalid_required": "Este campo es obligatorio.",
+    "invalid_email": "Escribe una dirección de correo válida, por favor.",
+    "invalid_too_long": "El texto es demasiado largo.",
+    "invalid_too_short": "El texto es demasiado corto."
+  }
+}

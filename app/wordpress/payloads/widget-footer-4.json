@@ -1,0 +1,9 @@
+{
+  "id_base": "block",
+  "sidebar": "footer-4",
+  "instance": {
+    "raw": {
+      "content": "<!-- wp:html --><h3 class=\"widget-title\">La comunidad</h3><p>Una comunidad de mujeres de 60 a 75 que se mueven juntas. Muy pronto podrás unirte. ✨</p><!-- /wp:html -->"
+    }
+  }
+}

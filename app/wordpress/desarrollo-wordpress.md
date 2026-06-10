@@ -6,7 +6,7 @@
 > 2. Marca la casilla de la tarea en el **Tracker** al terminar.
 > 3. Si cambias algo importante de rumbo, apúntalo en **Decisiones**.
 >
-> Última actualización: **2026-06-05** (paleta de marca final aplicada a todo el sitio: base lavanda + **fucsia como único color de acción**, vía REST API)
+> Última actualización: **2026-06-10** (profesionalización: limpieza de la demo del tema, portada única, identidad del sitio, favicon, formulario de contacto en español, pie de marca, Yoast SEO)
 
 ---
 
@@ -28,8 +28,8 @@ compañía con excusa de deporte"). Todo lo que construyamos debe servir a eso.
 |---|---|---|
 | Hosting | ✅ Hostinger activo | SSL + LiteSpeed cache funcionando |
 | Dominio | ✅ yayafit.es en producción | — |
-| Tema activo | `hostinger-ai-theme` | Generado por el asistente IA de Hostinger (ver Decisión D1) |
-| Plugins clave | ❌ Pendientes | No hay BuddyPress / Elementor / formularios aún |
+| Tema activo | `vw-yoga-fitness` 2.3.4 | "Free Yoga" de ThemesCaliber (sustituyó al hostinger-ai-theme ~2026-06-03; la demo importada se limpió el 2026-06-10) |
+| Plugins clave | ✅ Contact Form 7 6.1.6 + Yoast SEO 27.8 (2026-06-10) | BuddyPress (comunidad) sigue pendiente |
 | Páginas publicadas | **6** | Inicio (9), Sobre YayaFit (8), Himno (14), Música (20), **Rutinas (51) ← nueva**, **Bienestar (52) ← nueva**. Cómo funciona (10) → **borrador** (fundida en Sobre YayaFit) |
 | Entradas publicadas | **9** | "Hello world" demo (id 1, sin borrar por decisión de Raúl) + **5 rutinas (id 32-36)** + **3 artículos de bienestar (id 37-39)**, publicadas 2026-06-03 |
 | Categorías | **10** | **Rutinas** (id 3) → Equilibrio 5, Fuerza 6, Movilidad 7, Cardio 8, Yoga 9 · **Bienestar** (id 4) → Descanso 10, Nutrición 14, Hábitos 15 · "Uncategorized" (id 1) |
@@ -222,10 +222,10 @@ claude mcp add --transport http yayafit https://yayafit.es/wp-json/mcp/mcp-adapt
 - [x] Conexión MCP de Claude — 2026-06-02 (Raúl+Claude)
 
 **Fase 1 — Cimientos**
-- [ ] Recuperar/asignar acceso Administrador
-- [ ] Limpiar demo de Hostinger (Hello world + páginas demo)
-- [ ] Definir e instalar plugins (comunidad / formularios / editor)
-- [ ] Ajustes base (idioma, título, registro abierto, rol por defecto)
+- [x] Recuperar/asignar acceso Administrador — 2026-06-05 (cuenta de Raúl ya es Administrador)
+- [x] Limpiar demo del tema (Hello world id 1 + páginas Pages/About Us/Classes/Lorem ×2 + 3 posts Lorem) — 2026-06-10 (Claude, a papelera con OK de Raúl; recuperables 30 días)
+- [~] Definir e instalar plugins — **formularios ✅ Contact Form 7** + **SEO ✅ Yoast** (2026-06-10); comunidad (BuddyPress) pendiente
+- [x] Ajustes base (título "YayaFit", tagline "Tu segunda juventud empieza aquí", zona horaria Madrid, fecha/hora en formato español, email admin → raulotero88@gmail.com, pingbacks cerrados) — 2026-06-10 (Claude, vía REST). Registro abierto/rol por defecto: pendiente para la fase comunidad
 - [x] Crear categorías Rutinas (+ subcategorías) y Bienestar — 2026-06-03 (Claude, vía REST API)
 - [ ] Crear cuentas Editor para compañeros 2 y 3
 
@@ -240,7 +240,7 @@ claude mcp add --transport http yayafit https://yayafit.es/wp-json/mcp/mcp-adapt
 - [x] Publicar 5 rutinas (con categoría, subcategoría, etiquetas y extracto) — 2026-06-03 (Claude, vía REST API) · falta imagen destacada
 - [x] Publicar 3 artículos de bienestar (con categoría, subcategoría y extracto) — 2026-06-03 (Claude, vía REST API) · falta imagen destacada
 - [~] Aplicar paleta y tipografía de marca — **paleta ✅ 2026-06-05** (lavanda + fucsia de acción, 14 URLs, vía REST API); **tipografía (Fraunces/Nunito) pendiente** (requiere Personalizador → Administrador)
-- [ ] Subir logo y favicon
+- [~] Subir logo y favicon — **favicon ✅ 2026-06-10** (monograma "Y" blanca sobre círculo fucsia `#D63E78`, media id 253, generado con `brand/scripts/genera-favicon.py`); logo de cabecera pendiente (la cabecera usa logo de texto estilizado por CSS)
 - [x] Diseñar página de Inicio (hero + 4 tarjetas-hub + cierre) — 2026-06-03 (Claude+Raúl, vía REST API). ⚠️ El dominio pelado `yayafit.es` sigue mostrando el **blog** (`<body class="home blog">`); poner Inicio como página frontal está en *Ajustes → Lectura* y **requiere Administrador**
 - [ ] Activar comunidad (perfiles, grupo, miembros, muro)
 - [x] Configurar menú de navegación — 2026-06-03 (Claude+Raúl, vía REST API): barra de marca incrustada en las 6 páginas + 8 entradas, páginas índice Rutinas (51) y Bienestar (52), y reorganización (Cómo funciona fundida en Sobre; Himno enlazado desde Música)
@@ -278,10 +278,26 @@ claude mcp add --transport http yayafit https://yayafit.es/wp-json/mcp/mcp-adapt
 | 2026-06-03 | 2 MP3 duplicados huérfanos en Medios (id 22, id 24) + png ajena (id 7) | Abierto — Raúl decidió **no borrar** por ahora (2026-06-03) |
 | 2026-06-03 | Application Password "Claude REST API" en uso (compartida en chat) | Abierto — **rotar/revocar** desde wp-admin → Perfil cuando termine el trabajo de contenido |
 | 2026-06-05 | Application Password usada para el empuje de la paleta (compartida en chat) | Abierto — **revocar** desde wp-admin → Perfil ahora que el trabajo de estilo terminó |
+| 2026-06-10 | Application Password usada en la sesión de profesionalización (compartida en chat) | Abierto — **revocar** desde wp-admin → Perfil al cerrar la sesión (junto con las anteriores pendientes) |
 
 ---
 
 ## 11. Historial de sesiones
+
+### 2026-06-10 — Raúl + Claude (profesionalización: limpieza demo, portada única, identidad, contacto, SEO)
+
+- **Auditoría completa previa** (REST + frontend): tema real `vw-yoga-fitness` 2.3.4 con demo importada aún publicada, dos portadas compitiendo (Home demo id 90 como frontal + hub Inicio id 9), menú con "Home" e "Inicio" duplicados, contacto sin formulario, sin favicon/tagline, fecha en formato inglés, email admin de Hostinger, pie con widgets de relleno del tema (Search/Archivo/Meta/Categories), 0 SEO.
+- **Decisión de Raúl:** portada única = la **Home del tema** (id 90, "más profesional"). El hub Inicio (9) pasó a **borrador** (contenido conservado).
+- **Limpieza demo (papelera, OK explícito de Raúl):** páginas Pages (96), Lorem ×2 (102, 104), About Us (92), Classes (94); entradas Lorem ×3 (114, 116, 118) y Hello world (1). Verificado: todas dan 404. Los 3 posts de clases reales (108, 110, 112) se conservaron: **slug limpio** (`clase-fuerza-y-equilibrio-con-silla`, `clase-baile-en-grupo`, `clase-yoga-suave-y-respiracion`) + párrafo nuevo enlazando a su rutina/Música.
+- **Menú unificado:** ítem "Home" renombrado a "Inicio" (item 91); ítem duplicado "Inicio"→/inicio/ (item 123) eliminado. Título de la página 90: "Home" → "Inicio" (la pestaña ahora dice "Inicio - YayaFit").
+- **Identidad (REST /settings):** título "YayaFit", tagline "Tu segunda juventud empieza aquí", zona horaria Europe/Madrid, fecha `j \d\e F \d\e Y`, hora `H:i`, email admin → raulotero88@gmail.com, pingbacks cerrados.
+- **Favicon:** monograma "Y" blanca (Georgia Bold, aprox. local de Fraunces) sobre círculo fucsia `#D63E78`, 512px, generado con `brand/scripts/genera-favicon.py` → `brand/images/favicon-yayafit-512.png`, subido (media id **253**) y fijado como site_icon. Verificado en `<head>`.
+- **Pie de marca:** las 4 zonas footer-1..4 pobladas con bloques (YayaFit+tagline · Secciones · Contacto · La comunidad), lo que desplaza el relleno hardcodeado del tema. 🐞 **Gotcha widgets:** las primeras creaciones rebotaron a `wp_inactive_widgets` con la instancia vaciada (object cache de Hostinger desfasado entre workers durante la instalación de plugins). Solución: recrear los widgets, y **reasignar la zona en una segunda pasada** una vez la instancia ya persiste en BD.
+- **Plugins instalados y activados (OK explícito de Raúl):** Contact Form 7 6.1.6 y Yoast SEO 27.8 (vía REST `/wp/v2/plugins`).
+- **Formulario de contacto:** form CF7 (id 258, hash `fad5f68`) traducido a español con voz de marca (campos Tu nombre/correo/asunto/mensaje, botón "Enviar mensaje", mensajes de validación en español), mail a `[_site_admin_email]` con Reply-To. Incrustado en la página Contacta con Nosotros (100) con shortcode. 🐞 **Gotcha CF7 REST:** los parámetros van **planos** (`title`, `form`, `mail`, `messages`), NO bajo `properties`, y hay que añadir **`?context=save`** o el cambio solo vive en memoria (devuelve 200 y echo del cambio, pero no persiste).
+- **Verificado en vivo:** menú único, favicon servido, pie de marca sin fallback, formulario en español, las 3 URLs de clases nuevas en 200, demo en 404, `og:title` de Yoast presente.
+- **Artefactos nuevos:** `app/wordpress/payloads/` (settings, clases, widgets, CF7, página contacto), `brand/scripts/genera-favicon.py`, `brand/images/favicon-yayafit-512.png`.
+- **Pendiente (manual, en el Personalizador):** (1) botón topbar "RESERVAR AHORA"/"Book Now" → darle URL real (p. ej. /contact-us/) o desactivarlo (*VW Settings → Topbar Section*; queda un "Book Now" sin traducir); (2) texto del pie "Tema de WordPress Yoga By ThemesCaliber" (*Footer Settings*); (3) tipografía Fraunces/Nunito; (4) primera configuración de Yoast (asistente) + meta descriptions de páginas clave; (5) **revocar las Application Passwords** compartidas en chat (incluida la de hoy); (6) decidir qué hacer con la cuenta admin `mkhzipgd@gmail.com` de Hostinger (recuperar o eliminar).
 
 ### 2026-06-05 — Raúl + Claude (paleta de marca final: lavanda + fucsia de acción)
 

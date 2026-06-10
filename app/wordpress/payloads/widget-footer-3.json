@@ -1,0 +1,9 @@
+{
+  "id_base": "block",
+  "sidebar": "footer-3",
+  "instance": {
+    "raw": {
+      "content": "<!-- wp:html --><h3 class=\"widget-title\">Contacto</h3><p><a href=\"https://yayafit.es/contact-us/\">Contacta con nosotros</a></p><p>Te leemos y te respondemos con calma, como debe ser.</p><!-- /wp:html -->"
+    }
+  }
+}
