@@ -1,0 +1,75 @@
+========================================================
+PROMPT LEONARDO.AI — PORTADA "CAMPEONAS" (YayaFit)
+========================================================
+Canción: Campeonas — YayaFit
+Fecha: 2026-06-11
+Objetivo: Portada de álbum coherente con el sistema
+visual de YayaFit ("Segunda Juventud" / "Libre" /
+"Siente el Ritmo"), adaptada al tema de himno
+mundialero épico y euforia de comunidad de "Campeonas".
+
+Referencia base: mujeres mayores celebrando como
+campeonas (heroína en primer plano levantando una copa,
+peña celebrando detrás). Energía real, diversa, sin pose.
+Identidad de marca: mujer madura plateada, gesto de
+celebración, acabado cinematográfico glossy y saturado,
+sol semicírculo de fondo.
+Decisiones para esta portada: composición "heroína
+levantando una copa dorada + peña detrás" · paleta
+LILA/MORADA de marca + dorado cálido · ATEMPORAL (sin
+colores ni banderas de ninguna selección nacional) ·
+copa genérica (NO el trofeo oficial de la FIFA).
+
+--------------------------------------------------------
+PROMPT PRINCIPAL (copiar-pegar)
+--------------------------------------------------------
+Cinematic square album cover, euphoric World Cup champions celebration energy. In the foreground, a radiant woman in her late 60s with short silver-grey natural hair, lifting a generic shiny golden trophy cup high over her head with both hands, her head thrown back in a huge joyful open-mouthed cheer, eyes shining with victory, a plain lilac team scarf around her neck, wearing a bright casual top. Behind her, softly out of focus, four diverse older women in their 60s and 70s celebrating together like champions, jumping with their arms raised, scarves up, laughing and shouting, conveying a warm explosive sense of community, like a neighbourhood watch party that just won the cup. Setting: a cosy living room turned into a stadium stand, with a warm exposed-brick wall and a large window, golden evening light streaming in. A large soft glowing semicircular halo of light frames her from behind (YayaFit sun motif). Floating lilac and gold confetti and gentle light flecks drift through the air for a festive sparkle. Bold YayaFit lilac palette: rich lavender and violet purple, deep magenta-purple shadows, soft pink highlights, warmed by glowing golden light. High saturation, glossy modern finish, soft volumetric backlight, dreamy haze. Empowered, alive, celebratory, victorious champions mood. Clean uncluttered space toward the bottom for a title. Highly detailed, photorealistic, professional music cover art, centered composition, 1:1, 3000x3000.
+
+--------------------------------------------------------
+NEGATIVE PROMPT
+--------------------------------------------------------
+young woman, child, teenager, man, men, sad or gloomy face, tired, dark, desaturated, dull colors, washed out, blurry hero face, deformed hands, extra fingers, mutated fingers, missing fingers, text, letters, words, numbers, watermark, logo, signature, national flag, flag colors, red and yellow stripes, FIFA World Cup trophy, official trophy, team jersey logos, brand logos, distorted face, cartoonish, plastic skin, oversharpened, cluttered, harsh fluorescent lighting
+
+--------------------------------------------------------
+CONFIGURACIÓN RECOMENDADA EN LEONARDO
+--------------------------------------------------------
+Modelo .............. Leonardo Phoenix o Leonardo Diffusion XL
+Aspect ratio ........ 1:1 (cuadrado, portada de álbum)
+Preset Style ........ Cinematic / Dynamic
+Photoreal / Alchemy . Activado
+Guidance Scale ...... 7
+Image Guidance ...... Si tienes una foto de referencia de
+                      celebración (heroína + grupo), súbela
+                      en "Style" o "Character" al 30-40 %
+                      para fijar la composición sin copiarla.
+
+--------------------------------------------------------
+NOTAS DE ADAPTACIÓN
+--------------------------------------------------------
+- Composición elegida: heroína en primer plano levantando
+  una COPA dorada genérica (refuerza el título "Campeonas")
+  + peña/amigas celebrando detrás. Protagonista clara,
+  como el resto de portadas del álbum, con la comunidad
+  presente.
+- Copa genérica: una copa/trofeo dorado sencillo. El
+  negative prompt excluye el trofeo oficial de la FIFA
+  (marca registrada). No usar la silueta icónica real.
+- Paleta: lila/morado de marca + dorado cálido del
+  atardecer. La bufanda y el confeti van en lila/morado,
+  NO en colores de selección nacional.
+- ATEMPORAL: el negative prompt excluye banderas, colores
+  de bandera (p. ej. rojo-amarillo) y logos de equipo,
+  para que la portada sirva para cualquier Mundial.
+- Motivo de marca: halo/sol semicírculo detrás de la
+  protagonista + acabado glossy saturado.
+- El título "Campeonas — YayaFit" se añade en post
+  (Leonardo no escribe texto fiable). Por eso el negative
+  prompt excluye texto y se deja espacio limpio abajo.
+
+- VARIANTE protagonista: para una mujer rubia de pelo
+  largo, sustituye la frase del primer plano por:
+    "a radiant woman in her late 60s with long silver-blonde
+     hair, lifting a generic golden trophy cup high over her
+     head, head thrown back cheering in victory, a lilac scarf
+     around her neck, wearing a bright casual top"
+========================================================

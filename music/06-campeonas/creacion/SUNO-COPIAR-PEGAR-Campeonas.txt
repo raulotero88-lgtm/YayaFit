@@ -1,0 +1,176 @@
+═══════════════════════════════════════════════════════════════
+  CAMPEONAS — YayaFit  |  ARCHIVO LISTO PARA COPIAR-PEGAR EN SUNO
+═══════════════════════════════════════════════════════════════
+
+  ✅ LETRA FINAL: ya pasada por /humanizer y revisada. Lista para generar.
+     Copia la sección ③ tal cual en Suno.
+
+  🏆 Himno mundialero ÉPICO. El gancho voltea en femenino el cántico
+     "Campeones, campeones, ¡oé, oé, oé!". NO se nombra a ningún artista
+     en el prompt (riesgo de copyright); el estilo se replica con género +
+     instrumentación.
+
+  🎤 VOZ: femenina, blindada por partida doble (tag [Female Vocal] en la
+     letra + "female lead" en el style). Los coros "oé" son de masa mixta.
+
+  🎧 SONIDO v3 ("Dai Dai"): afrobeats-reggaetón mid-tempo, el sonido del
+     himno oficial del Mundial 2026. La pegada va de groove y graves,
+     no de velocidad (las versiones anteriores sonaban al patrón de 2010).
+
+INSTRUCCIONES RÁPIDAS:
+  1. Ve a https://suno.com → Create → activa "Custom Mode"
+  2. Copia cada bloque de abajo en su campo correspondiente
+  3. Clic en "Create" → espera 2 versiones
+  4. Verifica BPM en https://songbpm.com (debe dar 101-111)
+  5. Comprueba que la solista es femenina y que el coro final sube de tono
+
+
+───────────────────────────────────────────────────────────────
+  ① CAMPO "STYLE OF MUSIC"  (copia el bloque completo)
+───────────────────────────────────────────────────────────────
+
+Afrobeats reggaeton World Cup anthem, 106 BPM, vibrant and victorious, heavy African percussion, log drums, dembow-tinged rhythm section, deep rolling bassline, warm horn stabs, stadium crowd chants, powerful melodic female lead with Latin pop hooks and call-and-response crowd vocals, Spanish lyrics, global festive groove, polished modern production, no harsh distortion, no rock guitars, danceable sing-along energy
+
+
+───────────────────────────────────────────────────────────────
+  ② CAMPO "TITLE"
+───────────────────────────────────────────────────────────────
+
+Campeonas — YayaFit
+
+
+───────────────────────────────────────────────────────────────
+  ③ CAMPO "LYRICS"  (copia desde [Intro] hasta el final)
+───────────────────────────────────────────────────────────────
+
+[Intro]
+[Mood: Epic, Euphoric]
+[Energy: Building]
+[Female Vocal]
+[Instrument: Afrobeats drums, log drums, deep bass, warm horns]
+
+[Verse 1]
+[Vocal Style: Open, Confident]
+Se viste el barrio de fiesta,
+cuelgo la bufanda al balcón.
+El salón se vuelve grada
+y arranca ya la función.
+
+No me pierdo ni un minuto,
+hoy el barrio es un clamor.
+Que se oiga en cada esquina:
+¡esta tarde juego yo!
+
+[Pre-Chorus]
+[Energy: Rising]
+Ya retumba el barrio entero,
+se oye un solo corazón...
+
+[Chorus]
+[Energy: High]
+[Vocal Style: Power]
+¡Campeonas, campeonas!
+(¡oé, oé, oé!)
+¡Esta copa es nuestra,
+nos la llevamos todas!
+(¡oé, oé, oé!)
+¡Campeonas, campeonas!
+Que lo cante el mundo entero:
+¡las yayas, campeonas!
+
+[Verse 2]
+[Vocal Style: Open, Confident]
+[Energy: Medium]
+Llamo a todas mis amigas,
+que la peña está al completo.
+Suenan palmas y silbatos
+y un rugido sale al cielo.
+
+Aunque tiemblen los nervios,
+yo no me bajo del sofá.
+Si marcamos, salta todo:
+¡el vecino bajará!
+
+[Pre-Chorus]
+[Energy: Rising]
+[Callback: continue with same vibe as chorus]
+Ya retumba el barrio entero,
+se oye un solo corazón...
+
+[Chorus]
+[Energy: High]
+[Vocal Style: Power]
+¡Campeonas, campeonas!
+(¡oé, oé, oé!)
+¡Esta copa es nuestra,
+nos la llevamos todas!
+(¡oé, oé, oé!)
+¡Campeonas, campeonas!
+Que lo cante el mundo entero:
+¡las yayas, campeonas!
+
+[Bridge]
+[Mood: Triumphant]
+[Energy: Building]
+[Instrument: Warm horns, heavy African drums, big claps]
+No hay edad para este grito,
+si caemos, ¡a la carga!
+Tengo cuerda y tengo garra
+y una peña que me canta.
+Late el mundo en una pelota:
+¡esta noche se gana en casa!
+
+[Breakdown]
+[Energy: Drop to medium]
+[Instrument: African drums and handclaps only]
+[Vocal Style: Playful]
+(¡oé!... ¡oé!...)
+¿Lo oís? Ya viene el barrio...
+(¡oé, oé, oé!)
+¡Cantadlo conmigo!
+
+[Chorus - Final]
+[modulate up a key]
+[Energy: Maximum]
+[Vocal Style: Belt]
+[crowd sings]
+¡Campeonas, campeonas!
+(¡oé, oé, oé!)
+¡Esta copa es nuestra,
+nos la llevamos todas!
+(¡oé, oé, oé!)
+¡Campeonas, campeonas!
+Que lo cante el mundo entero:
+¡las yayas, campeonas!
+
+[Outro]
+[Mood: Euphoric]
+[Fade Out]
+Campeonas... campeonas...
+(YayaFit, ¡campeonas!)
+que lo cante el mundo entero...
+(¡oé, oé, oé!...)
+
+
+───────────────────────────────────────────────────────────────
+  CALLBACK PARA "EXTEND" (solo si la canción dura < 2:30)
+───────────────────────────────────────────────────────────────
+
+[Callback: continue with same champion anthem groove and vibe as chorus]
+[Energy: Maximum]
+[crowd sings]
+¡Campeonas, campeonas!
+(¡oé, oé, oé!)
+[Fade Out]
+(¡las yayas, campeonas!...)
+
+
+───────────────────────────────────────────────────────────────
+  NOMBRES DE ARCHIVO AL DESCARGAR
+───────────────────────────────────────────────────────────────
+
+  WAV → Campeonas - YayaFit.wav
+  MP3 → Campeonas - YayaFit.mp3
+  Guardar en: music/06-campeonas/
+
+═══════════════════════════════════════════════════════════════
