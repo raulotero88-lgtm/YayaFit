@@ -6,7 +6,7 @@
 > 2. Marca la casilla de la tarea en el **Tracker** al terminar.
 > 3. Si cambias algo importante de rumbo, apúntalo en **Decisiones**.
 >
-> Última actualización: **2026-06-10** (profesionalización: limpieza de la demo del tema, portada única, identidad del sitio, favicon, formulario de contacto en español, pie de marca, Yoast SEO)
+> Última actualización: **2026-06-11** (publicada la canción 06 **Campeonas** en `/musica/`: medios id 273/274, bloque en primera posición)
 
 ---
 
@@ -59,7 +59,8 @@ compañía con excusa de deporte"). Todo lo que construyamos debe servir a eso.
 - 3 artículos de bienestar: ✅ **publicados 2026-06-03** (dormir-mejor id 37, nutricion-sencilla id 38, rutina-diaria id 39) — falta imagen destacada (2ª pasada)
 - Himno "Segunda Juventud": ✅ publicado en `/himno/` (portada + reproductor + letra)
 
-**Página Música (`/musica/`, id 20) — 4 canciones (orden: más nuevas arriba):**
+**Página Música (`/musica/`, id 20) — 5 canciones (orden: más nuevas arriba):**
+- 🎵 **Campeonas (Canción mundial 2026)** — portada (id 274) + reproductor MP3 (id 273). Himno mundialero estilo "Dai Dai". Publicada 2026-06-11 por Claude vía REST API.
 - 🎵 **Siente el Ritmo** — portada (id 156) + reproductor MP3 (id 157, con portada incrustada). Publicada 2026-06-04 por Claude vía REST API.
 - 🎵 **Libre** — portada (id 27) + reproductor MP3 (id 28). Publicada 2026-06-03 por Claude vía REST API.
 - 🎵 **Corazón Poderoso** — portada + reproductor MP3.
@@ -237,6 +238,7 @@ claude mcp add --transport http yayafit https://yayafit.es/wp-json/mcp/mcp-adapt
 - [x] Publicar página Música (2 canciones: Corazón Poderoso + Segunda Juventud) — 2026-06-02 (Raúl, directo en la web) · https://yayafit.es/musica/
 - [x] Añadir canción **Libre** a la página Música (portada + reproductor MP3) — 2026-06-03 (Claude, vía REST API) · https://yayafit.es/musica/
 - [x] Añadir canción **Siente el Ritmo** a la página Música (portada + reproductor MP3, medios id 156/157) — 2026-06-04 (Claude, vía REST API) · https://yayafit.es/musica/
+- [x] Añadir canción **Campeonas (Canción mundial 2026)** a la página Música (portada id 274 + MP3 id 273, primera posición) — 2026-06-11 (Claude, vía REST API) · https://yayafit.es/musica/
 - [x] Publicar 5 rutinas (con categoría, subcategoría, etiquetas y extracto) — 2026-06-03 (Claude, vía REST API) · falta imagen destacada
 - [x] Publicar 3 artículos de bienestar (con categoría, subcategoría y extracto) — 2026-06-03 (Claude, vía REST API) · falta imagen destacada
 - [~] Aplicar paleta y tipografía de marca — **paleta ✅ 2026-06-05** (lavanda + fucsia de acción, 14 URLs, vía REST API); **tipografía (Fraunces/Nunito) pendiente** (requiere Personalizador → Administrador)
@@ -279,10 +281,19 @@ claude mcp add --transport http yayafit https://yayafit.es/wp-json/mcp/mcp-adapt
 | 2026-06-03 | Application Password "Claude REST API" en uso (compartida en chat) | Abierto — **rotar/revocar** desde wp-admin → Perfil cuando termine el trabajo de contenido |
 | 2026-06-05 | Application Password usada para el empuje de la paleta (compartida en chat) | Abierto — **revocar** desde wp-admin → Perfil ahora que el trabajo de estilo terminó |
 | 2026-06-10 | Application Password usada en la sesión de profesionalización (compartida en chat) | Abierto — **revocar** desde wp-admin → Perfil al cerrar la sesión (junto con las anteriores pendientes) |
+| 2026-06-11 | Application Password usada para publicar "Campeonas" (compartida en chat) | Abierto — **revocar** desde wp-admin → Perfil al cerrar la sesión |
 
 ---
 
 ## 11. Historial de sesiones
+
+### 2026-06-11 — Raúl + Claude (publicación de "Campeonas")
+- **Contexto:** sexta canción del catálogo (himno del Mundial, estilo afrobeats-reggaetón "Dai Dai"), ya generada por Raúl y subida al repo (`music/06-campeonas/`).
+- **2 medios subidos** a la Biblioteca vía REST API (Basic Auth): `campeonas-yayafit.mp3` (id **273**, 5.324.748 bytes) y `portada-campeonas.jpg` (id **274**, 242.981 bytes). Fijados título (`Campeonas (Canción mundial 2026)`) y `alt_text`.
+- **Bloque añadido** a la página Música (id 20) en **primera posición** (convención: más nuevas arriba), replicando el patrón exacto leído en vivo (`<div>` borde `#cdb6e3` + `<img>` 200px + `<h3 style="color:#2A2233;">` + `<audio>`), sin tocar las otras 4 canciones. Contenido construido e insertado con un script Python (UTF-8 + escapado JSON) y enviado con `curl --data-binary @payload.json` (gotcha de acentos).
+- **Título en la web:** a petición de Raúl, el `<h3>` muestra **"Campeonas (Canción mundial 2026)"** (el nombre del fichero del repo se deja como está).
+- **Verificado en vivo:** medios HTTP 200 con tamaños correctos; frontend `/musica/` muestra Campeonas el primero (orden Campeonas · Siente el Ritmo · Libre · Corazón Poderoso · Segunda Juventud), tilde correcta (sin mojibake), ambas URLs de medios presentes.
+- **Pendiente:** **revocar** la Application Password usada en esta sesión desde wp-admin → Perfil.
 
 ### 2026-06-10 — Raúl + Claude (profesionalización: limpieza demo, portada única, identidad, contacto, SEO)
 

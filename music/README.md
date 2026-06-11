@@ -10,7 +10,7 @@ Dentro de cada carpeta están el audio, la portada y, en `creacion/`, los docume
 | 03 | **Libre** | Publicada en `yayafit.es/musica/` | [`03-libre/`](03-libre/) |
 | 04 | **Siente el Ritmo** | Publicada en `yayafit.es/musica/` | [`04-siente-el-ritmo/`](04-siente-el-ritmo/) |
 | 05 | **Pasito a Paso** | Letra y prompts listos · pendiente de generar en Suno | [`05-pasito-a-paso/`](05-pasito-a-paso/) |
-| 06 | **Campeonas** | Audio y portada generados · pendiente de publicar en `/musica/` | [`06-campeonas/`](06-campeonas/) |
+| 06 | **Campeonas** | Publicada en `yayafit.es/musica/` | [`06-campeonas/`](06-campeonas/) |
 
 ## Estructura de cada carpeta
 
