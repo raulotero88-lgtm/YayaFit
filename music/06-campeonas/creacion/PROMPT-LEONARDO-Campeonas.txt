@@ -15,20 +15,25 @@ Identidad de marca: mujer madura plateada, gesto de
 celebración, acabado cinematográfico glossy y saturado,
 sol semicírculo de fondo.
 Decisiones para esta portada: composición "heroína
-levantando una copa dorada + peña detrás" · paleta
+levantando el trofeo del Mundial + peña detrás" · paleta
 LILA/MORADA de marca + dorado cálido · ATEMPORAL (sin
 colores ni banderas de ninguna selección nacional) ·
-copa genérica (NO el trofeo oficial de la FIFA).
+trofeo: el TROFEO OFICIAL de la Copa del Mundo de la FIFA
+(decisión de Raúl, 2026-06-11), descrito con exactitud
+(dos figuras de oro en espiral sosteniendo el globo
+terráqueo + base con dos bandas de malaquita verde).
+NOTA IP: el diseño del trofeo es marca/diseño registrado
+de la FIFA; se usa de forma intencionada en esta portada.
 
 --------------------------------------------------------
 PROMPT PRINCIPAL (copiar-pegar)
 --------------------------------------------------------
-Cinematic square album cover, euphoric World Cup champions celebration energy. In the foreground, a radiant woman in her late 60s with short silver-grey natural hair, lifting a generic shiny golden trophy cup high over her head with both hands, her head thrown back in a huge joyful open-mouthed cheer, eyes shining with victory, a plain lilac team scarf around her neck, wearing a bright casual top. Behind her, softly out of focus, four diverse older women in their 60s and 70s celebrating together like champions, jumping with their arms raised, scarves up, laughing and shouting, conveying a warm explosive sense of community, like a neighbourhood watch party that just won the cup. Setting: a cosy living room turned into a stadium stand, with a warm exposed-brick wall and a large window, golden evening light streaming in. A large soft glowing semicircular halo of light frames her from behind (YayaFit sun motif). Floating lilac and gold confetti and gentle light flecks drift through the air for a festive sparkle. Bold YayaFit lilac palette: rich lavender and violet purple, deep magenta-purple shadows, soft pink highlights, warmed by glowing golden light. High saturation, glossy modern finish, soft volumetric backlight, dreamy haze. Empowered, alive, celebratory, victorious champions mood. Clean uncluttered space toward the bottom for a title. Highly detailed, photorealistic, professional music cover art, centered composition, 1:1, 3000x3000.
+Cinematic square album cover, euphoric championship victory celebration energy. In the foreground, a radiant woman in her late 60s with short silver-grey natural hair, lifting high over her head with both hands a gleaming polished solid 18-carat gold sculptural trophy about 37 cm tall, shaped as two stylised athletes with flowing muscular bodies spiralling upward, their outstretched raised arms together holding aloft a small golden globe of the Earth at the very top (the globe engraved with continent outlines), the whole figure rising in a twisting spiral from a rounded base wrapped by two thin bands of green malachite stone; it is a single solid gold figure-and-globe sculpture, not a cup, no handles and no bowl, her head thrown back in a huge joyful open-mouthed cheer, eyes shining with victory, a plain lilac team scarf around her neck, wearing a bright casual top. Behind her, softly out of focus, four diverse older women in their 60s and 70s celebrating together like champions, jumping with their arms raised, scarves up, laughing and shouting, conveying a warm explosive sense of community, like a neighbourhood watch party that just won the cup. Setting: a cosy living room turned into a stadium stand, with a warm exposed-brick wall and a large window, golden evening light streaming in. A large soft glowing semicircular halo of light frames her from behind (YayaFit sun motif). Floating lilac and gold confetti and gentle light flecks drift through the air for a festive sparkle. Bold YayaFit lilac palette: rich lavender and violet purple, deep magenta-purple shadows, soft pink highlights, warmed by glowing golden light. High saturation, glossy modern finish, soft volumetric backlight, dreamy haze. Empowered, alive, celebratory, victorious champions mood. Clean uncluttered space toward the bottom for a title. Highly detailed, photorealistic, professional music cover art, centered composition, 1:1, 3000x3000.
 
 --------------------------------------------------------
 NEGATIVE PROMPT
 --------------------------------------------------------
-young woman, child, teenager, man, men, sad or gloomy face, tired, dark, desaturated, dull colors, washed out, blurry hero face, deformed hands, extra fingers, mutated fingers, missing fingers, text, letters, words, numbers, watermark, logo, signature, national flag, flag colors, red and yellow stripes, FIFA World Cup trophy, official trophy, team jersey logos, brand logos, distorted face, cartoonish, plastic skin, oversharpened, cluttered, harsh fluorescent lighting
+youthful face, smooth wrinkle-free skin, woman in her 20s, woman in her 30s, man, men, male figure, sad or gloomy face, tired, dark, desaturated, dull colors, washed out, blurry hero face, deformed hands, extra fingers, mutated fingers, missing fingers, text, letters, words, numbers, watermark, logo, signature, national flag, flag colors, red and yellow stripes, generic trophy, plain trophy cup, two-handled cup, chalice, goblet, trophy bowl, cup with handles, sports cup with handles, team jersey logos, brand logos, distorted face, cartoonish, plastic skin, oversharpened, cluttered, harsh fluorescent lighting
 
 --------------------------------------------------------
 CONFIGURACIÓN RECOMENDADA EN LEONARDO
@@ -47,13 +52,40 @@ Image Guidance ...... Si tienes una foto de referencia de
 NOTAS DE ADAPTACIÓN
 --------------------------------------------------------
 - Composición elegida: heroína en primer plano levantando
-  una COPA dorada genérica (refuerza el título "Campeonas")
-  + peña/amigas celebrando detrás. Protagonista clara,
-  como el resto de portadas del álbum, con la comunidad
-  presente.
-- Copa genérica: una copa/trofeo dorado sencillo. El
-  negative prompt excluye el trofeo oficial de la FIFA
-  (marca registrada). No usar la silueta icónica real.
+  el TROFEO de la Copa del Mundo (refuerza el título
+  "Campeonas") + peña/amigas celebrando detrás. Protagonista
+  clara, como el resto de portadas del álbum, con la
+  comunidad presente.
+- TROFEO OFICIAL (ficha exacta para clavar la silueta):
+  · Diseño de Silvio Gazzaniga (en uso desde 1974).
+  · Oro macizo de 18 quilates, pulido y brillante.
+  · NO es una copa con asas ni un cáliz: es una ESCULTURA.
+  · Dos figuras humanas (atletas) con los cuerpos en
+    ESPIRAL ascendente, brazos levantados, que sostienen
+    en lo alto un GLOBO TERRÁQUEO dorado (con las líneas
+    de los continentes grabadas).
+  · BASE redonda rodeada por DOS bandas de MALAQUITA verde.
+  · ~36,8 cm de alto, ~6,1 kg.
+  El negative prompt ahora EXCLUYE la copa genérica / con
+  asas / cáliz para empujar hacia esta silueta real.
+- IMPORTANTE (filtro de Leonardo): el prompt describe el
+  trofeo SOLO por su forma; NO escribas "FIFA" ni "World Cup
+  trophy" en Leonardo: su filtro de marca rechaza el prompt.
+  La descripción física (dos figuras de oro en espiral +
+  globo + base de malaquita verde) ya hace que salga el
+  trofeo real sin nombrar la marca. Misma razón por la que
+  la apertura dice "championship victory" y no "World Cup".
+- IMPORTANTE (negative prompt): NO uses "child" ni "teenager"
+  para excluir gente joven; Leonardo bloquea cualquier término
+  que se refiera a menores aunque sea para excluirlo. Se
+  sustituye por edades adultas ("woman in her 20s/30s",
+  "youthful face", "wrinkle-free skin"): mismo efecto, sin
+  disparar el filtro.
+- NOTA IP: el diseño del trofeo del Mundial es marca y
+  diseño registrado de la FIFA. Aquí se usa de forma
+  intencionada (decisión de Raúl). Si en algún momento se
+  quisiera evitar el riesgo de marca, volver a la versión
+  de "copa dorada genérica" (historial en git).
 - Paleta: lila/morado de marca + dorado cálido del
   atardecer. La bufanda y el confeti van en lila/morado,
   NO en colores de selección nacional.
@@ -69,7 +101,10 @@ NOTAS DE ADAPTACIÓN
 - VARIANTE protagonista: para una mujer rubia de pelo
   largo, sustituye la frase del primer plano por:
     "a radiant woman in her late 60s with long silver-blonde
-     hair, lifting a generic golden trophy cup high over her
-     head, head thrown back cheering in victory, a lilac scarf
+     hair, lifting high over her head a solid gold sculptural
+     trophy of two stylised athletes spiralling upward holding
+     aloft a small golden globe of the Earth, on a rounded base
+     wrapped by two thin bands of green malachite, no handles and
+     no bowl, head thrown back cheering in victory, a lilac scarf
      around her neck, wearing a bright casual top"
 ========================================================

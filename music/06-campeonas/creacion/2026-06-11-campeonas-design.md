@@ -314,13 +314,18 @@ sin choques fonéticos, todo el coro empuja en la misma dirección.
 
 Prompt final completo en `PROMPT-LEONARDO-Campeonas.txt` (mismo formato que el resto del álbum).
 
-- **Composición:** heroína YayaFitter **levantando una copa/trofeo dorado** en primer plano
+- **Composición:** heroína YayaFitter **levantando el trofeo del Mundial** en primer plano
   (euforia, bufanda lila) + amigas/peña celebrando detrás. Encaja aún mejor con el título
   "Campeonas". Protagonista clara, comunidad presente.
 - **Escena:** salón convertido en grada / barrio en fiesta, luz cálida de atardecer.
 - **Paleta:** lila/morada de marca + dorado cálido. **Sin colores de selección concreta**
   (atemporal): bufanda y confeti en lila/morado, no banderas nacionales.
-- **Trofeo genérico:** copa dorada genérica (NO el trofeo oficial de la FIFA, marca registrada).
+- **Trofeo OFICIAL de la Copa del Mundo** (decisión de Raúl, 2026-06-11): escultura de oro
+  de 18 quilates, **dos figuras humanas en espiral ascendente con los brazos en alto
+  sosteniendo un globo terráqueo** dorado, sobre una **base con dos bandas de malaquita
+  verde**. NO es una copa con asas ni un cáliz. Ficha exacta y prompt en
+  `PROMPT-LEONARDO-Campeonas.txt`. **Nota IP:** el diseño es marca/diseño registrado de la
+  FIFA; se usa de forma intencionada (alternativa "copa genérica" en el historial de git).
 - **Motivo de marca:** halo/sol semicírculo detrás + acabado glossy saturado.
 - El título se añade en post; se deja espacio limpio abajo y el negative prompt excluye texto.
 

@@ -6,7 +6,7 @@
 > 2. Marca la casilla de la tarea en el **Tracker** al terminar.
 > 3. Si cambias algo importante de rumbo, apúntalo en **Decisiones**.
 >
-> Última actualización: **2026-06-11** (publicada la canción 06 **Campeonas** en `/musica/`: medios id 273/274, bloque en primera posición)
+> Última actualización: **2026-06-11** (2ª pasada de Campeonas: portada cambiada a la del **trofeo del Mundial** —medio id **279**, sustituye a la 274— y título de `/musica/` aligerado quitando el `<h1>` duplicado «Música YayaFit»)
 
 ---
 
@@ -60,7 +60,7 @@ compañía con excusa de deporte"). Todo lo que construyamos debe servir a eso.
 - Himno "Segunda Juventud": ✅ publicado en `/himno/` (portada + reproductor + letra)
 
 **Página Música (`/musica/`, id 20) — 5 canciones (orden: más nuevas arriba):**
-- 🎵 **Campeonas (Canción mundial 2026)** — portada (id 274) + reproductor MP3 (id 273). Himno mundialero estilo "Dai Dai". Publicada 2026-06-11 por Claude vía REST API.
+- 🎵 **Campeonas (Canción mundial 2026)** — portada **id 279** (`portada-campeonas-trofeo.jpg`, la del trofeo del Mundial; **la id 274 quedó huérfana**) + reproductor MP3 (id 273). Himno mundialero estilo "Dai Dai". Publicada 2026-06-11; portada y título actualizados el mismo día (2ª pasada) por Claude vía REST API.
 - 🎵 **Siente el Ritmo** — portada (id 156) + reproductor MP3 (id 157, con portada incrustada). Publicada 2026-06-04 por Claude vía REST API.
 - 🎵 **Libre** — portada (id 27) + reproductor MP3 (id 28). Publicada 2026-06-03 por Claude vía REST API.
 - 🎵 **Corazón Poderoso** — portada + reproductor MP3.
@@ -282,10 +282,20 @@ claude mcp add --transport http yayafit https://yayafit.es/wp-json/mcp/mcp-adapt
 | 2026-06-05 | Application Password usada para el empuje de la paleta (compartida en chat) | Abierto — **revocar** desde wp-admin → Perfil ahora que el trabajo de estilo terminó |
 | 2026-06-10 | Application Password usada en la sesión de profesionalización (compartida en chat) | Abierto — **revocar** desde wp-admin → Perfil al cerrar la sesión (junto con las anteriores pendientes) |
 | 2026-06-11 | Application Password usada para publicar "Campeonas" (compartida en chat) | Abierto — **revocar** desde wp-admin → Perfil al cerrar la sesión |
+| 2026-06-11 | Application Password usada para actualizar la portada de Campeonas (2ª pasada, compartida en chat) | Abierto — **revocar** desde wp-admin → Perfil al cerrar la sesión |
+| 2026-06-11 | Medio id 274 (`portada-campeonas.jpg`, copa genérica) quedó huérfano al pasar a la portada del trofeo (id 279) | Abierto — Raúl decide si borrarlo |
 
 ---
 
 ## 11. Historial de sesiones
+
+### 2026-06-11 (2ª pasada) — Raúl + Claude (portada "trofeo del Mundial" + título de /musica/)
+- **Portada nueva** de Campeonas (el **trofeo oficial del Mundial**, no la copa genérica de la 1ª pasada): incrustada en el **mp3 local** con mutagen (sustituye la carátula previa; backup `.mp3.bak`, ignorado por git) y **subida a la web** como medio **id 279** (`portada-campeonas-trofeo.jpg`, 146.276 bytes, con título + `alt_text`). La página Música (id 20) ahora apunta a ella; **el medio id 274 (`portada-campeonas.jpg`) queda huérfano**.
+- **Título de `/musica/` aligerado** (decisión de Raúl: "se ve repetitivo"): se quita el `<h1>Música YayaFit</h1>` duplicado —el banner del tema ya muestra "Música"— y los dos párrafos vacíos de cabecera; se mantiene el subtítulo "Escucha nuestros himnos de motivación y fuerza".
+- **No se resubió el mp3** a la web (decisión de Raúl): el reproductor usa imagen aparte, así que el descargable id 273 conserva la carátula anterior incrustada.
+- **Verificado en vivo:** medio 279 HTTP 200 (146.276 bytes); frontend `/musica/` sirve la portada del trofeo, sin la antigua y sin el `<h1>` duplicado (REST `context=view` + HTML público con caché LiteSpeed ya purgada).
+- **Prompt de Leonardo** (`music/06-campeonas/creacion/PROMPT-LEONARDO-Campeonas.txt`) corregido para describir el **trofeo real** (dos figuras de oro en espiral + globo + base de malaquita verde) sin nombrar "FIFA"/"World Cup" (el filtro de Leonardo bloquea esas marcas) y negative prompt sin "child/teenager" (Leonardo también los bloquea aunque sea para excluirlos). Script reproducible del embed: `music/06-campeonas/creacion/embed-portada2.py`.
+- **Pendiente:** **revocar** la Application Password usada hoy; decidir si borrar el medio huérfano id 274.
 
 ### 2026-06-11 — Raúl + Claude (publicación de "Campeonas")
 - **Contexto:** sexta canción del catálogo (himno del Mundial, estilo afrobeats-reggaetón "Dai Dai"), ya generada por Raúl y subida al repo (`music/06-campeonas/`).
